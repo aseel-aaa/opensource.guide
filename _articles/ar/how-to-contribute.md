@@ -135,6 +135,7 @@ related:
 رغم أن مصطلح <span dir="rtl">(Open Source)</span> غالبًا ما يشير إلى البرمجيات، إلا أنه يمكنك المساهمة في أي شيء تقريبًا. هناك كتب، وصفات، قوائم، ودروس يتم تطويرها كمشاريع مفتوحة المصدر.
 
 على سبيل المثال:
+
 * @sindresorhus curates a [list of "awesome" lists](https://github.com/sindresorhus/awesome)
 * @h5bp maintains a [list of potential interview questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) for front-end developer candidates
 * @stuartlynn and @nicole-a-tesla made a [collection of fun facts about puffins](https://github.com/stuartlynn/puffin_facts)
@@ -536,3 +537,4 @@ related:
 سواء كنت قد قدّمت مساهمتك الأولى في مشروع مفتوح المصدر، أو كنت تبحث عن طرق جديدة للمساهمة، نأمل أن تكون متحمسًا لاتخاذ خطوة. حتى لو لم تُقبل مساهمتك، لا تنسَ أن تشكر المشرفين الذين بذلوا جهدًا لمساعدتك. المشاريع مفتوحة المصدر يطورها أشخاص مثلك: مشكلة <span dir="rtl">(One Issue)</span>، <span dir="rtl">pull request</span>، تعليق، أو تشجيع بسيط في كل مرة.
 
 </div>
+
