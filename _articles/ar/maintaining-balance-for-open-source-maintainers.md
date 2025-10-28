@@ -1,185 +1,179 @@
 ---
 lang: ar
 untranslated: true
-title: Maintaining Balance for Open Source Maintainers
-description: Tips for self-care and avoiding burnout as a maintainer.
+title: الحفاظ على التوازن لمشرفي المشاريع مفتوحة المصدر Open Source.
+description: نصائح للعناية الذاتية وتجنب الإرهاق كمشرف.
 class: balance
 order: 0
 image: /assets/images/cards/maintaining-balance-for-open-source-maintainers.png
 ---
 
-As an open source project grows in popularity, it becomes important to set clear boundaries to help you maintain balance to stay refreshed and productive for the long run. 
+<div dir="rtl" markdown="1">
+مع تزايد شعبية المشروع مفتوح المصدر <span dir='ltr'  markdown="1">open source</span>, يصبح من الضروري وضع حدود واضحة لمساعدتك في الحفاظ على التوازن، لتبقى متجددًا ومنتجًا على المدى الطويل.
 
-To gain insights into the experiences of maintainers and their strategies for finding balance, we ran a workshop with 40 members of the <a href="http://maintainers.github.com/">Maintainer Community</a>, allowing us to learn from their firsthand experiences with burnout in open source and the practices that have helped them maintain balance in their work. This is where the concept of personal ecology comes into play.
+للحصول على فهم أعمق لتجارب المشرفين واستراتيجياتهم في إيجاد التوازن، أجرينا ورشة عمل بمشاركة 40 عضوًا من <a href="http://maintainers.github.com/">مجتمع المشرفين</a>, مما أتاح لنا التعلّم من تجاربهم المباشرة مع الإرهاق في مشاريع المصادر المفتوحة <span dir='ltr'  markdown="1">open source</span>، والممارسات التي ساعدتهم على الحفاظ في التوازن في عملهم. وهنا يأتي دور مفهوم البيئة الشخصية <span dir='ltr'  markdown="1">(Personal Ecology)</span>.
 
-So, what is personal ecology? As <a href="https://rockwoodleadership.org/nonprofit-four-day-workweek-can-take-care-still-change-world/#:~:text=personal%20ecology%3A%20maintaining%20balance%2C%20pacing%20and%20efficiency%20to%20sustain%20your%20energy%20over%20a%20lifetime%20of%20activism">described by the Rockwood Leadership Institute</a>, it involves "<strong>maintaining balance, pacing, and efficiency to sustain our energy over a lifetime</strong>." This framed our conversations, helping maintainers recognize their actions and contributions as parts of a larger ecosystem that evolves over time. Burnout, a syndrome resulting from chronic workplace stress as [defined by the WHO](https://icd.who.int/browse/2025-01/foundation/en#129180281), is not uncommon among maintainers. This often leads to a loss of motivation, an inability to focus, and a lack of empathy for the contributors and community you work with.
+إذًا, ما هي البيئة الشخصية <span dir='ltr'  markdown="1">(Personal Ecology)</span> كما ورد في <a href="https://rockwoodleadership.org/nonprofit-four-day-workweek-can-take-care-still-change-world/#:~:text=personal%20ecology%3A%20maintaining%20balance%2C%20pacing%20and%20efficiency%20to%20sustain%20your%20energy%20over%20a%20lifetime%20of%20activism">وصف معهد Rockwood للقيادة</a>, يتضمن الأمر "<strong>الحفاظ على التوازن، والسرعة، والكفاءة للحفاظ على طاقتنا على مدى الحياة</strong>." لقد أطّر هذا الأمر محادثاتنا، وساعد المشرفين <span dir='ltr'  markdown="1">(maintainers)</span> في إدراك أن أفعالهم ومساهماتهم هي أجزاء من نظام بيئي أكبر يتطور مع مرور الوقت. الإرهاق <span dir='ltr'  markdown="1">(Burnout)</span>, وهو متلازمة ناتجة عن الإجهاد المزمن في مكان العمل [كما عرّفتها منظمة الصحة العالمية <span dir='ltr'  markdown="1">(WHO)</span>](https://icd.who.int/browse/2025-01/foundation/en#129180281), ليس أمرًا نادر الحدوث بين المشرفين <span dir='ltr'  markdown="1">(maintainers)</span>. وغالبًا ما يؤدي هذا إلى فقدان الدافع، وعدم القدرة على التركيز، ونقص التعاطف مع المساهمين والمجتمع الذي تعمل معه.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/gabek?s=180" class="pquote-avatar" alt="avatar">
-  I was unable to focus or start on a task. I had a lack of empathy for users.
+  كنت غير قادر على التركيز أو البدء في أي مهمة. كان لدي نقص في التعاطف تجاه المستخدمين.
   <p markdown="1" class="pquote-credit">
-— <a href="https://github.com/gabek">@gabek</a>, maintainer of the Owncast live streaming server, on the impact of burnout on his open source work
+— <a href="https://github.com/gabek" dir="ltr">@gabek</a>,  مشرف <span dir='ltr'  markdown="1">(maintainer)</span> على صيانة خادم البث المباشر <span dir='ltr'  markdown="1">Owncast</span>، متحدثًا عن تأثير الإرهاق على عمله في المشاريع مفتوحة المصدر <span dir='ltr'  markdown="1">open source</span>.
   </p>
 </aside>
 
-By embracing the concept of personal ecology, maintainers can proactively avoid burnout, prioritize self-care, and uphold a sense of balance to do their best work.
+من خلال تبنّي مفهوم البيئة الشخصية <span dir='ltr'  markdown="1">(Personal Ecology)</span>، يمكن للمُشرفين <span dir='ltr'  markdown="1">(maintainers)</span> أن يتجنبوا الإرهاق <span dir='ltr'  markdown="1">(burnout)</span>، وإعطاء الأولوية للعناية بالنفس، والحفاظ على إحساسٍ بالتوازن يمكّنهم من أداء عملهم بأفضل صورة ممكنة.
 
-## Tips for Self-Care and Avoiding Burnout as a Maintainer:
+## نصائح للعناية الذاتية وتجنب الإرهاق <span dir='ltr'  markdown="1">(burnout)</span> بصفتك مُشرفًا <span dir='ltr'  markdown="1">(Maintainer)</span>:
 
-### Identify your motivations for working in open source
+### حدّد دوافعك للعمل في المشاريع مفتوحة المصدر <span dir='ltr'  markdown="1">open source</span>
 
-Take time to reflect on what parts of open source maintenance energizes you. Understanding your motivations can help you prioritize the work in a way that keeps you engaged and ready for new challenges. Whether it's the positive feedback from users, the joy of collaborating and socializing with the community, or the satisfaction of diving into the code, recognizing your motivations can help guide your focus.
+خذ وقتًا للتفكير في جوانب صيانة المشاريع مفتوحة المصدر <span dir='ltr' markdown="1">open source</span> التي تمنحك الطاقة والحماس . إن فهم دوافعك يمكن أن يساعدك على ترتيب أولويات عملك بطريقة تُبقيك متحمّسًا ومستعدًا لمواجهة التحديات الجديدة. سواء كان ذلك العليقات الإيجابية من المستخدمين، أو متعة التعاون والتفاعل مع المجتمع، أو الإحساس بالرضا عند التعمق في الكود — فإن إدراكك لما يُحفّزك يمكن أن يوجّه تركيزك بشكل أفضل.
 
-### Reflect on what causes you to get out of balance and stressed out
+### فكِّر فيما يجعلك تفقد توازنك وتشعر بالتوتر
 
-It's important to understand what causes us to get burned out. Here are a few common themes we saw among open source maintainers:
+من المهم أن نفهم ما الذي يسبب لنا الإرهاق. فيما يلي بعض النقاط المشتركة التي لاحظناها بين مُشرفي المشاريع مفتوحة المصدر <span dir='ltr'  markdown="1">open source</span>:
 
-* **Lack of positive feedback:** Users are far more likely to reach out when they have a complaint. If everything works great, they tend to stay silent. It can be discouraging to see a growing list of issues without the positive feedback showing how your contributions are making a difference.
+- **نقص التعليقات الإيجابية:** المستخدمون غالبًا ما يتواصلون فقط عندما تكون لديهم شكوى. أما إذا كان كل شيء يعمل بشكل جيد، فإنهم يميلون إلى الصمت. قد يكون الأمر محبطًا أن رؤية قائمة متزايدة من المشكلات دون أن تتلقى ملاحظات إيجابية تُظهر كيف أن مساهماتك تُحدث فرقًا فعليًا.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/thisisnic?s=180" class="pquote-avatar" alt="avatar">
-  Sometimes it feels a bit like shouting into the void and I find that feedback really energizes me. We have lots of happy but quiet users.
+  في بعض الأحيان، أشعر وكأنني أصرخ في الفراغ، وأجد أن التعليقات  تُنشطني حقًا. لدينا الكثير من المستخدمين السعداء ولكنهم هادئون (صامتون).
   <p markdown="1" class="pquote-credit">
-— <a href="https://github.com/thisisnic">@thisisnic</a>, maintainer of Apache Arrow
+— <a href="https://github.com/thisisnic" dir="ltr">@thisisnic</a>,  مُشرف <span dir='ltr'  markdown="1">(maintainer)</span> مشروع أباتشي آرو <span dir='ltr'  markdown="1">(Apache Arrow)</span>
   </p>
 </aside>
-
-* **Not saying 'no':** It can be easy to take on more responsibilities than you should on an open source project. Whether it's from users, contributors, or other maintainers – we can't always live up to their expectations.
-
+- **عدم قول "لا":** قد يكون من السهل أن تتحمّل مسؤوليات أكثر مما ينبغي في مشروع مفتوح المصدر <span dir='ltr'  markdown="1">open source</span>. سواء كانت الطلبات من المستخدمين أو المساهمين أو حتى المشرفين الآخرين على المشروع — لا يمكننا دائمًا تلبية جميع التوقعات.
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/agnostic-apollo?s=180" class="pquote-avatar" alt="avatar">
-  I found I was taking on more than one should and having to do the job of multiple people, like commonly done in FOSS.
+  اكتشفت أنني كنت أتحمّل أكثر مما ينبغي، وأؤدي مهامّ عدة أشخاص، كما هو شائع في مشاريع  <span dir='ltr'  markdown="1">FOSS (Free and Open Source Software)</span>.
   <p markdown="1" class="pquote-credit">
-— <a href="https://github.com/agnostic-apollo">@agnostic-apollo</a>, maintainer of Termux, on what causes burnout in their work
+— <a href="https://github.com/agnostic-apollo">@agnostic-apollo</a>,  مشرف <span dir='ltr'  markdown="1">(maintainer)</span> على مشروع <span dir='ltr'  markdown="1">Termux</span> متحدثًا عن الأسباب التي تؤدي إلى الإرهاق في عمله.
   </p>
 </aside>
-
-* **Working alone:** Being a maintainer can be incredibly lonely. Even if you work with a group of maintainers, the past few years have been difficult for convening distributed teams in-person.
-
+- **العمل بمفردك:** قد يكون عمل المُشرف شديد العزلة. حتى لو كنت تعمل مع مجموعة من المُشرفين، فقد كانت السنوات القليلة الماضية صعبة فيما يخص جمع الفرق الموزعة والعمل سويًا بشكل مباشر (وجهاً لوجه).
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/gabek?s=180" class="pquote-avatar" alt="avatar">
- Especially since COVID and working from home it's harder to never see anybody or talk to anybody.
+ خصوصًا منذ جائحة كوفيد والعمل من المنزل، أصبح من الأصعب ألا ترى أي شخص أو تتحدث مع أحد.
   <p markdown="1" class="pquote-credit">
-— <a href="https://github.com/gabek">@gabek</a>, maintainer of the Owncast live streaming server, on the impact of burnout on his open source work
+— <a href="https://github.com/gabek">@gabek</a>, مُشرف خادم البث المباشر <span dir='ltr'  markdown="1">(Owncast live streaming server)</span>، في حديثه عن تأثير الإرهاق على عمله في المصادر المفتوحة.
+  </p>
+</aside>
+- **عدم توفر وقت أو موارد كافية:** ينطبق هذا بشكلٍ خاص على المشرفين على المشاريع التطوعية، الذين يضطرون إلى التضحية بوقت فراغهم للعمل على المشروع.
+<aside markdown="1" class="pquote">
+  [أود أن أحصل على] المزيد من الدعم المالي، حتى أتمكن من التركيز على العمل في مشاريع مفتوحة المصدر <span dir='ltr'  markdown="1">open source</span> دون أن أستنزف مدّخراتي، ومع إدراكي أنني سأضطر إلى القيام بالكثير من الأعمال التعاقدية لاحقًا لتعويض ذلك.
+  <p markdown="1" class="pquote-credit">
+—  مشرف مشروع مفتوح المصدر <span dir='ltr' markdown="1">open source
+</span>
+  </p>
+</aside>
+- **تضارب المطالب:** عالم المشاريع مفتوحة المصدر <span dir='ltr' markdown="1">open source</span> 
+ مليء بمجموعات ذات دوافع مختلفة، وقد يكون من الصعب التوفيق بينها. وإذا كنت تتقاضى أجرًا مقابل عملك في مشروع مفتوح المصدر <span dir='ltr' markdown="1">open source
+</span>، فقد تتعارض أحيانًا مصالح جهة عملك مع مصالح المجتمع.
+<aside markdown="1" class="pquote">
+  في حالة العمل المأجور في مشاريع مفتوحة المصدر <span dir='ltr' markdown="1">open source</span>، قد ينشأ تضارب بين تركيز صاحب العمل وما هو الأفضل للمجتمع.
+  <p markdown="1" class="pquote-credit">
+—  مشرف مشروع مفتوح المصدر <span dir='ltr' markdown="1">open source</span>
   </p>
 </aside>
 
-* **Not enough time or resources:** This is especially true for volunteer maintainers who have to sacrifice their free time to work on a project.
+### احذر من علامات الإرهاق <span dir='ltr' markdown="1">(Burnout)</span>
+
+هل يمكنك الحفاظ على وتيرتك لمدة 10 أسابيع؟ 10 أشهر؟ 10 سنوات؟
+
+توجد أدوات مثل قائمة التحقق من الإرهاق <span dir='ltr' markdown="1">[Burnout Checklist](https://governingopen.com/resources/signs-of-burnout-checklist.html)</span> من <span dir='ltr' markdown="1">[@shaunagm](https://github.com/shaunagm)</span> التي يمكن أن تساعدك على التأمل في وتيرتك الحالية ومعرفة ما إذا كان بإمكانك إجراء أي تعديلات. يستخدم بعض المشرفين أيضًا الأجهزة القابلة للارتداء <span dir='ltr' markdown="1">(wearable technology)</span> لتتبع مقاييس مثل جودة النوم وتقلّب معدل ضربات القلب (كلاهما مرتبط بالتوتر).
 
 <aside markdown="1" class="pquote">
-  [I would like to have] more financial support, so that I can focus on the open source work without burning through my savings and knowing I'll have to do a lot of contracting to make up for it later.
+أنا مؤمن بشدة بفائدة الأجهزة القابلة للارتداء. من خلال العلم وراءها، يمكنك أن تفهم كيف يمكنك أن تؤدي بشكل أفضل وكيف تصل إلى الحالة المثلى التي ترغب فيها.
   <p markdown="1" class="pquote-credit">
-— open source maintainer
-  </p>
+—  مشرف مشروع مفتوح المصدر <span dir='ltr' markdown="1">open source</span></p>
 </aside>
 
-* **Conflicting demands:**  Open source is full of groups with different motivations, which can be difficult to navigate. If you're paid to do open source, your employer's interests can sometimes be at odds with the community.
+### ما الذي تحتاجه للاستمرار في دعم نفسك ومجتمعك؟
 
-<aside markdown="1" class="pquote">
-  With paid open source, conflict between employer's focus and what's best for the community
-  <p markdown="1" class="pquote-credit">
-— open source maintainer
-  </p>
-</aside>
+سيختلف ذلك من مشرف لآخر، وسيتغير حسب مراحل حياتك والعوامل الخارجية، ولكن إليك بعض المواضيع التي سمعناها:
 
-### Watch out for signs of burnout
+- **الاعتماد على المجتمع:** التفويض وإيجاد مساهمين يمكن أن يخفف من عبء العمل. وجود عدة نقاط اتصال للمشروع يساعدك على أخذ استراحة دون قلق. تواصل مع مشرفين آخرين والمجتمع الأوسع – في مجموعات مثل مجتمع المشرفين <span dir='ltr' markdown="1">[Maintainer Community](http://maintainers.github.com/)</span>. يمكن أن تكون هذه المجتمعات مصدرًا رائعًا للدعم والتعلّم المتبادل.
 
-Can you keep up your pace for 10 weeks? 10 months? 10 years?
+  يمكنك أيضًا البحث عن طرق للتفاعل مع مجتمع المستخدمين، لتسمع الملاحظات بانتظام وتفهم تأثير عملك في مشاريع مفتوحة المصدر <span dir='ltr' markdown="1">open source</span>.
 
-There are tools like the [Burnout Checklist](https://governingopen.com/resources/signs-of-burnout-checklist.html) from [@shaunagm](https://github.com/shaunagm) that can help you reflect on your current pace and see if there are any adjustments you can make. Some maintainers also use wearable technology to track metrics like sleep quality and heart rate variability (both linked to stress).
-
-<aside markdown="1" class="pquote">
- I'm a big believer in good wearables. With the science behind it, you can understand how you could have done better and how to get to an optimal state of what you want to do.
-  <p markdown="1" class="pquote-credit">
-— open source maintainer
-  </p>
-</aside>
-
-### What would you need to continue sustaining yourself and your community?
-
-This will look different for each maintainer, and will change depending on your phase of life and other external factors. But here are a few themes we heard:
-
-* **Lean on the community:** Delegation and finding contributors can alleviate the workload. Having multiple points of contact for a project can help you take a break without worrying. Connect with other maintainers and the wider community–in groups like the [Maintainer Community](http://maintainers.github.com/). This can be a great resource for peer support and learning. 
-
-  You can also look for ways to engage with the user community, so you can regularly hear feedback and understand the impact of your open source work.
-
-* **Explore funding:** Whether you're looking for some pizza money, or trying to go full time open source, there are many resources to help! As a first step, consider turning on [GitHub Sponsors](https://github.com/sponsors) to allow others to sponsor your open source work. If you're thinking about making the jump to full-time, apply for the next round of [GitHub Accelerator](http://accelerator.github.com/).
-
+- **استكشاف التمويل:** سواء كنت تبحث عن بعض المال لشراء "بيتزا" 🍕، أو تحاول الانتقال إلى المشاريع مفتوحة المصدر  <span dir='ltr' markdown="1">open source</span> بدوام كامل، فهناك العديد من الموارد للمساعدة! كخطوة أولى، فكر في تفعيل <span dir='ltr' markdown="1">[GitHub Sponsors](https://github.com/sponsors)</span> للسماح للآخرين برعاية عملك. إذا كنت تفكر في الانتقال إلى العمل بدوام كامل، قدّم طلبًا للانضمام إلى <span dir='ltr' markdown="1">[GitHub Accelerator](http://accelerator.github.com/)</span>.
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/mansona?s=180" class="pquote-avatar" alt="avatar">
- I was on a podcast a while ago and we were chatting about open source maintenance and sustainability. I found that even a small number of people supporting my work on GitHub helped me make a quick decision not to sit in front of a game but instead to do one little thing with open source.
+ كنت ضيفًا في بودكاست منذ فترة، وتحدثنا عن صيانة واستدامة مشروع مفتوح المصدر <span dir='ltr' markdown="1">open source</span>. اكتشفت أن مجرد وجود عدد قليل من الأشخاص الذين يدعمون عملي على <span dir='ltr' markdown="1">GitHub</span> ساعدني على اتخاذ قرار سريع بعدم الجلوس أمام لعبة، وبدل من ذلك القيام بشيء صغير لمشروع مفتوح المصدر <span dir='ltr' markdown="1">open source</span>.
   <p markdown="1" class="pquote-credit">
-— <a href="https://github.com/mansona">@mansona</a>, maintainer of EmberJS
+— <a href="https://github.com/mansona" dir='ltr'>@mansona</a>، مشرف في <span dir='ltr' markdown="1">EmberJS</span>
   </p>
 </aside>
 
-* **Use tools:** Explore tools like [GitHub Copilot](https://github.com/features/copilot/) and [GitHub Actions](https://github.com/features/actions) to automate mundane tasks and free up your time for more meaningful contributions.
+- **استخدام الأدوات:** استكشف أدوات مثل <span dir='ltr' markdown="1">[GitHub Copilot](https://github.com/features/copilot/)</span> و <span dir='ltr' markdown="1">[GitHub Actions](https://github.com/features/actions)</span> لأتمتة المهام الروتينية وتحرير وقتك للمساهمات الأكثر أهمية.
 
 <aside markdown="1" class="pquote">
- Use [Copilot](https://github.com/features/copilot/) for the boring stuff - do the fun stuff
+ استخدم <a href="https://github.com/features/copilot/" dir="ltr">Copilot</a> للأشياء المملة - وافعل الأشياء الممتعة بنفسك
   <p markdown="1" class="pquote-credit">
-— open source maintainer
+—  مشرف مشروع مفتوح المصدر <span dir='ltr' markdown="1">open source</span>
   </p>
 </aside>
 
-* **Rest and recharge:** Make time for your hobbies and interests outside of open source. Take weekends off to unwind and rejuvenate–and set your [GitHub status](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile#setting-a-status) to reflect your availability! A good night's sleep can make a big difference in your ability to sustain your efforts long-term.
+- **الراحة وإعادة الشحن:** خصص وقتًا لهواياتك واهتماماتك خارج المشاريع مفتوحة المصدر<span dir='ltr' markdown="1">open source</span>. خذ عطلات نهاية الأسبوع للاسترخاء وتجديد النشاط، واضبط حالتك على <span dir='ltr' markdown="1">[GitHub status](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile#setting-a-status)</span> لتعكس مدى توفرك! النوم الجيد لليلة واحدة يمكن أن يحدث فرقًا كبيرًا في قدرتك على الاستمرار على المدى الطويل.
 
-  If you find certain aspects of your project particularly enjoyable, try to structure your work so you can experience it throughout your day.
+  إذا وجدت أن جوانب معينة من مشروعك ممتعة بشكل خاص، فحاول هيكلة عملك بحيث يمكنك تجربتها على مدار يومك.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/danielroe?s=180" class="pquote-avatar" alt="avatar">
- I'm finding more opportunity to sprinkle ‘moments of creativity' in the middle of the day rather than trying to switch off in evening.
+ أجد المزيد من الفرص لادخال 'لحظات من الإبداع' في منتصف اليوم بدلاً من محاولة التوقف في المساء.
   <p markdown="1" class="pquote-credit">
-— <a href="https://github.com/danielroe">@danielroe</a>, maintainer of Nuxt
+— <a href="https://github.com/danielroe" dir='ltr'>@danielroe</a>,  مشرف في <span dir='ltr' markdown="1">Nuxt</span>
   </p>
 </aside>
 
-* **Set boundaries:** You can't say yes to every request. This can be as simple as saying, "I can't get to that right now and I do not have plans to in the future," or listing out what you're interested in doing and not doing in the README. For instance, you could say: "I only merge PRs which have clearly listed reasons why they were made," or, "I only review issues on alternate Thursdays from 6 -7 pm.”This sets expectations for others, and gives you something to point to at other times to help de-escalate demands from contributors or users on your time.
+- **وضع الحدود:** لا يمكنك قول "نعم" لكل طلب. يمكن أن يكون ذلك ببساطة بقولك: "لا أستطيع القيام بذلك الآن، وليس لدي خطط لذلك في المستقبل." أو سرد ما تهتم بفعله وما لا تهتم بفعله في ملف <span dir='ltr' markdown="1">README</span>. على سبيل المثال، يمكنك أن تقول: "أنا أدمج فقط طلبات <span dir='ltr' markdown="1">(PRs)</span> التي تشرح بوضوح سبب إنشائها" أو "أنا أراجع المشكلات فقط في أيام الخميس البديلة من الساعة 6 إلى 7 مساءً.”هذا يحدد التوقعات للآخرين، ويمنحك شيئًا للإشارة إليه في الأوقات الأخرى للمساعدة في تخفيف المطالب التي يفرضها المساهمون أو المستخدمون على وقتك.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/mikemcquaid?s=180" class="pquote-avatar" alt="avatar">
-To meaningfully trust others on these axes, you cannot be someone who says yes to every request. In doing so, you maintain no boundaries, professionally or personally, and will not be a reliable coworker.
+لكي تثق بالآخرين بشكل هادف في هذه المحاور، يجب ألا تكون شخصًا يقول "نعم" لكل طلب. فبقيامك بذلك، لن تحافظ على أي حدود، مهنيًا أو شخصيًا، ولن تكون زميل عمل يعتمد عليه.
   <p markdown="1" class="pquote-credit">
-— <a href="https://github.com/mikemcquaid">@mikemcquaid</a>, maintainer of Homebrew on [Saying No](https://mikemcquaid.com/saying-no/)
+— <a href="https://github.com/mikemcquaid" dir="ltr">@mikemcquaid</a>, مشرف في  <span dir='ltr' markdown="1">Homebrew</span> في <a href="https://mikemcquaid.com/saying-no/" dir="ltr">Saying No</a>
   </p>
 </aside>
 
-  Learn to be firm in shutting down toxic behavior and negative interactions. It's okay to not give energy to things you don't care about.
+تعلم أن تكون حازمًا في إيقاف السلوك السام والتفاعلات السلبية. لا بأس ألا تمنح طاقتك للأشياء التي لا تهتم بها.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/IvanSanchez?s=180" class="pquote-avatar" alt="avatar">
-My software is gratis, but my time and attention is not.
+برنامجي مجاني <span dir='ltr' markdown="1">(gratis)</span>، لكن وقتي واهتمامي ليسا كذلك.
   <p markdown="1" class="pquote-credit">
-— <a href="https://github.com/IvanSanchez">@IvanSanchez</a>, maintainer of Leaflet
+— <a href="https://github.com/IvanSanchez" dir='ltr'>@IvanSanchez</a>, مشرف في  <span dir='ltr' markdown="1">Leaflet</span>
   </p>
 </aside>
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/foosel?s=180" class="pquote-avatar" alt="avatar">
-It's no secret that open source maintenance has its dark sides, and one of these is having to sometimes interact with quite ungrateful, entitled or outright toxic people. As a project's popularity increases, so does the frequency of this kind of interaction, adding to the burden shouldered by maintainers and possibly becoming a significant risk factor for maintainer burnout.  
+ليس سراً أن صيانة المصادر المفتوحة لها جوانبها المظلمة، وأحد هذه الجوانب هو الاضطرار أحيانًا إلى التفاعل مع أشخاص جاحدين أو سامّين. ومع زيادة شهرة المشروع، يزداد تكرار هذا النوع من التفاعل، مما يزيد العبء على المشرفين وربما يصبح عامل خطر كبيرًا للإرهاق.
   <p markdown="1" class="pquote-credit">
-— <a href="https://github.com/foosel">@foosel</a>, maintainer of Octoprint on [How to deal with toxic people](https://www.youtube.com/watch?v=7lIpP3GEyXs)
+— <a href="https://github.com/foosel" dir="ltr">@foosel</a>, مشرف في  <span dir='ltr' markdown="1">Octoprint</span> في <a href="https://www.youtube.com/watch?v=7lIpP3GEyXs" dir='ltr'>How to deal with toxic people</a>
   </p>
 </aside>
 
-Remember, personal ecology is an ongoing practice that will evolve as you progress in your open source journey. By prioritizing self-care and maintaining a sense of balance, you can contribute to the open source community effectively and sustainably, ensuring both your well-being and the success of your projects for the long run.
+تذكر، أن البيئة الشخصية <span dir='ltr' markdown="1">(personal ecology)</span> هي ممارسة مستمرة ستتطور مع تقدمك في رحلة المشاريع مفتوحة المصدر <span dir='ltr' markdown="1">open source</span> . من خلال إعطاء الأولوية للرعاية الذاتية والحفاظ على الشعور بالتوازن، يمكنك المساهمة في مجتمع <span dir='ltr' markdown="1">open sources</span> بفعالية واستدامة، مما يضمن رفاهيتك ونجاح مشاريعك على المدى الطويل.
 
-## Additional Resources
+## مصادر إضافية
 
-* [Maintainer Community](http://maintainers.github.com/)
-* [The social contract of open source](https://snarky.ca/the-social-contract-of-open-source/), Brett Cannon
-* [Uncurled](https://daniel.haxx.se/uncurled/), Daniel Stenberg 
-* [How to deal with toxic people](https://www.youtube.com/watch?v=7lIpP3GEyXs), Gina Häußge
-* [SustainOSS](https://sustainoss.org/)
-* [Rockwood Art of Leadership](https://rockwoodleadership.org/art-of-leadership/)
-* [Saying No](https://mikemcquaid.com/saying-no/)
-* Workshop agenda was remixed from [Mozilla's Movement Building from Home](https://foundation.mozilla.org/en/blog/its-a-wrap-movement-building-from-home/) series
+- [(Maintainer Community) مجتمع المشرفين](http://maintainers.github.com/)
+- [The social contract of open source](https://snarky.ca/the-social-contract-of-open-source/), Brett Cannon
+- [Uncurled](https://daniel.haxx.se/uncurled/), Daniel Stenberg
+- [(How to deal with toxic people) كيفية التعامل مع الأشخاص السامين](https://www.youtube.com/watch?v=7lIpP3GEyXs), Gina Häußge
+- [SustainOSS](https://sustainoss.org/)
+- [(Rockwood Art of Leadership) فن القيادة من روكوود](https://rockwoodleadership.org/art-of-leadership/)
+- [(Saying No) قول لا](https://mikemcquaid.com/saying-no/)
+- تم إعداد جدول الورشة بالاستناد إلى سلسلة [Mozilla's Movement Building from Home](https://foundation.mozilla.org/en/blog/its-a-wrap-movement-building-from-home/)
 
-## Contributors
+## المساهمون <span dir='ltr' markdown="1">(Contributors)</span>
 
-Many thanks to all the maintainers who shared their experiences and tips with us for this guide!
+جزيل الشكر لجميع المشرفين الذين شاركوا تجاربهم ونصائحهم معنا في هذا الدليل!
 
-This guide was written by [@abbycabs](https://github.com/abbycabs) with contributions from: 
+كتب هذا الدليل بواسطة <a href="https://github.com/abbycabs" dir="ltr">@abbycabs</a> بمساهمات من:
 
 [@agnostic-apollo](https://github.com/agnostic-apollo)
 [@AndreaGriffiths11](https://github.com/AndreaGriffiths11)
@@ -216,4 +210,6 @@ This guide was written by [@abbycabs](https://github.com/abbycabs) with contribu
 [@thisisnic](https://github.com/thisisnic)
 [@tudoramariei](https://github.com/tudoramariei)
 [@UlisesGascon](https://github.com/UlisesGascon)
-[@waldyrious](https://github.com/waldyrious) + many others!
+[@waldyrious](https://github.com/waldyrious) + وغيرهم الكثير!
+
+</div>
