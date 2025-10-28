@@ -36,7 +36,7 @@ image: /assets/images/cards/maintaining-balance-for-open-source-maintainers.png
 
 من المهم أن نفهم ما الذي يسبب لنا الإرهاق. فيما يلي بعض النقاط المشتركة التي لاحظناها بين مُشرفي المشاريع مفتوحة المصدر:
 
-- **نقص التعليقات الإيجابية:** المستخدمون غالبًا ما يتواصلون فقط عندما تكون لديهم شكوى. أما إذا كان كل شيء يعمل بشكل جيد، فإنهم يميلون إلى الصمت. قد يكون الأمر محبطًا أن رؤية قائمة متزايدة من المشكلات دون أن تتلقى ملاحظات إيجابية تُظهر كيف أن مساهماتك تُحدث فرقًا فعليًا.
+* **نقص التعليقات الإيجابية:** المستخدمون غالبًا ما يتواصلون فقط عندما تكون لديهم شكوى. أما إذا كان كل شيء يعمل بشكل جيد، فإنهم يميلون إلى الصمت. قد يكون الأمر محبطًا أن رؤية قائمة متزايدة من المشكلات دون أن تتلقى ملاحظات إيجابية تُظهر كيف أن مساهماتك تُحدث فرقًا فعليًا.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/thisisnic?s=180" class="pquote-avatar" alt="avatar">
@@ -46,7 +46,7 @@ image: /assets/images/cards/maintaining-balance-for-open-source-maintainers.png
   </p>
 </aside>
 
-- **عدم قول "لا":** قد يكون من السهل أن تتحمّل مسؤوليات أكثر مما ينبغي في مشروع مفتوح المصدر. سواء كانت الطلبات من المستخدمين أو المساهمين أو حتى المشرفين الآخرين على المشروع — لا يمكننا دائمًا تلبية جميع التوقعات.
+* **عدم قول "لا":** قد يكون من السهل أن تتحمّل مسؤوليات أكثر مما ينبغي في مشروع مفتوح المصدر. سواء كانت الطلبات من المستخدمين أو المساهمين أو حتى المشرفين الآخرين على المشروع — لا يمكننا دائمًا تلبية جميع التوقعات.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/agnostic-apollo?s=180" class="pquote-avatar" alt="avatar">
@@ -56,7 +56,7 @@ image: /assets/images/cards/maintaining-balance-for-open-source-maintainers.png
   </p>
 </aside>
 
-- **العمل بمفردك:** قد يكون عمل المُشرف شديد العزلة. حتى لو كنت تعمل مع مجموعة من المُشرفين، فقد كانت السنوات القليلة الماضية صعبة فيما يخص جمع الفرق الموزعة والعمل سويًا بشكل مباشر (وجهاً لوجه).
+* **العمل بمفردك:** قد يكون عمل المُشرف شديد العزلة. حتى لو كنت تعمل مع مجموعة من المُشرفين، فقد كانت السنوات القليلة الماضية صعبة فيما يخص جمع الفرق الموزعة والعمل سويًا بشكل مباشر (وجهاً لوجه).
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/gabek?s=180" class="pquote-avatar" alt="avatar">
@@ -66,7 +66,7 @@ image: /assets/images/cards/maintaining-balance-for-open-source-maintainers.png
   </p>
 </aside>
 
-- **عدم توفر وقت أو موارد كافية:** ينطبق هذا بشكلٍ خاص على المشرفين على المشاريع التطوعية، الذين يضطرون إلى التضحية بوقت فراغهم للعمل على المشروع.
+* **عدم توفر وقت أو موارد كافية:** ينطبق هذا بشكلٍ خاص على المشرفين على المشاريع التطوعية، الذين يضطرون إلى التضحية بوقت فراغهم للعمل على المشروع.
 
 <aside markdown="1" class="pquote">
   [أود أن أحصل على] المزيد من الدعم المالي، حتى أتمكن من التركيز على العمل في مشاريع مفتوحة المصدر دون أن أستنزف مدّخراتي، ومع إدراكي أنني سأضطر إلى القيام بالكثير من الأعمال التعاقدية لاحقًا لتعويض ذلك.
@@ -101,11 +101,11 @@ image: /assets/images/cards/maintaining-balance-for-open-source-maintainers.png
 
 سيختلف ذلك من مشرف لآخر، وسيتغير حسب مراحل حياتك والعوامل الخارجية، ولكن إليك بعض المواضيع التي سمعناها:
 
-- **الاعتماد على المجتمع:** التفويض وإيجاد مساهمين يمكن أن يخفف من عبء العمل. وجود عدة نقاط اتصال للمشروع يساعدك على أخذ استراحة دون قلق. تواصل مع مشرفين آخرين والمجتمع الأوسع – في مجموعات مثل مجتمع المشرفين <span dir='ltr' markdown="1">[Maintainer Community](http://maintainers.github.com/)</span>. يمكن أن تكون هذه المجتمعات مصدرًا رائعًا للدعم والتعلّم المتبادل.
+* **الاعتماد على المجتمع:** التفويض وإيجاد مساهمين يمكن أن يخفف من عبء العمل. وجود عدة نقاط اتصال للمشروع يساعدك على أخذ استراحة دون قلق. تواصل مع مشرفين آخرين والمجتمع الأوسع – في مجموعات مثل مجتمع المشرفين <span dir='ltr' markdown="1">[Maintainer Community](http://maintainers.github.com/)</span>. يمكن أن تكون هذه المجتمعات مصدرًا رائعًا للدعم والتعلّم المتبادل.
 
   يمكنك أيضًا البحث عن طرق للتفاعل مع مجتمع المستخدمين، لتسمع الملاحظات بانتظام وتفهم تأثير عملك في مشاريع مفتوحة المصدر.
 
-- **استكشاف التمويل:** سواء كنت تبحث عن بعض المال لشراء "بيتزا" 🍕، أو تحاول الانتقال إلى المشاريع مفتوحة المصدر بدوام كامل، فهناك العديد من الموارد للمساعدة! كخطوة أولى، فكر في تفعيل <span dir='ltr' markdown="1">[GitHub Sponsors](https://github.com/sponsors)</span> للسماح للآخرين برعاية عملك. إذا كنت تفكر في الانتقال إلى العمل بدوام كامل، قدّم طلبًا للانضمام إلى <span dir='ltr' markdown="1">[GitHub Accelerator](http://accelerator.github.com/)</span>.
+* **استكشاف التمويل:** سواء كنت تبحث عن بعض المال لشراء "بيتزا" 🍕، أو تحاول الانتقال إلى المشاريع مفتوحة المصدر بدوام كامل، فهناك العديد من الموارد للمساعدة! كخطوة أولى، فكر في تفعيل <span dir='ltr' markdown="1">[GitHub Sponsors](https://github.com/sponsors)</span> للسماح للآخرين برعاية عملك. إذا كنت تفكر في الانتقال إلى العمل بدوام كامل، قدّم طلبًا للانضمام إلى <span dir='ltr' markdown="1">[GitHub Accelerator](http://accelerator.github.com/)</span>.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/mansona?s=180" class="pquote-avatar" alt="avatar">
@@ -115,7 +115,7 @@ image: /assets/images/cards/maintaining-balance-for-open-source-maintainers.png
   </p>
 </aside>
 
-- **استخدام الأدوات:** استكشف أدوات مثل <span dir='ltr' markdown="1">[GitHub Copilot](https://github.com/features/copilot/)</span> و <span dir='ltr' markdown="1">[GitHub Actions](https://github.com/features/actions)</span> لأتمتة المهام الروتينية وتحرير وقتك للمساهمات الأكثر أهمية.
+* **استخدام الأدوات:** استكشف أدوات مثل <span dir='ltr' markdown="1">[GitHub Copilot](https://github.com/features/copilot/)</span> و <span dir='ltr' markdown="1">[GitHub Actions](https://github.com/features/actions)</span> لأتمتة المهام الروتينية وتحرير وقتك للمساهمات الأكثر أهمية.
 
 <aside markdown="1" class="pquote">
  استخدم <a href="https://github.com/features/copilot/" dir="ltr">Copilot</a> للأشياء المملة - وافعل الأشياء الممتعة بنفسك
@@ -124,7 +124,7 @@ image: /assets/images/cards/maintaining-balance-for-open-source-maintainers.png
   </p>
 </aside>
 
-- **الراحة وإعادة الشحن:** خصص وقتًا لهواياتك واهتماماتك خارج المشاريع مفتوحة المصدر. خذ عطلات نهاية الأسبوع للاسترخاء وتجديد النشاط، واضبط حالتك على <span dir='ltr' markdown="1">[GitHub status](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile#setting-a-status)</span> لتعكس مدى توفرك! النوم الجيد لليلة واحدة يمكن أن يحدث فرقًا كبيرًا في قدرتك على الاستمرار على المدى الطويل.
+* **الراحة وإعادة الشحن:** خصص وقتًا لهواياتك واهتماماتك خارج المشاريع مفتوحة المصدر. خذ عطلات نهاية الأسبوع للاسترخاء وتجديد النشاط، واضبط حالتك على <span dir='ltr' markdown="1">[GitHub status](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile#setting-a-status)</span> لتعكس مدى توفرك! النوم الجيد لليلة واحدة يمكن أن يحدث فرقًا كبيرًا في قدرتك على الاستمرار على المدى الطويل.
 
   إذا وجدت أن جوانب معينة من مشروعك ممتعة بشكل خاص، فحاول هيكلة عملك بحيث يمكنك تجربتها على مدار يومك.
 
@@ -136,7 +136,7 @@ image: /assets/images/cards/maintaining-balance-for-open-source-maintainers.png
   </p>
 </aside>
 
-- **وضع الحدود:** لا يمكنك قول "نعم" لكل طلب. يمكن أن يكون ذلك ببساطة بقولك: "لا أستطيع القيام بذلك الآن، وليس لدي خطط لذلك في المستقبل." أو سرد ما تهتم بفعله وما لا تهتم بفعله في ملف <span dir='ltr' markdown="1">README</span>. على سبيل المثال، يمكنك أن تقول: "أنا أدمج فقط طلبات <span dir='ltr' markdown="1">(PRs)</span> التي تشرح بوضوح سبب إنشائها" أو "أنا أراجع المشكلات فقط في أيام الخميس البديلة من الساعة 6 إلى 7 مساءً.”هذا يحدد التوقعات للآخرين، ويمنحك شيئًا للإشارة إليه في الأوقات الأخرى للمساعدة في تخفيف المطالب التي يفرضها المساهمون أو المستخدمون على وقتك.
+* **وضع الحدود:** لا يمكنك قول "نعم" لكل طلب. يمكن أن يكون ذلك ببساطة بقولك: "لا أستطيع القيام بذلك الآن، وليس لدي خطط لذلك في المستقبل." أو سرد ما تهتم بفعله وما لا تهتم بفعله في ملف <span dir='ltr' markdown="1">README</span>. على سبيل المثال، يمكنك أن تقول: "أنا أدمج فقط طلبات <span dir='ltr' markdown="1">(PRs)</span> التي تشرح بوضوح سبب إنشائها" أو "أنا أراجع المشكلات فقط في أيام الخميس البديلة من الساعة 6 إلى 7 مساءً.”هذا يحدد التوقعات للآخرين، ويمنحك شيئًا للإشارة إليه في الأوقات الأخرى للمساعدة في تخفيف المطالب التي يفرضها المساهمون أو المستخدمون على وقتك.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/mikemcquaid?s=180" class="pquote-avatar" alt="avatar">
@@ -168,14 +168,14 @@ image: /assets/images/cards/maintaining-balance-for-open-source-maintainers.png
 
 ## مصادر إضافية
 
-- [(Maintainer Community) مجتمع المشرفين](http://maintainers.github.com/)
-- [The social contract of open source](https://snarky.ca/the-social-contract-of-open-source/), Brett Cannon
-- [Uncurled](https://daniel.haxx.se/uncurled/), Daniel Stenberg
-- [(How to deal with toxic people) كيفية التعامل مع الأشخاص السامين](https://www.youtube.com/watch?v=7lIpP3GEyXs), Gina Häußge
-- [SustainOSS](https://sustainoss.org/)
-- [(Rockwood Art of Leadership) فن القيادة من روكوود](https://rockwoodleadership.org/art-of-leadership/)
-- [(Saying No) قول لا](https://mikemcquaid.com/saying-no/)
-- تم إعداد جدول الورشة بالاستناد إلى سلسلة [Mozilla's Movement Building from Home](https://foundation.mozilla.org/en/blog/its-a-wrap-movement-building-from-home/)
+* [(Maintainer Community) مجتمع المشرفين](http://maintainers.github.com/)
+* [The social contract of open source](https://snarky.ca/the-social-contract-of-open-source/), Brett Cannon
+* [Uncurled](https://daniel.haxx.se/uncurled/), Daniel Stenberg
+* [(How to deal with toxic people) كيفية التعامل مع الأشخاص السامين](https://www.youtube.com/watch?v=7lIpP3GEyXs), Gina Häußge
+* [SustainOSS](https://sustainoss.org/)
+* [(Rockwood Art of Leadership) فن القيادة من روكوود](https://rockwoodleadership.org/art-of-leadership/)
+* [(Saying No) قول لا](https://mikemcquaid.com/saying-no/)
+* تم إعداد جدول الورشة بالاستناد إلى سلسلة [Mozilla's Movement Building from Home](https://foundation.mozilla.org/en/blog/its-a-wrap-movement-building-from-home/)
 
 ## المساهمون
 
