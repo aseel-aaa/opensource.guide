@@ -1,7 +1,7 @@
 ---
 lang: ar
-title: الحصول على أجر مقابل العمل مفتوح المصدر
-description: استمر على عملك في المصدر المفتوح من خلال الحصول على الدعم المالي مقابل وقتك أو مشروعك.
+title: الحصول على أجر مقابل العمل في المشاريع مفتوحة المصدر
+description: استمر على عملك في المصدر المفتوح من خلال الحصول على الدعم المالي مقابل وقتك أو مشروعك
 class: getting-paid
 order: 7
 image: /assets/images/cards/getting-paid.png
@@ -26,9 +26,9 @@ related:
 
 هناك العديد من الأسباب التي تجعل الشخص لا يرغب في الحصول على أجر مقابل عمله في مجال مفتوح المصدر.
 
-- **ربما يكون لديهم بالفعل وظيفة بدوام كامل يحبونها،** مما يتيح لهم المساهمة في المصادر المفتوحة في أوقات فراغهم.
-- **يستمتعون بالتفكير في المصادر المفتوحة كهواية** أو الهروب الإبداعي ولا يريدون أن يشعروا بالالتزام المالي للعمل على مشاريعهم.
-- **يحصلون على مزايا أخرى من المساهمة في المصادر المفتوحة،** مثل بناء سمعتهم أو ملف أعمالهم، أو تعلم مهارة جديدة، أو الشعور بالقرب من مجتمع ما.
+* **ربما يكون لديهم بالفعل وظيفة بدوام كامل يحبونها،** مما يتيح لهم المساهمة في المصادر المفتوحة في أوقات فراغهم.
+* **يستمتعون بالتفكير في المصادر المفتوحة كهواية** أو الهروب الإبداعي ولا يريدون أن يشعروا بالالتزام المالي للعمل على مشاريعهم.
+* **يحصلون على مزايا أخرى من المساهمة في المصادر المفتوحة،** مثل بناء سمعتهم أو ملف أعمالهم، أو تعلم مهارة جديدة، أو الشعور بالقرب من مجتمع ما.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/alloy?s=180" class="pquote-avatar" alt="avatar">
@@ -88,20 +88,20 @@ related:
 
 إذا لم تتمكن من إقناع صاحب العمل الحالي بإعطاء الأولوية للعمل في مجال المصادر المفتوحة، ففكر في البحث عن صاحب عمل جديد يشجع مساهمات الموظفين في مجال المصادر المفتوحة. ابحث عن الشركات التي تعلن صراحة عن التزامها بالعمل في مجال المصادر المفتوحة. على سبيل المثال:
 
-- بعض الشركات، مثل [Netflix](https://netflix.github.io/), لديهم مواقع ويب تسلط الضوء على مشاركتهم في المصادر المفتوحة
+* بعض الشركات، مثل [Netflix](https://netflix.github.io/), لديهم مواقع ويب تسلط الضوء على مشاركتهم في المصادر المفتوحة
 
 المشاريع التي نشأت في شركة كبيرة، مثل [Go](https://github.com/golang) أو [React](https://github.com/facebook/react), من المرجح أيضًا أن توظف أشخاصًا للعمل على المصادر المفتوحة.
 
 اعتمادًا على ظروفك الشخصية، يمكنك محاولة جمع الأموال بشكل مستقل لتمويل عملك في مجال المصادر المفتوحة. على سبيل المثال:
 
-- @Homebrew (و [العديد من المُشرفين والمنظمات الأخرى](https://github.com/sponsors/community)) تمويل عملهم من خلال [GitHub Sponsors](https://github.com/sponsors)
-- @gaearon مول عمله في [Redux](https://github.com/reactjs/redux) من خلال [حملة التمويل الجماعي على Patreon](https://redux.js.org/)
-- @andrewgodwin تمويل العمل على ترحيل مخطط Django [من خلال حملة Kickstarter](https://www.kickstarter.com/projects/andrewgodwin/schema-migrations-for-django)
+* @Homebrew (و [العديد من المُشرفين والمنظمات الأخرى](https://github.com/sponsors/community)) تمويل عملهم من خلال [GitHub Sponsors](https://github.com/sponsors)
+* @gaearon مول عمله في [Redux](https://github.com/reactjs/redux) من خلال [حملة التمويل الجماعي على Patreon](https://redux.js.org/)
+* @andrewgodwin تمويل العمل على ترحيل مخطط Django [من خلال حملة Kickstarter](https://www.kickstarter.com/projects/andrewgodwin/schema-migrations-for-django)
 
 أخيرًا، في بعض الأحيان تضع مشاريع المصادر المفتوحة مكافآت على المشكلات التي قد تفكر في المساعدة في حلها.
 
-- @ConnorChristie تمكن من الحصول على أجر مقابل [مساعدة](https://web.archive.org/web/20181030123412/https://webcache.googleusercontent.com/search?strip=1&q=cache:https%3A%2F%2Fgithub.com%2FMARKETProtocol%2FMARKET.js%2Fissues%2F14) @MARKETProtocol العمل على مكتبة JavaScript الخاصة بهم [من خلال مكافأة على gitcoin](https://gitcoin.co/).
-- @mamiM قامت بترجمة @MetaMask إلى اللغة اليابانية بعد [تم تمويل هذه المشكلة على شبكة Bounties Network](https://explorer.bounties.network/bounty/134).
+* @ConnorChristie تمكن من الحصول على أجر مقابل [مساعدة](https://web.archive.org/web/20181030123412/https://webcache.googleusercontent.com/search?strip=1&q=cache:https%3A%2F%2Fgithub.com%2FMARKETProtocol%2FMARKET.js%2Fissues%2F14) @MARKETProtocol العمل على مكتبة JavaScript الخاصة بهم [من خلال مكافأة على gitcoin](https://gitcoin.co/).
+* @mamiM قامت بترجمة @MetaMask إلى اللغة اليابانية بعد [تم تمويل هذه المشكلة على شبكة Bounties Network](https://explorer.bounties.network/bounty/134).
 
 ## العثور على تمويل لمشروعك
 
@@ -116,16 +116,16 @@ related:
 يكون البحث عن رعاة ناجحًا إذا كان لديك جمهور كبير أو سمعة طيبة بالفعل، أو إذا كان مشروعك يحظى بشهرة كبيرة.
 ومن أمثلة المشاريع التي تم تمويلها ما يلي:
 
-- **[webpack](https://github.com/webpack)** يجمع الأموال من الشركات والأفراد [من خلال OpenCollective](https://opencollective.com/webpack)
-- **[Ruby Together](https://rubytogether.org/),** منظمة غير ربحية تدفع مقابل العمل على [bundler](https://github.com/bundler/bundler), [RubyGems](https://github.com/rubygems/rubygems), وغيرها من مشاريع البنية التحتية ل Ruby
+* **[webpack](https://github.com/webpack)** يجمع الأموال من الشركات والأفراد [من خلال OpenCollective](https://opencollective.com/webpack)
+* **[Ruby Together](https://rubytogether.org/),** منظمة غير ربحية تدفع مقابل العمل على [bundler](https://github.com/bundler/bundler), [RubyGems](https://github.com/rubygems/rubygems), وغيرها من مشاريع البنية التحتية ل Ruby
 
 ### إنشاء مصدر للإيرادات
 
 اعتمادًا على مشروعك، قد تتمكن من تحصيل رسوم مقابل الدعم التجاري أو الخيارات المستضافة أو الميزات الإضافية. وتشمل بعض الأمثلة ما يلي:
 
-- **[Sidekiq](https://github.com/mperham/sidekiq)** يقدم إصدارات مدفوعة للحصول على دعم إضافي
-- **[Travis CI](https://github.com/travis-ci)** تقدم إصدارات مدفوعة من منتجها
-- **[Ghost](https://github.com/TryGhost/Ghost)** هي منظمة غير ربحية تقدم خدمة مُدارة مدفوعة الأجر
+* **[Sidekiq](https://github.com/mperham/sidekiq)** يقدم إصدارات مدفوعة للحصول على دعم إضافي
+* **[Travis CI](https://github.com/travis-ci)** تقدم إصدارات مدفوعة من منتجها
+* **[Ghost](https://github.com/TryGhost/Ghost)** هي منظمة غير ربحية تقدم خدمة مُدارة مدفوعة الأجر
 
 بعض المشاريع الشهيرة، مثل [npm](https://github.com/npm/cli) و [Docker](https://github.com/docker/docker), جمعوا رأس مال استثماري لدعم نمو أعمالهم.
 
@@ -133,10 +133,10 @@ related:
 
 تقدم بعض مؤسسات البرمجيات والشركات منحًا للأعمال المفتوحة المصدر. في بعض الأحيان، يمكن دفع المنح للأفراد دون إنشاء كيان قانوني للمشروع.
 
-- **[Read the Docs](https://github.com/rtfd/readthedocs.org)** حصل على منحة من [Mozilla Open Source Support](https://www.mozilla.org/en-US/grants/)
-- **[OpenMRS](https://github.com/openmrs)** تم تمويل العمل من قبل [Stripe's Open-Source Retreat](https://stripe.com/blog/open-source-retreat-2016-grantees)
-- **[Libraries.io](https://github.com/librariesio)** حصل على منحة من [مؤسسة Sloan](https://sloan.org/programs/digital-technology)
-- **[مؤسسة برمجيات Python](https://www.python.org/psf/grants/)** تقدم منحًا للأعمال المتعلقة بلغة Python
+* **[Read the Docs](https://github.com/rtfd/readthedocs.org)** حصل على منحة من [Mozilla Open Source Support](https://www.mozilla.org/en-US/grants/)
+* **[OpenMRS](https://github.com/openmrs)** تم تمويل العمل من قبل [Stripe's Open-Source Retreat](https://stripe.com/blog/open-source-retreat-2016-grantees)
+* **[Libraries.io](https://github.com/librariesio)** حصل على منحة من [مؤسسة Sloan](https://sloan.org/programs/digital-technology)
+* **[مؤسسة برمجيات Python](https://www.python.org/psf/grants/)** تقدم منحًا للأعمال المتعلقة بلغة Python
 
 للحصول على خيارات أكثر تفصيلاً ودراسات حالة، @nayafia [كتبت دليلاً](https://github.com/nayafia/lemonade-stand) للحصول على أجر مقابل العمل في مجال المصادر المفتوحة. تتطلب أنواع التمويل المختلفة مهارات مختلفة، لذا فكر في نقاط قوتك لتحديد الخيار الأنسب لك.
 
