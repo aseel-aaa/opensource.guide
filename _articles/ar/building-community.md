@@ -1,7 +1,7 @@
 ---
 lang: ar
-title: Building Welcoming Communities
-description: Building a community that encourages people to use, contribute to, and evangelize your project.
+title: بناء مجتمعات مرحبة
+description: إنشاء مجتمع يدعم مشاركة الناس في مشروعك، ويحفّزهم على استخدامه والمساهمة فيه والترويج له
 class: building
 order: 4
 image: /assets/images/cards/building.png
@@ -10,267 +10,272 @@ related:
   - coc
 ---
 
-## Setting your project up for success
+<div dir='rtl' markdown='1'>
 
-You've launched your project, you're spreading the word, and people are checking it out. Awesome! Now, how do you get them to stick around?
+## تجهيز مشروعك للنجاح
 
-A welcoming community is an investment into your project's future and reputation. If your project is just starting to see its first contributions, start by giving early contributors a positive experience, and make it easy for them to keep coming back.
+لقد أطلقت مشروعك، وبدأت في نشره، والناس بدأوا يتعرفون عليه. رائع! لكن، كيف تجعلهم يبقون ويستمرون في المشاركة؟
 
-### Make people feel welcome
+وجود مجتمع مرحب يُعد استثمارًا في مستقبل مشروعك وسمعته. إذا كان مشروعك قد بدأ لتوه في استقبال أولى المساهمات، ابدأ بتوفير تجربة إيجابية للمساهمين الأوائل، واجعل من السهل عليهم العودة والمشاركة مرة أخرى.
 
-One way to think about your project's community is through what @MikeMcQuaid calls the [contributor funnel](https://mikemcquaid.com/2018/08/14/the-open-source-contributor-funnel-why-people-dont-contribute-to-your-open-source-project/):
+### اجعل الناس يشعرون بالترحيب
+
+إحدى الطرق لفهم مجتمع مشروعك هي ما يسميه @MikeMcQuaid بـ [قمع المساهمين](https://mikemcquaid.com/2018/08/14/the-open-source-contributor-funnel-why-people-dont-contribute-to-your-open-source-project/):
 
 ![Contributor funnel](/assets/images/building-community/contributor_funnel_mikemcquaid.png)
 
-As you build your community, consider how someone at the top of the funnel (a potential user) might theoretically make their way to the bottom (an active maintainer). Your goal is to reduce friction at each stage of the contributor experience. When people have easy wins, they will feel incentivized to do more.
+أثناء بناء مجتمعك، ضع في اعتبارك كيف يمكن لشخص في أعلى القمع (مستخدم محتمل) أن يتقدم تدريجيًا ليصبح في أسفل القمع (مشرف نشط). هدفك هو تقليل العقبات في كل مرحلة من تجربة المساهم. عندما يحقق الناس إنجازات سهلة، سيشعرون بالحافز للقيام بالمزيد.
 
-Start with your documentation:
+ ابدأ بالـ documentation الخاصة بمشروعك
 
-* **Make it easy for someone to use your project.** [A friendly README](../starting-a-project/#writing-a-readme) and clear code examples will make it easier for anyone who lands on your project to get started.
-* **Clearly explain how to contribute**, using [your CONTRIBUTING file](../starting-a-project/#writing-your-contributing-guidelines) and keeping your issues up-to-date.
-* **Good first issues**: To help new contributors get started, consider explicitly [labeling issues that are simple enough for beginners to tackle](https://help.github.com/en/articles/helping-new-contributors-find-your-project-with-labels). GitHub will then surface these issues in various places on the platform, increasing useful contributions, and reducing friction from users tackling issues that are too hard for their level.
+* **سهّل على أي شخص استخدام المشروع .** [ملف README سهل الاستخدام](../starting-a-project/#writing-a-readme) وأمثلة كود واضحة تجعل من السهل على أي شخص يزور مشروعك أن يبدأ بسرعة.
+* **اشرح بوضوح كيفية ال contribute.** استخدم [ملف CONTRIBUTING الخاص بك](../starting-a-project/#writing-your-contributing-guidelines) وحافظ على تحديث الـ issues باستمرار.
+* **مهام أولية سهلة للمساهمين الجدد**: لمساعدة المساهمين الجدد على البدء، ضع تسميات واضحة على الـ issues التي يمكن للمبتدئين التعامل معها بسهولة ([وضع labels على الـ issues التي تكون بسيطة بما يكفي ليستطيع المبتدئون التعامل معها.](https://help.github.com/en/articles/helping-new-contributors-find-your-project-with-labels)). سيعرض GitHub هذه الـ issues في أماكن مختلفة على المنصة، مما يزيد المساهمات المفيدة ويقلل من friction عند التعامل مع مشاكل صعبة جدًا لمستوى المستخدم.
 
-[GitHub's 2017 Open Source Survey](http://opensourcesurvey.org/2017/) showed incomplete or confusing documentation is the biggest problem for open source users. Good documentation invites people to interact with your project. Eventually, someone will open an issue or pull request. Use these interactions as opportunities to move them down the funnel.
+[استطلاع GitHub 2017 عن الـ Open Source](http://opensourcesurvey.org/2017/) أظهر أن الوثائق غير المكتملة أو المربكة هي أكبر مشكلة تواجه مستخدمي الـ open source. توثيق جيد يدعو الناس للتفاعل مع مشروعك. في النهاية، سيقوم شخص ما بفتح issue أو pull request. استخدم هذه التفاعلات كفرص لتحريكهم إلى أسفل القمع (funnel).
 
-* **When someone new lands on your project, thank them for their interest!** It only takes one negative experience to make someone not want to come back.
-* **Be responsive.** If you don't respond to their issue for a month, chances are, they've already forgotten about your project.
-* **Be open-minded about the types of contributions you'll accept.** Many contributors start with a bug report or a small fix. There are [many ways to contribute](../how-to-contribute/#what-it-means-to-contribute) to a project. Let people help how they want to help.
-* **If there's a contribution you disagree with,** thank them for their idea and [explain why](../best-practices/#learning-to-say-no) it doesn't fit into the scope of the project, linking to relevant documentation if you have it.
+* **عندما يزور مشروعك شخص جديد، اشكره على اهتمامه!** تجربة سلبية واحدة فقط قد تجعل الشخص لا يريد العودة.
+* **كن سريع الاستجابة (responsive).** إذا لم ترد على issue لمدة شهر، فالأرجح أنهم قد نسوا مشروعك بالفعل.
+* **كن منفتحًا على أنواع المساهمات التي ستقبلها.** كثير من المساهمين يبدأون بتقرير عن bug أو تعديل صغير. هناك [طرق عديدة للمساهمة (contribute) في المشروع](../how-to-contribute/#what-it-means-to-contribute) في المشروع. دع الناس يساعدون بالطريقة التي يريدونها.
+* **إذا كانت هناك مساهمة لا توافق عليها،** اشكر صاحبها على الفكرة و[اشرح السبب](../best-practices/#learning-to-say-no) لعدم ملاءمتها لمجال المشروع، واربطها بالوثائق ذات الصلة إذا كانت موجودة.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/mikeal?s=180" class="pquote-avatar" alt="avatar">
-  Contributing to open source is easier for some than others. There's a lot of fear of being yelled at for not doing something right or just not fitting in. (...) By giving contributors a place to contribute with very low technical proficiency (documentation, web content markdown, etc) you can greatly reduce those concerns.
+  المساهمة في الـ open source أسهل للبعض من غيرهم. هناك خوف كبير من أن تُوبّخ على عدم القيام بشيء بشكل صحيح أو مجرد شعور بعدم الانتماء. (...) من خلال توفير مكان للمساهمين ليشاركوا حتى مع مهارات تقنية منخفضة جدًا (مثل documentation، محتوى الويب markdown، إلخ)، يمكنك تقليل هذه المخاوف بشكل كبير.
   <p markdown="1" class="pquote-credit">
-— @mikeal, ["Growing a contributor base in modern open source"](https://opensource.com/life/16/5/growing-contributor-base-modern-open-source)
+— @mikeal, ["بناء مجتمع مساهمين في الـ open source الحديث"](https://opensource.com/life/16/5/growing-contributor-base-modern-open-source)
   </p>
 </aside>
 
-The majority of open source contributors are "casual contributors": people who contribute to a project only occasionally. A casual contributor may not have time to get fully up to speed with your project, so your job is to make it easy for them to contribute.
+الغالبية العظمى من المساهمين في الـ open source هم **"المساهمون غير المنتظمين"**: أشخاص يساهمون في المشروع بشكل متقطع فقط. قد لا يكون لدى المساهم العادي الوقت ليصبح على دراية كاملة بمشروعك، لذلك مهمتك هي جعل المساهمة سهلة بالنسبة لهم.
 
-Encouraging other contributors is an investment in yourself, too. When you empower your biggest fans to run with the work they're excited about, there's less pressure to do everything yourself.
+تشجيع المساهمين الآخرين هو استثمار في نفسك أيضًا. عندما تمكّن أكبر المعجبين بمشروعك من متابعة العمل الذي يحمسون له، يقل الضغط عليك للقيام بكل شيء بنفسك.
 
-### Document everything
+### وثّق كل شيء 
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/janl?s=180" class="pquote-avatar" alt="avatar">
-  Have you ever been to a (tech-) event where you didn't know anyone, but everyone else seemed to stand in groups and chat like old friends? (...) Now imagine you want to contribute to an open source project, but you don't see why or how this is happening.
+  هل سبق أن حضرت حدثًا (تقنيًا) ولم تعرف أحدًا، بينما كان الجميع يبدو وكأنهم يقفون في مجموعات ويتحدثون كأصدقاء قدامى؟ (...) الآن تخيّل أنك تريد المساهمة في مشروع open source، لكنك لا ترى السبب أو الطريقة التي يحدث بها هذا.
   <p markdown="1" class="pquote-credit">
-— @janl, ["Sustainable Open Source"](https://web.archive.org/web/20200723213552/https://writing.jan.io/2015/11/20/sustainable-open-source.html)
+— @janl, ["الـ Open Source المستدام"](https://web.archive.org/web/20200723213552/https://writing.jan.io/2015/11/20/sustainable-open-source.html)
   </p>
 </aside>
 
-When you start a new project, it may feel natural to keep your work private. But open source projects thrive when you document your process in public.
+عندما تبدأ مشروعًا جديدًا، قد تشعر أن من الطبيعي الاحتفاظ بعملك خاصًا. لكن مشاريع الـ open source تزدهر عندما تقوم بتوثيق عمليتك بشكل علني.
 
-When you write things down, more people can participate at every step of the way. You might get help on something you didn't even know you needed.
+عندما تكتب الأمور، يمكن لعدد أكبر من الناس المشاركة في كل خطوة. قد تحصل على مساعدة في شيء لم تكن تعرف حتى أنك بحاجة إليه.
 
-Writing things down means more than just technical documentation. Any time you feel the urge to write something down or privately discuss your project, ask yourself whether you can make it public.
+الكتابة لا تعني مجرد التوثيق التقني . في أي وقت تشعر بالرغبة في كتابة شيء أو مناقشة مشروعك بشكل خاص، اسأل نفسك هل يمكنك جعله public؟
 
-Be transparent about your project's roadmap, the types of contributions you're looking for, how contributions are reviewed, or why you made certain decisions.
+كن شفافًا بشأن roadmap مشروعك، وأنواع المساهمات (contributions) التي تبحث عنها، وكيفية مراجعتها، ولماذا اتخذت قرارات معينة.
 
-If you notice multiple users running into the same problem, document the answers in the README.
+إذا لاحظت أن عدة مستخدمين يواجهون نفس المشكلة، قم بتوثيق الإجابات في الـ README.
 
-For meetings, consider publishing your notes or takeaways in a relevant issue. The feedback you'll get from this level of transparency may surprise you.
+بالنسبة للاجتماعات، فكر في نشر ملاحظاتك أو الاستنتاجات في issue مناسب. التغذية الراجعة التي ستحصل عليها من هذا المستوى من الشفافية قد تفاجئك.
 
-Documenting everything applies to the work you do, too. If you're working on a substantial update to your project, put it into a pull request and mark it as a work in progress (WIP). That way, other people can feel involved in the process early on.
+توثيق كل شيء يشمل أيضًا عملك الحالي. إذا كنت تعمل على تحديث كبير لمشروعك، ضعه في pull request وعلم أنه مشروع قيد التنفيذ (WIP). بهذه الطريقة، يمكن للآخرين المشاركة في العملية منذ البداية.
 
-### Be responsive
+### كن سريع الاستجابة
 
-As you [promote your project](../finding-users), people will have feedback for you. They may have questions about how things work, or need help getting started.
+عندما تقوم بـ [الترويج لمشروعك](../finding-users)، سيكون لدى الناس ملاحظات لك. قد يكون لديهم أسئلة حول كيفية عمل الأشياء، أو يحتاجون للمساعدة في البدء.
 
-Try to be responsive when someone files an issue, submits a pull request, or asks a question about your project. When you respond quickly, people will feel they are part of a dialogue, and they'll be more enthusiastic about participating.
+حاول أن تكون responsive عندما يقدم شخص ما issue، أو pull request، أو يسأل سؤالًا عن مشروعك. عندما ترد بسرعة، سيشعر الناس أنهم جزء من حوار، وسيكونون أكثر حماسًا للمشاركة.
 
-Even if you can't review the request immediately, acknowledging it early helps increase engagement. Here's how @tdreyno responded to a pull request on [Middleman](https://github.com/middleman/middleman/pull/1466):
+حتى إذا لم تتمكن من مراجعة الطلب فورًا، فإن الاعتراف المبكر به يزيد من التفاعل. هذا مثال على كيفية استجابة @tdreyno لطلب pull request على [Middleman](https://github.com/middleman/middleman/pull/1466):
 
-![Middleman pull request](/assets/images/building-community/middleman_pr.png)
+![طلب pull لمشروع Middleman](/assets/images/building-community/middleman_pr.png)
 
-[A Mozilla study found that](https://docs.google.com/presentation/d/1hsJLv1ieSqtXBzd5YZusY-mB8e1VJzaeOmh8Q4VeMio/edit#slide=id.g43d857af8_0177) contributors who received code reviews within 48 hours had a much higher rate of return and repeat contribution.
+[وجدت دراسة من Mozilla](https://docs.google.com/presentation/d/1hsJLv1ieSqtXBzd5YZusY-mB8e1VJzaeOmh8Q4VeMio/edit#slide=id.g43d857af8_0177) أن المساهمين الذين تلقوا code reviews خلال 48 ساعة لديهم معدل عودة ومساهمات متكررة أعلى بكثير.
 
-Conversations about your project could also be happening in other places around the internet, such as Stack Overflow, Twitter, or Reddit. You can set up notifications in some of these places so you are alerted when someone mentions your project.
+قد تتم المناقشات حول مشروعك أيضًا في أماكن أخرى على الإنترنت، مثل Stack Overflow، Twitter، أو Reddit. يمكنك إعداد notifications في بعض هذه الأماكن ليتم تنبيهك عندما يذكر أحد مشروعك.
 
-### Give your community a place to congregate
+### امنح مجتمعك مكانًا للتجمع
+هناك سببين لإعطاء مجتمعك مكانًا للتجمع.
 
-There are two reasons to give your community a place to congregate.
+السبب الأول هو لهم. ساعد الناس على التعرف على بعضهم البعض. الأشخاص الذين لديهم اهتمامات مشتركة سيرغبون حتمًا في مكان للتحدث عنها. وعندما تكون الاتصالات public ومتاحة، يمكن لأي شخص قراءة الأرشيفات السابقة ليصبح على دراية ويشارك.
 
-The first reason is for them. Help people get to know each other. People with common interests will inevitably want a place to talk about it. And when communication is public and accessible, anybody can read past archives to get up to speed and participate.
+السبب الثاني هو لك. إذا لم توفر للناس مكانًا عامًّا للتحدث عن مشروعك، فغالبًا ما سيتواصلون معك مباشرة. في البداية، قد يبدو من السهل الرد على الرسائل الخاصة "هذه المرة فقط". لكن مع الوقت، خاصة إذا أصبح مشروعك مشهورًا، ستشعر بالإرهاق. قاوم الرغبة في التواصل مع الناس حول مشروعك بشكل خاص، وبدلاً من ذلك وجههم إلى قناة عامة designated.
 
-The second reason is for you. If you don't give people a public place to talk about your project, they will likely contact you directly. In the beginning, it may seem easy enough to respond to private messages "just this once". But over time, especially if your project becomes popular, you will feel exhausted. Resist the temptation to communicate with people about your project in private. Instead, direct them to a designated public channel.
+يمكن أن تكون الاتصالات العامة بسيطة مثل توجيه الناس لفتح issue بدلاً من مراسلتك مباشرة أو التعليق على مدونتك. يمكنك أيضًا إنشاء mailing list، أو حساب Twitter، أو قناة Slack أو IRC ليتمكن الناس من التحدث عن مشروعك. أو جرب كل ما سبق!
 
-Public communication can be as simple as directing people to open an issue instead of emailing you directly or commenting on your blog. You could also set up a mailing list, or create a Twitter account, Slack, or IRC channel for people to talk about your project. Or try all of the above!
+[Kubernetes kops](https://github.com/kubernetes/kops#getting-involved) يخصص office hours كل أسبوعين لمساعدة أعضاء المجتمع:
 
-[Kubernetes kops](https://github.com/kubernetes/kops#getting-involved) sets aside office hours every other week to help community members:
+> يخصص Kops وقتًا كل أسبوعين لتقديم المساعدة والإرشاد للمجتمع. وقد اتفق المسؤولون عن Kops على تخصيص هذا الوقت بشكل خاص للعمل مع المساهمين الجدد، ومساعدة في PRs، ومناقشة الميزات الجديدة.
 
-> Kops also has time set aside every other week to offer help and guidance to the community. Kops maintainers have agreed to set aside time specifically dedicated to working with newcomers, helping with PRs, and discussing new features.
+استثناءات ملحوظة للاتصالات العامة هي: 1) مسائل الأمان (security issues) و 2) انتهاكات حساسة لمدونة السلوك (code of conduct). يجب أن يكون لديك دائمًا طريقة للإبلاغ عن هذه القضايا بشكل private. إذا لم ترغب في استخدام بريدك الشخصي، أنشئ عنوان بريد إلكتروني مخصص.
 
-Notable exceptions to public communication are: 1) security issues and 2) sensitive code of conduct violations. You should always have a way for people to report these issues privately. If you don't want to use your personal email, set up a dedicated email address.
+## نمو مجتمعك 
 
-## Growing your community
+المجتمعات قوية جدًا. هذه القوة يمكن أن تكون نعمة أو نقمة، اعتمادًا على كيفية إدارتك لها. مع نمو مجتمع مشروعك، هناك طرق لمساعدته على أن يصبح قوة بناء وليس هدم.
 
-Communities are extremely powerful. That power can be a blessing or a curse, depending on how you wield it. As your project's community grows, there are ways to help it become a force of construction, not destruction.
+### لا تتسامح مع الأشخاص السلبيين 
 
-### Don't tolerate bad actors
+أي مشروع مشهور سيجذب بلا شك أشخاصًا يضرون بالمجتمع بدلًا من مساعدته. قد يبدؤون مناقشات غير ضرورية، أو يجادلون حول ميزات تافهة، أو يسيئون للآخرين.
 
-Any popular project will inevitably attract people who harm, rather than help, your community. They may start unnecessary debates, quibble over trivial features, or bully others.
+ابذل قصارى جهدك لتطبيق سياسة zero-tolerance تجاه هذا النوع من الأشخاص. إذا تُركوا دون رقابة، سيجعل الأشخاص السلبيون الآخرين في مجتمعك غير مرتاحين، وقد يغادرون حتى.
+أعلى بكثير.
 
-Do your best to adopt a zero-tolerance policy towards these types of people. If left unchecked, negative people will make other people in your community uncomfortable. They may even leave.
+قد تتم المناقشات حول مشروعك أيضًا في أماكن أخرى على الإنترنت، مثل Stack Overflow، Twitter، أو Reddit. يمكنك إعداد notifications في بعض هذه الأماكن ليتم تنبيهك عندما يذكر أحد مشروعك.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/okdistribute?s=180" class="pquote-avatar" alt="avatar">
-  The truth is that having a supportive community is key. I'd never be able to do this work without the help of my colleagues, friendly internet strangers, and chatty IRC channels. (...) Don't settle for less. Don't settle for assholes.
+  الحقيقة هي أن وجود مجتمع داعم أمر أساسي. لم أكن لأتمكن من القيام بهذا العمل بدون مساعدة زملائي، الغرباء الودودين على الإنترنت، وقنوات IRC الممتعة للتحدث. (...) لا تقبل بأقل من ذلك. ولا تقبل بالأشخاص السلبيين (assholes).
   <p markdown="1" class="pquote-credit">
-— @okdistribute, ["How to Run a FOSS Project"](https://okdistribute.xyz/post/okf-de)
+— @okdistribute, ["كيفية إدارة مشروع FOSS"](https://okdistribute.xyz/post/okf-de)
   </p>
 </aside>
 
-Regular debates over trivial aspects of your project distracts others, including you, from focusing on important tasks. New people who arrive to your project may see these conversations and not want to participate.
+النقاشات المستمرة حول جوانب تافهة من مشروعك تشتت انتباه الآخرين، بما فيهم أنت، عن التركيز على المهام المهمة. الأشخاص الجدد الذين يصلون إلى مشروعك قد يرون هذه المحادثات ولا يرغبون في المشاركة.
 
-When you see negative behavior happening on your project, call it out publicly. Explain, in a kind but firm tone, why their behavior is not acceptable. If the problem persists, you may need to [ask them to leave](../code-of-conduct/#enforcing-your-code-of-conduct). Your [code of conduct](../code-of-conduct/) can be a constructive guide for these conversations.
+عندما تلاحظ سلوكًا سلبيًا يحدث في مشروعك، قم بالإشارة إليه بشكل علني. اشرح، بنبرة لطيفة ولكن حازمة، لماذا سلوكهم غير مقبول. إذا استمر المشكلة، قد تحتاج إلى [طلب مغادرتهم](../code-of-conduct/#enforcing-your-code-of-conduct). يمكن أن يكون [مدونة السلوك الخاصة بك](../code-of-conduct/) دليلًا بناءً لهذه المحادثات.
 
-### Meet contributors where they're at
+### قابل المساهمين حيث هم 
 
-Good documentation only becomes more important as your community grows. Casual contributors, who may not otherwise be familiar with your project, read your documentation to quickly get the context they need.
+التوثيق الجيد يصبح أكثر أهمية مع نمو مجتمعك. المساهمون الغير منتظمين (Casual contributors) ، الذين قد لا يكونون على دراية بمشروعك، يقرأون توثيقك للحصول بسرعة على السياق الذي يحتاجونه.
 
-In your CONTRIBUTING file, explicitly tell new contributors how to get started. You may even want to make a dedicated section for this purpose. [Django](https://github.com/django/django), for example, has a special landing page to welcome new contributors.
+في ملف CONTRIBUTING الخاص بك، وضح بشكل صريح للمساهمين الجدد كيفية البدء. قد ترغب حتى في تخصيص قسم خاص لهذا الغرض. على سبيل المثال، [Django](https://github.com/django/django) لديه صفحة استقبال خاصة لاستقبال المساهمين الجدد.
 
-![Django new contributors page](/assets/images/building-community/django_new_contributors.png)
+![صفحة المساهمين الجدد في Django](/assets/images/building-community/django_new_contributors.png)
 
-In your issue queue, label bugs that are suitable for different types of contributors: for example, [_"first timers only"_](https://kentcdodds.com/blog/first-timers-only), _"good first issue"_, or _"documentation"_. [These labels](https://github.com/librariesio/libraries.io/blob/6afea1a3354aef4672d9b3a9fc4cc308d60020c8/app/models/github_issue.rb#L8-L14) make it easy for someone new to your project to quickly scan your issues and get started.
+في قائمة الـ issues، قم بوضع labels للأخطاء التي تناسب أنواعًا مختلفة من المساهمين: على سبيل المثال، [_"للمبتدئين فقط"_](https://kentcdodds.com/blog/first-timers-only)، _"good first issue"_، أو _"documentation"_. هذه [labels](https://github.com/librariesio/libraries.io/blob/6afea1a3354aef4672d9b3a9fc4cc308d60020c8/app/models/github_issue.rb#L8-L14) تجعل من السهل على المساهم الجديد مسح الـ issues بسرعة والبدء بالمساهمة.
 
-Finally, use your documentation to make people feel welcome at every step of the way.
+أخيرًا، استخدم توثيقك لجعل الناس يشعرون بالترحيب في كل خطوة.
 
-You will never interact with most people who land on your project. There may be contributions you didn't receive because somebody felt intimidated or didn't know where to get started. Even a few kind words can keep someone from leaving your project in frustration.
+لن تتفاعل أبدًا مع معظم الأشخاص الذين يصلون إلى مشروعك. قد يكون هناك مساهمات لم تتلقاها لأن شخصًا ما شعر بالخوف أو لم يعرف من أين يبدأ. حتى بضع كلمات لطيفة يمكن أن تمنع شخصًا من ترك مشروعك بالإحباط.
 
-For example, here's how [Rubinius](https://github.com/rubinius/rubinius/) starts [its contributing guide](https://github.com/rubinius/rubinius/blob/HEAD/.github/contributing.md):
+على سبيل المثال، إليك كيف يبدأ [Rubinius](https://github.com/rubinius/rubinius/) [دليل المساهمة الخاص به](https://github.com/rubinius/rubinius/blob/HEAD/.github/contributing.md):
 
-> We want to start off by saying thank you for using Rubinius. This project is a labor of love, and we appreciate all of the users that catch bugs, make performance improvements, and help with documentation. Every contribution is meaningful, so thank you for participating. That being said, here are a few guidelines that we ask you to follow so we can successfully address your issue.
+> نود أن نبدأ بشكركم على استخدام Rubinius. هذا المشروع هو عمل حب، ونحن نقدر جميع المستخدمين الذين يكتشفون الأخطاء، ويعملون على تحسين الأداء، ويساعدون في التوثيق. كل مساهمة لها قيمة، لذلك شكرًا لمشاركتكم. ومع ذلك، إليكم بعض الإرشادات التي نطلب منكم اتباعها لكي نتمكن من معالجة مشكلتكم بنجاح.
 
-### Share ownership of your project
+### شارك ملكية مشروعك 
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/sagesharp?s=180" class="pquote-avatar" alt="avatar">
-  Your leaders will have different opinions, as all healthy communities should! However, you need to take steps to ensure the loudest voice doesn't always win by tiring people out, and that less prominent and minority voices are heard.
+  سيحمل قادة مشروعك آراء مختلفة، كما يجب أن تفعل جميع المجتمعات الصحية! ومع ذلك، تحتاج إلى اتخاذ خطوات لضمان أن الصوت الأعلى لا ينتصر دائمًا بإرهاق الناس، وأن الأصوات الأقل بروزًا والأقليات يتم سماعها.
   <p markdown="1" class="pquote-credit">
-— @sagesharp, ["What makes a good community?"](https://sage.thesharps.us/2015/10/06/what-makes-a-good-community/)
+— @sagesharp, ["ما الذي يجعل المجتمع جيدًا؟"](https://sage.thesharps.us/2015/10/06/what-makes-a-good-community/)
   </p>
 </aside>
 
-People are excited to contribute to projects when they feel a sense of ownership. That doesn't mean you need to turn over your project's vision or accept contributions you don't want. But the more you give credit to others, the more they'll stick around.
+يشعر الناس بالحماس للمساهمة في المشاريع عندما يشعرون بملكية فيها. هذا لا يعني أنه يجب عليك التخلي عن رؤية مشروعك أو قبول مساهمات لا تريدها. لكن كلما منحت الآخرين المزيد من التقدير ، زاد احتمال بقائهم ومشاركتهم.
 
-See if you can find ways to share ownership with your community as much as possible. Here are some ideas:
+حاول أن تجد طرقًا لمشاركة ملكية مشروعك (ownership) مع مجتمعك قدر الإمكان. إليك بعض الأفكار:
 
-* **Resist fixing easy (non-critical) bugs.** Instead, use them as opportunities to recruit new contributors, or mentor someone who'd like to contribute. It may seem unnatural at first, but your investment will pay off over time. For example, @michaeljoseph asked a contributor to submit a pull request on a [Cookiecutter](https://github.com/audreyr/cookiecutter) issue below, rather than fix it himself.
+* **قاوم إصلاح الأخطاء السهلة (غير الحرجة).** بدلًا من ذلك، استخدمها كفرص لتجنيد مساهمين جدد، أو لتوجيه شخص يرغب في المساهمة. قد يبدو هذا غير طبيعي في البداية، لكن استثمارك سيؤتي ثماره مع الوقت. على سبيل المثال، طلب @michaeljoseph من أحد المساهمين تقديم pull request على issue في [Cookiecutter](https://github.com/audreyr/cookiecutter) بدلًا من إصلاحه بنفسه.
 
-![Cookiecutter issue](/assets/images/building-community/cookiecutter_submit_pr.png)
+![Issue في Cookiecutter](/assets/images/building-community/cookiecutter_submit_pr.png)
 
-* **Start a CONTRIBUTORS or AUTHORS file in your project** that lists everyone who's contributed to your project, like [Sinatra](https://github.com/sinatra/sinatra/blob/HEAD/AUTHORS.md) does.
+* **ابدأ بملف CONTRIBUTORS أو AUTHORS في مشروعك** يسرد جميع من ساهم في مشروعك، كما يفعل [Sinatra](https://github.com/sinatra/sinatra/blob/HEAD/AUTHORS.md).
 
-* If you've got a sizable community, **send out a newsletter or write a blog post** thanking contributors. Rust's [This Week in Rust](https://this-week-in-rust.org/) and Hoodie's [Shoutouts](http://hood.ie/blog/shoutouts-week-24.html) are two good examples.
+* إذا كان لديك مجتمع كبير، **أرسل newsletter أو اكتب مدونة** لشكر المساهمين. أمثلة جيدة على ذلك: Rust's [This Week in Rust](https://this-week-in-rust.org/) و Hoodie's [Shoutouts](http://hood.ie/blog/shoutouts-week-24.html).
 
-* **Give every contributor commit access.** @felixge found that this made people [more excited to polish their patches](https://felixge.de/2013/03/11/the-pull-request-hack.html), and he even found new maintainers for projects that he hadn't worked on in awhile.
+* **امنح كل مساهم صلاحية commit.** وجد @felixge أن هذا جعل الناس [أكثر حماسًا لتحسين التعديلات الخاصة بهم](https://felixge.de/2013/03/11/the-pull-request-hack.html)، وحتى وجد مساهمين جدد لمشاريع لم يعمل عليها منذ فترة.
 
-* If your project is on GitHub, **move your project from your personal account to an [Organization](https://help.github.com/articles/creating-a-new-organization-account/)** and add at least one backup admin. Organizations make it easier to work on projects with external collaborators.
+* إذا كان مشروعك على GitHub، **انقل مشروعك من حسابك الشخصي إلى [Organization](https://help.github.com/articles/creating-a-new-organization-account/)** وأضف على الأقل مشرفًا احتياطيًا واحدًا. الـ Organizations تسهل العمل على المشاريع مع مساهمين خارجيين.
 
-The reality is that [most projects only have](https://peerj.com/preprints/1233/) one or two maintainers who do most of the work. The bigger your project, and the bigger your community, the easier it is to find help.
+الواقع هو أن [معظم المشاريع](https://peerj.com/preprints/1233/) لديها مشرف أو مشرفان يقومان بمعظم العمل. كلما كان مشروعك ومجتمعك أكبر، كان العثور على المساعدة أسهل.
 
-While you may not always find someone to answer the call, putting a signal out there increases the chances that other people will pitch in. And the earlier you start, the sooner people can help.
+حتى لو لم تجد دائمًا من يلبّي الدعوة، فإن إرسال إشارة يزيد من فرص مشاركة الآخرين. وكلما بدأت مبكرًا، كلما تمكن الناس من المساعدة مبكرًا.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/gr2m?s=180" class="pquote-avatar" alt="avatar">
-  \[It's in your\] best interest to recruit contributors who enjoy and who are capable of doing the things that you are not. Do you enjoy coding, but not answering issues? Then identify those individuals in your community who do and let them have it.
+  من مصلحتك جذب المساهمين الذين يستمتعون ويستطيعون القيام بالأشياء التي لا تستطيع القيام بها. هل تحب البرمجة لكن لا تحب الرد على issues؟ إذن حدد هؤلاء الأشخاص في مجتمعك ودعهم يتولون ذلك.
   <p markdown="1" class="pquote-credit">
-— @gr2m, ["Welcoming Communities"](http://hood.ie/blog/welcoming-communities.html)
+— @gr2m, ["المجتمعات الترحيبية"](http://hood.ie/blog/welcoming-communities.html)
   </p>
 </aside>
 
-## Resolving conflicts
+## حل النزاعات 
 
-In the early stages of your project, making major decisions is easy. When you want to do something, you just do it.
+في المراحل الأولى من مشروعك، اتخاذ القرارات الكبرى يكون سهلًا. عندما تريد فعل شيء، ببساطة تقوم به.
 
-As your project becomes more popular, more people will take interest in the decisions you make. Even if you don't have a big community of contributors, if your project has a lot of users, you'll find people weighing in on decisions or raising issues of their own.
+مع زيادة شعبية مشروعك، سيهتم المزيد من الأشخاص بالقرارات التي تتخذها. حتى لو لم يكن لديك مجتمع كبير من المساهمين، إذا كان لمشروعك العديد من المستخدمين، ستجد أشخاصًا يشاركون برأيهم أو يرفعون issues خاصة بهم.
 
-For the most part, if you've cultivated a friendly, respectful community and documented your processes openly, your community should be able to find resolution. But sometimes you run into an issue that's a bit harder to address.
+غالبًا، إذا كنت قد بنيت مجتمعًا ودودًا ومحترمًا ووثّقت عملياتك بشكل مفتوح، يجب أن يكون مجتمعك قادرًا على إيجاد حلول. لكن أحيانًا تواجه مسألة أصعب قليلاً للتعامل معها.
 
-### Set the bar for kindness
+### ضع معيارًا للود 
 
-When your community is grappling with a difficult issue, tempers may rise. People may become angry or frustrated and take it out on one another, or on you.
+عندما يواجه مجتمعك قضية صعبة، قد ترتفع درجات التوتر. قد يشعر الناس بالغضب أو الإحباط ويصرفونه على بعضهم البعض أو عليك.
 
-Your job as a maintainer is to keep these situations from escalating. Even if you have a strong opinion on the topic, try to take the position of a moderator or facilitator, rather than jumping into the fight and pushing your views. If someone is being unkind or monopolizing the conversation, [act immediately](../building-community/#dont-tolerate-bad-actors) to keep discussions civil and productive.
+دورك ك maintainer هو منع تصعيد هذه المواقف. حتى لو كان لديك رأي قوي في الموضوع، حاول أن تتخذ موقفًا كمُنسق أو ميسر، بدلًا من الدخول في النزاع ودفع آرائك. إذا كان شخص ما غير لطيف أو يحتكر المحادثة، [تصرف فورًا](../building-community/#dont-tolerate-bad-actors) للحفاظ على المناقشات مدنية ومنتجة.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/kennethreitz?s=180" class="pquote-avatar" alt="avatar">
-  As a project maintainer, it's extremely important to be respectful to your contributors. They often take what you say very personally.
+  كمُشرف على المشروع، من المهم جدًا أن تكون محترمًا تجاه المساهمين. غالبًا ما يأخذون ما تقوله على نحو شخصي جدًا.
   <p markdown="1" class="pquote-credit">
-— @kennethreitz, ["Be Cordial or Be on Your Way"](https://web.archive.org/web/20200509154531/https://kenreitz.org/essays/be-cordial-or-be-on-your-way)
+— @kennethreitz, ["كن ودودًا أو غادر"](https://web.archive.org/web/20200509154531/https://kenreitz.org/essays/be-cordial-or-be-on-your-way)
   </p>
 </aside>
 
-Other people are looking to you for guidance. Set a good example. You can still express disappointment, unhappiness, or concern, but do so calmly.
+الآخرون ينظرون إليك للحصول على التوجيه. ضع مثالًا جيدًا. يمكنك التعبير عن خيبة أملك، أو عدم رضاك، أو قلقك، لكن افعل ذلك بهدوء.
 
-Keeping your cool isn't easy, but demonstrating leadership improves the health of your community. The internet thanks you.
+الحفاظ على هدوئك ليس سهلاً، لكن إظهار القيادة يحسن صحة مجتمعك. الإنترنت يشكرك.
 
-### Treat your README as a constitution
+### عامل README الخاص بك كدستور 
 
-Your README is [more than just a set of instructions](../starting-a-project/#writing-a-readme). It's also a place to talk about your goals, product vision, and roadmap. If people are overly focused on debating the merit of a particular feature, it may help to revisit your README and talk about the higher vision of your project. Focusing on your README also depersonalizes the conversation, so you can have a constructive discussion.
+ملف **README** الخاص بك هو [أكثر من مجرد مجموعة تعليمات](../starting-a-project/#writing-a-readme). إنه أيضًا مكان للحديث عن أهدافك، ورؤية المنتج، وخارطة الطريق. إذا كان الناس يركزون كثيرًا على جدال حول جدوى ميزة معينة، قد يساعد إعادة النظر في README للحديث عن الرؤية الأكبر لمشروعك. التركيز على README يجعل النقاش أقل شخصية، وبالتالي يمكنك إجراء مناقشة بناءة.
 
-### Focus on the journey, not the destination
+### ركز على الرحلة، لا على الوجهة 
 
-Some projects use a voting process to make major decisions. While sensible at first glance, voting emphasizes getting to an "answer," rather than listening to and addressing each other's concerns.
+بعض المشاريع تستخدم عملية تصويت لاتخاذ قرارات كبيرة. وعلى الرغم من أن ذلك يبدو منطقيًا للوهلة الأولى، فإن التصويت يركز على الوصول إلى "إجابة"، بدلًا من الاستماع ومعالجة مخاوف الآخرين.
 
-Voting can become political, where community members feel pressured to do each other favors or vote a certain way. Not everybody votes, either, whether it's the [silent majority](https://ben.balter.com/2016/03/08/optimizing-for-power-users-and-edge-cases/#the-silent-majority-of-users) in your community, or current users who didn't know a vote was taking place.
+يمكن أن يصبح التصويت سياسيًا، حيث يشعر أعضاء المجتمع بالضغط لمساعدة بعضهم البعض أو التصويت بطريقة معينة. وليس الجميع يصوت، سواء كانت [الأغلبية الصامتة](https://ben.balter.com/2016/03/08/optimizing-for-power-users-and-edge-cases/#the-silent-majority-of-users) في مجتمعك، أو المستخدمون الحاليون الذين لم يعلموا بأن هناك تصويتًا جاريًا.
 
-Sometimes, voting is a necessary tiebreaker. As much as you are able, however, emphasize ["consensus seeking"](https://en.wikipedia.org/wiki/Consensus-seeking_decision-making) rather than consensus.
+أحيانًا، يكون التصويت كسرًا للتعادل ضروريًا. ومع ذلك، حاول قدر الإمكان التركيز على ["السعي للوصول إلى توافق"](https://en.wikipedia.org/wiki/Consensus-seeking_decision-making) بدلًا من الوصول إلى إجماع كامل.
 
-Under a consensus seeking process, community members discuss major concerns until they feel they have been adequately heard. When only minor concerns remain, the community moves forward. "Consensus seeking" acknowledges that a community may not be able to reach a perfect answer. Instead, it prioritizes listening and discussion.
+في عملية consensus seeking، يناقش أعضاء المجتمع المخاوف الكبرى حتى يشعروا بأنهم قد تم الاستماع إليهم بشكل كافٍ. وعندما تبقى المخاوف طفيفة فقط، يمضي المجتمع قدمًا. "عملية consensus seeking أوالسعي للوصول إلى توافق" يعترف بأن المجتمع قد لا يتمكن من الوصول إلى إجابة مثالية، بل يعطي أولوية للاستماع والنقاش.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/lee-dohm?s=180" class="pquote-avatar" alt="avatar">
-  Part of the reason why a voting system doesn't exist for Atom Issues is because the Atom team isn't going to follow a voting system in all cases. Sometimes we have to choose what we feel is right even if it is unpopular. (...) What I can offer and pledge to do...is that it is my job to listen to the community.
+  جزء من سبب عدم وجود نظام تصويت لـ Atom Issues هو أن فريق Atom لن يتبع نظام التصويت في جميع الحالات. أحيانًا علينا اختيار ما نراه صحيحًا حتى لو كان غير شعبي. (...) ما يمكنني تقديمه والتعهد به... هو أن وظيفتي هي الاستماع إلى المجتمع.
   <p markdown="1" class="pquote-credit">
-— @lee-dohm on Atom's decision making process
+— @lee-dohm عن عملية اتخاذ القرار في Atom
   </p>
 </aside>
 
-Even if you don't actually adopt a consensus seeking process, as a project maintainer, it's important that people know you are listening. Making other people feel heard, and committing to resolving their concerns, goes a long way to diffuse sensitive situations. Then, follow up on your words with actions.
+حتى لو لم تعتمد فعليًا عملية consensus seeking، كمُشرف على المشروع ، من المهم أن يعلم الناس أنك تستمع إليهم. جعل الآخرين يشعرون بأنهم مسموعون والالتزام بحل مخاوفهم يساعد كثيرًا في تهدئة المواقف الحساسة. ثم تابع كلماتك بأفعال.
 
-Don't rush into a decision for the sake of having a resolution. Make sure that everybody feels heard and that all information has been made public before moving toward a resolution.
+لا تتسرع في اتخاذ قرار لمجرد الوصول إلى حل. تأكد من أن الجميع قد تم الاستماع إليهم وأن جميع المعلومات متاحة قبل المضي قدمًا نحو الحل.
 
-### Keep the conversation focused on action
+### حافظ على تركيز النقاش على العمل 
+النقاش مهم، لكن هناك فرق بين المحادثات المنتجة وغير المنتجة.
 
-Discussion is important, but there is a difference between productive and unproductive conversations.
+شجع النقاش طالما أنه يتجه بنشاط نحو الحل. إذا كان واضحًا أن النقاش يتوقف أو يخرج عن الموضوع، أو أصبحت الملاحظات شخصية، أو يتجادل الناس حول تفاصيل صغيرة، فقد حان الوقت لإنهائه.
 
-Encourage discussion so long as it is actively moving towards resolution. If it's clear that conversation is languishing or going off-topic, jabs are getting personal, or people are quibbling about minor details, it's time to shut it down.
+استمرار هذه المحادثات ليس ضارًا فقط بالمسألة المطروحة، بل بصحة مجتمعك أيضًا. فهي ترسل رسالة بأن هذا النوع من النقاشات مسموح أو حتى مشجع، وقد تثبط الناس عن طرح أو حل مسائل مستقبلية.
 
-Allowing these conversations to continue is not only bad for the issue at hand, but bad for the health of your community. It sends a message that these types of conversations are permitted or even encouraged, and it can discourage people from raising or resolving future issues.
+مع كل نقطة تُطرح من قبلك أو من قبل الآخرين، اسأل نفسك: _"كيف يقربنا هذا من الحل؟"_
 
-With every point made by you or by others, ask yourself, _"How does this bring us closer to a resolution?"_
+إذا بدأ النقاش في التفكك، اسأل المجموعة: _"ما الخطوات التالية التي يجب اتخاذها؟"_ لإعادة تركيز النقاش.
 
-If the conversation is starting to unravel, ask the group, _"Which steps should we take next?"_ to refocus the conversation.
-
-If a conversation clearly isn't going anywhere, there are no clear actions to be taken, or the appropriate action has already been taken, close the issue and explain why you closed it.
+إذا كان واضحًا أن النقاش لا يؤدي إلى أي مكان، أو لا توجد خطوات واضحة للقيام بها، أو تم اتخاذ الإجراء المناسب بالفعل، أغلق الـ issue واشرح سبب إغلاقه.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/kfogel?s=180" class="pquote-avatar" alt="avatar">
-  Guiding a thread toward usefulness without being pushy is an art. It won't work to simply admonish people to stop wasting their time, or to ask them not to post unless they have something constructive to say. (...) Instead, you have to suggest conditions for further progress: give people a route, a path to follow that leads to the results you want, yet without sounding like you're dictating conduct.
+  توجيه النقاش نحو الفائدة دون أن تكون متسلطًا هو فن. لا يجدي نفعًا أن توبيخ الناس ببساطة للتوقف عن إضاعة وقتهم، أو أن تطلب منهم عدم النشر إلا إذا كان لديهم شيء بناء ليقولوه. (...) بدلًا من ذلك، عليك اقتراح شروط للتقدم: أعط الناس مسارًا أو طريقًا يؤدي إلى النتائج التي تريدها، دون أن يبدو أنك تملي عليهم كيفية التصرف.
   <p markdown="1" class="pquote-credit">
-— @kfogel, [_Producing OSS_](https://producingoss.com/en/producingoss.html#common-pitfalls)
+— @kfogel, [_إنتاج البرمجيات المفتوحة المصدر (Producing OSS)_](https://producingoss.com/en/producingoss.html#common-pitfalls)
   </p>
 </aside>
 
-### Pick your battles wisely
+### اختر معاركك بحكمة 
 
-Context is important. Consider who is involved in the discussion and how they represent the rest of the community.
+السياق مهم. فكر في من يشارك في النقاش وكيف يمثل بقية المجتمع.
 
-Is everybody in the community upset about, or even engaged with, this issue? Or is a lone troublemaker? Don't forget to consider your silent community members, not just the active voices.
+هل الجميع في المجتمع منزعج من هذه المسألة، أو حتى مشارك فيها؟ أم أنه مجرد شخص مشاغب وحيد؟ لا تنسَ النظر إلى أعضاء مجتمعك الصامتين، وليس فقط الأصوات النشطة.
 
-If the issue does not represent the broader needs of your community, you may just need to acknowledge the concerns of a few people. If this is a recurring issue without a clear resolution, point them to previous discussions on the topic and close the thread.
+إذا كانت المسألة لا تمثل احتياجات المجتمع بشكل أوسع، قد تحتاج فقط إلى الاعتراف بمخاوف بعض الأشخاص. وإذا كانت هذه مشكلة متكررة دون حل واضح، وجههم إلى النقاشات السابقة حول الموضوع وأغلق الـ thread.
 
-### Identify a community tiebreaker
+### تحديد جهة لحسم القرارات في المجتمع
 
-With a good attitude and clear communication, most difficult situations are resolvable. However, even in a productive conversation, there can simply be a difference in opinion on how to proceed. In these cases, identify an individual or group of people that can serve as a tiebreaker.
+مع موقف إيجابي وتواصل واضح، يمكن حل معظم المواقف الصعبة. ومع ذلك، حتى في نقاش منتج، قد يحدث اختلاف في الرأي حول كيفية المضي قدمًا. في هذه الحالات، حدد شخصًا أو مجموعة يمكنها أن تكون tiebreaker.
 
-A tiebreaker could be the primary maintainer of the project, or it could be a small group of people who make a decision based on voting. Ideally, you've identified a tiebreaker and the associated process in a GOVERNANCE file before you ever have to use it.
+يمكن أن يكون الـ tiebreaker هو maintainer الرئيسي للمشروع، أو مجموعة صغيرة تتخذ القرار بناءً على التصويت. من الأفضل أن تحدد الـ tiebreaker والعملية المرتبطة به في ملف GOVERNANCE قبل الحاجة لاستخدامه فعليًا.
 
-Your tiebreaker should be a last resort. Divisive issues are an opportunity for your community to grow and learn. Embrace these opportunities and use a collaborative process to move to a resolution wherever possible.
+ينبغي أن يكون الـ tiebreaker خيارًا أخيرًا. القضايا المثيرة للانقسام فرصة لنمو المجتمع وتعلمه. استغل هذه الفرص واستخدم عملية تعاونية للوصول إلى حل كلما أمكن.
 
-## Community is the ❤️ of open source
+## المجتمع هو ❤️ البرمجيات المفتوحة المصدر
 
-Healthy, thriving communities fuel the thousands of hours poured into open source every week. Many contributors point to other people as the reason for working - or not working - on open source. By learning how to tap into that power constructively, you'll help someone out there have an unforgettable open source experience.
+المجتمعات الصحية والمزدهرة هي مصدر الطاقة للآلاف من الساعات التي تُستثمر في open source كل أسبوع. كثير من المساهمين يشيرون إلى أشخاص آخرين كسبب للعمل - أو عدم العمل - على open source. من خلال تعلم كيفية الاستفادة من هذه القوة بشكل بناء، ستساعد شخصًا ما على تجربة open source لا تُنسى.
+
+</div>
