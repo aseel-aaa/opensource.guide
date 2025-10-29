@@ -1,7 +1,7 @@
 ---
 lang: ar
-title: Open Source Metrics
-description: Make informed decisions to help your open source project thrive by measuring and tracking its success.
+title: مقاييس المصادر المفتوحة
+description: اتخذ قرارات مستنيرة لمساعدة مشروعك مفتوح المصدر على الازدهار من خلال قياس وتتبع نجاحه.
 class: metrics
 order: 9
 image: /assets/images/cards/metrics.png
@@ -10,119 +10,123 @@ related:
   - best-practices
 ---
 
-## Why measure anything?
+<div dir="rtl" markdown="1">
 
-Data, when used wisely, can help you make better decisions as an open source maintainer.
+## لماذا نقيس أي شيء؟
 
-With more information, you can:
+يمكن أن تساعدك البيانات، عند استخدامها بحكمة، على اتخاذ قرارات أفضل بصفتك مسؤول مصدر مفتوح.
 
-* Understand how users respond to a new feature
-* Figure out where new users come from
-* Identify, and decide whether to support, an outlier use case or functionality
-* Quantify your project's popularity
-* Understand how your project is used
-* Raise money through sponsorships and grants
+مع مزيد من المعلومات، يمكنك:
 
-For example, [Homebrew](https://github.com/Homebrew/brew/blob/bbed7246bc5c5b7acb8c1d427d10b43e090dfd39/docs/Analytics.md) finds that Google Analytics helps them prioritize work:
+- فهم كيفية استجابة المستخدمين لميزة جديدة
+- معرفة مصدر المستخدمين الجدد
+- تحديد حالات الاستخدام أو الوظائف الشاذة واتخاذ قرار بشأن دعمها
+- قياس شهرة مشروعك
+- فهم كيفية استخدام مشروعك
+- جمع الأموال من خلال الرعاية والمنح
 
-> Homebrew is provided free of charge and run entirely by volunteers in their spare time. As a result, we do not have the resources to do detailed user studies of Homebrew users to decide on how best to design future features and prioritise current work. Anonymous aggregate user analytics allow us to prioritise fixes and features based on how, where and when people use Homebrew.
+على سبيل المثال, [Homebrew](https://github.com/Homebrew/brew/blob/bbed7246bc5c5b7acb8c1d427d10b43e090dfd39/docs/Analytics.md) يجدون أن Google Analytics يساعدهم في تحديد أولويات العمل:
 
-Popularity isn't everything. Everybody gets into open source for different reasons. If your goal as an open source maintainer is to show off your work, be transparent about your code, or just have fun, metrics may not be important to you.
+> يتم توفير Homebrew مجانًا ويتم تشغيله بالكامل من قبل متطوعين في أوقات فراغهم. ونتيجة لذلك، لا تتوفر لدينا الموارد اللازمة لإجراء دراسات مفصلة عن مستخدمي Homebrew لتحديد أفضل طريقة لتصميم الميزات المستقبلية وتحديد أولويات العمل الحالي. تسمح لنا تحليلات المستخدمين المجمعة المجهولة الهوية بتحديد أولويات الإصلاحات والميزات بناءً على كيفية ومكان وزمان استخدام الأشخاص لـ Homebrew.
 
-If you _are_ interested in understanding your project on a deeper level, read on for ways to analyze your project's activity.
+الشهرة ليست كل شيء. كل شخص ينضم إلى مجتمع المصادر المفتوحة لأسباب مختلفة. إذا كان هدفك كمسؤول عن المصادر المفتوحة هو التباهي بعملك، أو أن تكون شفافًا بشأن الكود الخاص بك، أو مجرد الاستمتاع، فقد لا تكون المقاييس مهمة بالنسبة لك.
 
-## Discovery
+إذا كنت مهتمًا بفهم مشروعك على مستوى أعمق، فتابع القراءة لتتعرف على طرق تحليل نشاط مشروعك.
 
-Before anybody can use or contribute back to your project, they need to know it exists. Ask yourself: _are people finding this project?_
+## الاكتشاف
+
+قبل أن يتمكن أي شخص من استخدام مشروعك أو المساهمة فيه، يجب أن يعرف بوجوده. اسأل نفسك: _هل يجد الناس هذا المشروع؟_
 
 ![Traffic graph](/assets/images/metrics/repo_traffic_graphs_tooltip.png)
 
-If your project is hosted on GitHub, [you can view](https://help.github.com/articles/about-repository-graphs/#traffic) how many people land on your project and where they come from. From your project's page, click "Insights", then "Traffic". On this page, you can see:
+إذا كان مشروعك مستضافًا على GitHub, [يمكنك مشاهدة](https://help.github.com/articles/about-repository-graphs/#traffic) عدد الأشخاص الذين يزورون مشروعك ومن أين يأتون. من صفحة مشروعك، انقر على "Insights"، ثم "Traffic". في هذه الصفحة، يمكنك رؤية:
 
-* **Total page views:** Tells you how many times your project was viewed
+- **إجمالي عدد مشاهدات الصفحة:** يخبرك بعدد مرات مشاهدة مشروعك
 
-* **Total unique visitors:** Tells you how many people viewed your project
+- **إجمالي عدد الزوار الفريدين:** يخبرك بعدد الأشخاص الذين شاهدوا مشروعك
 
-* **Referring sites:** Tells you where visitors came from. This metric can help you figure out where to reach your audience and whether your promotion efforts are working.
+- **المواقع المرجعية:** يخبرك من أين جاء الزوار. يمكن أن تساعدك هذه المقياس في معرفة أين يمكنك الوصول إلى جمهورك وما إذا كانت جهودك الترويجية تؤتي ثمارها.
 
-* **Popular content:** Tells you where visitors go on your project, broken down by page views and unique visitors.
+- **المحتوى الشائع:** يخبرك أين يذهب الزوار في مشروعك، موزعًا حسب عدد مرات مشاهدة الصفحة والزوار الفريدين.
 
-[GitHub stars](https://help.github.com/articles/about-stars/) can also help provide a baseline measure of popularity. While GitHub stars don't necessarily correlate to downloads and usage, they can tell you how many people are taking notice of your work.
+[نجوم GitHub](https://help.github.com/articles/about-stars/) يمكن أن تساعد أيضًا في توفير مقياس أساسي للشهرة. على الرغم من أن نجوم GitHub لا ترتبط بالضرورة بالتنزيلات والاستخدام، إلا أنها يمكن أن تخبرك بعدد الأشخاص الذين ينتبهون إلى عملك.
 
-You may also want to [track discoverability in specific places](https://opensource.com/business/16/6/pirate-metrics): for example, Google PageRank, referral traffic from your project's website, or referrals from other open source projects or websites.
+قد ترغب أيضًا في [تتبع إمكانية الاكتشاف في أماكن محددة](https://opensource.com/business/16/6/pirate-metrics): على سبيل المثال، Google PageRank، أو حركة المرور المرجعية من موقع الويب الخاص بمشروعك، أو الإحالات من مشاريع أو مواقع ويب أخرى مفتوحة المصدر.
 
-## Usage
+## الاستخدام
 
-People are finding your project on this wild and crazy thing we call the internet. Ideally, when they see your project, they'll feel compelled to do something. The second question you'll want to ask is: _are people using this project?_
+يجد الناس مشروعك على هذا الشيء الجامح والمجنون الذي نسميه الإنترنت. في الحالة المثالية، عندما يرون مشروعك، سيشعرون برغبة ملحة في القيام بشيء ما. السؤال الثاني الذي سترغب في طرحه هو: _هل يستخدم الناس هذا المشروع؟_
 
-If you use a package manager, such as npm or RubyGems.org, to distribute your project, you may be able to track your project's downloads.
+إذا كنت تستخدم مدير حزم، مثل npm أو RubyGems.org، لتوزيع مشروعك، فقد تتمكن من تتبع تنزيلات مشروعك.
 
-Each package manager may use a slightly different definition of "download", and downloads do not necessarily correlate to installs or use, but it provides some baseline for comparison. Try using [Libraries.io](https://libraries.io/) to track usage statistics across many popular package managers.
+قد يستخدم كل مدير حزم تعريفًا مختلفًا قليلاً لمصطلح ”تنزيل“، ولا يرتبط التنزيل بالضرورة بالتثبيت أو الاستخدام، ولكنه يوفر أساسًا للمقارنة. جرب استخدام [Libraries.io](https://libraries.io/) لتتبع إحصائيات الاستخدام عبر العديد من برامج إدارة الحزم الشائعة.
 
-If your project is on GitHub, navigate again to the "Traffic" page. You can use the [clone graph](https://github.com/blog/1873-clone-graphs) to see how many times your project has been cloned on a given day, broken down by total clones and unique cloners.
+إذا كان مشروعك موجودًا على GitHub، فانتقل مرة أخرى إلى صفحة ”Traffic“ . يمكنك استخدام [clone graph](https://github.com/blog/1873-clone-graphs) لمعرفة عدد المرات التي تم فيها نسخ مشروعك في يوم معين، مقسمة حسب إجمالي النسخ والمستنسخين الفريدين.
 
 ![Clone graph](/assets/images/metrics/clone_graph.png)
 
-If usage is low compared to the number of people discovering your project, there are two issues to consider. Either:
+إذا كان الاستخدام منخفضًا مقارنة بعدد الأشخاص الذين يكتشفون مشروعك، فهناك مسألتان يجب أخذهما في الاعتبار. إما:
 
-* Your project isn't successfully converting your audience, or
-* You're attracting the wrong audience
+- مشروعك لا ينجح في تحويل جمهورك، أو
+- أنت تجذب الجمهور الخطأ
 
-For example, if your project lands on the front page of Hacker News, you'll probably see a spike in discovery (traffic), but a lower conversion rate, because you're reaching everyone on Hacker News. If your Ruby project is featured at a Ruby conference, however, you're more likely to see a high conversion rate from a targeted audience.
+على سبيل المثال، إذا ظهر مشروعك على الصفحة الأولى من Hacker News، فمن المحتمل أن تشهد ارتفاعًا في الاكتشاف (traffic)، ولكن معدل تحويل أقل، لأنك تصل إلى جميع مستخدمي Hacker News. ولكن إذا تم عرض مشروع Ruby الخاص بك في مؤتمر Ruby، فمن المرجح أن تشهد معدل تحويل مرتفعًا من الجمهور المستهدف.
 
-Try to figure out where your audience is coming from and ask others for feedback on your project page to figure out which of these two issues you're facing.
+حاول معرفة من أين يأتي جمهورك واطلب من الآخرين إبداء آرائهم حول صفحة مشروعك لمعرفة أي من هاتين المشكلتين تواجهها.
 
-Once you know that people are using your project, you might want to try to figure out what they are doing with it. Are they building on it by forking your code and adding features? Are they using it for science or business?
+بمجرد أن تعرف أن الناس يستخدمون مشروعك، قد ترغب في محاولة معرفة ما يفعلون به. هل يبنون عليه عن طريق تفرع الكود الخاص بك وإضافة ميزات؟ هل يستخدمونه في مجال العلوم أو الأعمال؟
 
-## Retention
+## الاحتفاظ
 
-People are finding your project and they're using it. The next question you'll want to ask yourself is: _are people contributing back to this project?_
+الناس يجدون مشروعك ويستخدمونه. السؤال التالي الذي ستطرحه على نفسك هو: _هل يساهم الناس في هذا المشروع؟_
 
-It's never too early to start thinking about contributors. Without other people pitching in, you risk putting yourself into an unhealthy situation where your project is _popular_ (many people use it) but not _supported_ (not enough maintainer time to meet demand).
+ليس من المبكر أبدًا البدء في التفكير في المساهمين. بدون مساهمة الآخرين، فإنك تخاطر بوضع نفسك في موقف غير صحي حيث يكون مشروعك _شائعًا_ (يستخدمه الكثير من الناس) ولكنه غير _مدعوم_ (لا يوجد وقت كافٍ للمسؤولين عن الصيانة لتلبية الطلب).
 
-Retention also requires an [inflow of new contributors](http://blog.abigailcabunoc.com/increasing-developer-engagement-at-mozilla-science-learning-advocacy#contributor-pathways_2), as previously active contributors will eventually move on to other things.
+الاحتفاظ يتطلب أيضًا [تدفق مساهمين جدد](http://blog.abigailcabunoc.com/increasing-developer-engagement-at-mozilla-science-learning-advocacy#contributor-pathways_2), لأن المساهمين النشطين سابقًا سينتقلون في النهاية إلى أمور أخرى.
 
-Examples of community metrics that you may want to regularly track include:
+من الأمثلة على المقاييس المجتمعية التي قد ترغب في تتبعها بانتظام ما يلي:
 
-* **Total contributor count and number of commits per contributor:** Tells you how many contributors you have, and who's more or less active. On GitHub, you can view this under "Insights" -> "Contributors." Right now, this graph only counts contributors who have committed to the default branch of the repository.
+- **إجمالي عدد المساهمين وعدد الالتزامات لكل مساهم:** يخبرك بعدد المساهمين لديك، ومن منهم أكثر أو أقل نشاطًا. على GitHub، يمكنك عرض ذلك تحت ”Insights“ -> ”Contributors“. في الوقت الحالي، لا يحسب هذا المخطط سوى المساهمين الذين التزموا بالفرع الافتراضي للمستودع.
 
 ![Contributor graph](/assets/images/metrics/repo_contributors_specific_graph.png)
 
-* **First time, casual, and repeat contributors:** Helps you track whether you're getting new contributors, and whether they come back. (Casual contributors are contributors with a low number of commits. Whether that's one commit, less than five commits, or something else is up to you.) Without new contributors, your project's community can become stagnant.
+- **المساهمون الجدد والعرضيون والمتكررون:** يساعدك على تتبع ما إذا كنت تحصل على مساهمين جدد، وما إذا كانوا يعودون. (المساهمون العرضيون هم المساهمون الذين لديهم عدد قليل من الالتزامات. سواء كان ذلك التزامًا واحدًا، أو أقل من خمسة التزامات، أو أي شيء آخر، فهذا الأمر متروك لك). بدون مساهمين جدد، يمكن أن يصبح مجتمع مشروعك راكدًا.
 
-* **Number of open issues and open pull requests:** If these numbers get too high, you might need help with issue triaging and code reviews.
+- **عدد المشكلات المفتوحة وطلبات السحب المفتوحة:** إذا ارتفعت هذه الأرقام بشكل كبير، فقد تحتاج إلى مساعدة في فرز المشكلات ومراجعة الأكواد.
 
-* **Number of _opened_ issues and _opened_ pull requests:** Opened issues means somebody cares enough about your project to open an issue. If that number increases over time, it suggests people are interested in your project.
+- **عدد المشكلات _المفتوحة_ وطلبات السحب _المفتوحة_:** المشكلات المفتوحة تعني أن هناك من يهتم بمشروعك لدرجة أنه فتح مشكلة. إذا زاد هذا العدد بمرور الوقت، فهذا يشير إلى أن الناس مهتمون بمشروعك.
 
-* **Types of contributions:** For example, commits, fixing typos or bugs, or commenting on an issue.
+- **أنواع المساهمات:** على سبيل المثال، الالتزامات، إصلاح الأخطاء المطبعية أو الأخطاء البرمجية، أو التعليق على مشكلة ما.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/arfon?s=180" class="pquote-avatar" alt="avatar">
-  Open source is more than just code. Successful open source projects include code and documentation contributions together with conversations about these changes.
+  المصدر المفتوح هو أكثر من مجرد كود. تشمل المشاريع الناجحة للمصدر المفتوح المساهمات في الكود والوثائق بالإضافة إلى المحادثات حول هذه التغييرات.
   <p markdown="1" class="pquote-credit">
-— @arfon, ["The Shape of Open Source"](https://github.com/blog/2195-the-shape-of-open-source)
+— @arfon, ["شكل المصدر المفتوح"](https://github.com/blog/2195-the-shape-of-open-source)
   </p>
 </aside>
 
-## Maintainer activity
+## نشاط المسؤول
 
-Finally, you'll want to close the loop by making sure your project's maintainers are able to handle the volume of contributions received. The last question you'll want to ask yourself is: _am I (or are we) responding to our community?_
+أخيرًا، سترغب في إغلاق الحلقة بالتأكد من أن القائمين على صيانة مشروعك قادرون على التعامل مع حجم المساهمات الواردة. السؤال الأخير الذي سترغب في طرحه على نفسك هو: _هل أنا (أو نحن) نستجيب لمجتمعنا؟_
 
-Unresponsive maintainers become a bottleneck for open source projects. If someone submits a contribution but never hears back from a maintainer, they may feel discouraged and leave.
+يصبح المسؤولون غير المستجيبون عقبة أمام مشاريع المصادر المفتوحة. إذا قدم شخص ما مساهمة ولكنه لم يتلق أي رد من المسؤول، فقد يشعر بالإحباط ويغادر.
 
-[Research from Mozilla](https://docs.google.com/presentation/d/1hsJLv1ieSqtXBzd5YZusY-mB8e1VJzaeOmh8Q4VeMio/edit#slide=id.g43d857af8_0177) suggests that maintainer responsiveness is a critical factor in encouraging repeat contributions.
+[بحث من Mozilla](https://docs.google.com/presentation/d/1hsJLv1ieSqtXBzd5YZusY-mB8e1VJzaeOmh8Q4VeMio/edit#slide=id.g43d857af8_0177) يشير إلى أن استجابة المسؤولين عامل حاسم في تشجيع تكرار المساهمات.
 
-Consider [tracking how long it takes for you (or another maintainer) to respond to contributions](https://github.blog/2023-07-19-metrics-for-issues-pull-requests-and-discussions/), whether an issue or a pull request. Responding doesn't require taking action. It can be as simple as saying: _"Thanks for your submission! I'll review this within the next week."_
+ضع في اعتبارك [تتبع المدة التي تستغرقها أنت (أو أي مسؤول آخر) للرد على المساهمات](https://github.blog/2023-07-19-metrics-for-issues-pull-requests-and-discussions/), سواء كانت مشكلة أو طلب سحب. لا يتطلب الرد اتخاذ أي إجراء. يمكن أن يكون الأمر بسيطًا مثل: _”شكرًا على إرسالك! سأراجعه خلال الأسبوع المقبل.“_
 
-You could also measure the time it takes to move between stages in the contribution process, such as:
+يمكنك أيضًا قياس الوقت الذي يستغرقه الانتقال بين مراحل عملية المساهمة، مثل:
 
-* Average time an issue remains open
-* Whether issues get closed by PRs
-* Whether stale issues get closed
-* Average time to merge a pull request
+- متوسط الوقت الذي تظل فيه المشكلة مفتوحة
+- ما إذا كانت المشكلات يتم إغلاقها بواسطة PRs
+- ما إذا كانت المشكلات القديمة يتم إغلاقها
+- متوسط الوقت اللازم لدمج طلب السحب
 
-## Use 📊 to learn about people
+## استخدم 📊 للتعرف على الأشخاص
 
-Understanding metrics will help you build an active, growing open source project. Even if you don't track every metric on a dashboard, use the framework above to focus your attention on the type of behavior that will help your project thrive.
+سيساعدك فهم المقاييس على بناء مشروع مفتوح المصدر نشط ومتنامي. حتى إذا لم تقم بتتبع كل مقياس على لوحة المعلومات، استخدم الإطار أعلاه لتركيز انتباهك على نوع السلوك الذي سيساعد مشروعك على الازدهار.
 
-[CHAOSS](https://chaoss.community/) is a welcoming, open source community focused on analytics, metrics and software for community health.
+[CHAOSS](https://chaoss.community/) هي مجتمع مفتوح المصدر ومرحب يركز على التحليلات والمقاييس والبرمجيات الخاصة بصحة المجتمع.
+
+</div>
