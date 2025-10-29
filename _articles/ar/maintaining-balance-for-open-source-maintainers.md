@@ -30,7 +30,7 @@ image: /assets/images/cards/maintaining-balance-for-open-source-maintainers.png
 
 ### حدّد دوافعك للعمل في المشاريع مفتوحة المصدر
 
-خذ وقتًا للتفكير في جوانب صيانة المشاريع مفتوحة المصدر التي تمنحك الطاقة والحماس . إن فهم دوافعك يمكن أن يساعدك على ترتيب أولويات عملك بطريقة تُبقيك متحمّسًا ومستعدًا لمواجهة التحديات الجديدة. سواء كان ذلك العليقات الإيجابية من المستخدمين، أو متعة التعاون والتفاعل مع المجتمع، أو الإحساس بالرضا عند التعمق في الكود — فإن إدراكك لما يُحفّزك يمكن أن يوجّه تركيزك بشكل أفضل.
+خذ وقتًا للتفكير في جوانب صيانة المشاريع مفتوحة المصدر التي تمنحك الطاقة والحماس . إن فهم دوافعك يمكن أن يساعدك على ترتيب أولويات عملك بطريقة تُبقيك متحمّسًا ومستعدًا لمواجهة التحديات الجديدة. سواء كان ذلك التعليقات الإيجابية من المستخدمين، أو متعة التعاون والتفاعل مع المجتمع، أو الإحساس بالرضا عند التعمق في الكود — فإن إدراكك لما يُحفّزك يمكن أن يوجّه تركيزك بشكل أفضل.
 
 ### فكِّر فيما يجعلك تفقد توازنك وتشعر بالتوتر
 
@@ -130,7 +130,7 @@ image: /assets/images/cards/maintaining-balance-for-open-source-maintainers.png
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/danielroe?s=180" class="pquote-avatar" alt="avatar">
- أجد المزيد من الفرص لادخال 'لحظات من الإبداع' في منتصف اليوم بدلاً من محاولة التوقف في المساء.
+ أجد المزيد من الفرص لإدخال 'لحظات من الإبداع' في منتصف اليوم بدلاً من محاولة التوقف في المساء.
   <p markdown="1" class="pquote-credit">
 — <a href="https://github.com/danielroe" dir='ltr'>@danielroe</a>,  مشرف في <span dir='ltr' markdown="1">Nuxt</span>
   </p>
@@ -168,13 +168,13 @@ image: /assets/images/cards/maintaining-balance-for-open-source-maintainers.png
 
 ## مصادر إضافية
 
-* [(Maintainer Community) مجتمع المشرفين](http://maintainers.github.com/)
+* [مجتمع المشرفين](http://maintainers.github.com/)
 * [The social contract of open source](https://snarky.ca/the-social-contract-of-open-source/), Brett Cannon
 * [Uncurled](https://daniel.haxx.se/uncurled/), Daniel Stenberg
-* [(How to deal with toxic people) كيفية التعامل مع الأشخاص السامين](https://www.youtube.com/watch?v=7lIpP3GEyXs), Gina Häußge
+* [كيفية التعامل مع الأشخاص السامين](https://www.youtube.com/watch?v=7lIpP3GEyXs), Gina Häußge
 * [SustainOSS](https://sustainoss.org/)
-* [(Rockwood Art of Leadership) فن القيادة من روكوود](https://rockwoodleadership.org/art-of-leadership/)
-* [(Saying No) قول لا](https://mikemcquaid.com/saying-no/)
+* [فن القيادة من روكوود](https://rockwoodleadership.org/art-of-leadership/)
+* [قول لا](https://mikemcquaid.com/saying-no/)
 * تم إعداد جدول الورشة بالاستناد إلى سلسلة [Mozilla's Movement Building from Home](https://foundation.mozilla.org/en/blog/its-a-wrap-movement-building-from-home/)
 
 ## المساهمون
