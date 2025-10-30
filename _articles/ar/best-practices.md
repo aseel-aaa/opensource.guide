@@ -12,75 +12,76 @@ related:
 
 <div dir="rtl" markdown="1">
 
-## ما معنى أن تكون <span dir='ltr'  markdown="1" >Maintainer</span> (مسؤول عن مشروع) ؟ 
+## ما معنى أن تكون Maintainer (مسؤول عن مشروع) ؟ 
 
- إذا كنت مسؤولًا عن مشروع <span dir='ltr'  markdown="1">open source</span>  يستخدمه عدد كبير من الناس، فمن المؤكد أنك لاحظت أنك أصبحت تقوم بـ <span dir='ltr'  markdown="1">coding</span>  أقل، وتقضي وقتًا أكثر في الرد على <span dir='ltr'  markdown="1">issues</span> المشاكل والبلاغات .
+ إذا كنت مسؤولًا عن مشروع open source  يستخدمه عدد كبير من الناس، فمن المؤكد أنك لاحظت أنك أصبحت تقوم بـ coding  أقل، وتقضي وقتًا أكثر في الرد على issues المشاكل والبلاغات .
 
-في بدايات المشروع، تكون لا تزال تجرب أفكارًا جديدة وتتخذ قرارات بناءً على ما ترغب فيه. ومع نمو المشروع وزيادة شعبيته، ستجد نفسك تعمل أكثر مع <span dir='ltr'  markdown="1">users</span>  و <span dir='ltr'  markdown="1">contributors</span>
+في بدايات المشروع، تكون لا تزال تجرب أفكارًا جديدة وتتخذ قرارات بناءً على ما ترغب فيه. ومع نمو المشروع وزيادة شعبيته، ستجد نفسك تعمل أكثر مع users  و contributors
 
-إن الحفاظ على مشروع بطريقة صحيحة يتطلب منك أكثر من مجرد code. غالبًا ما تكون هذه ال <span dir='ltr'  markdown="1">tasks</span> غير متوقعة، لكنها مهمة جدًا لنمو المشروع، تمامًا مثل الكود.
+إن الحفاظ على مشروع بطريقة صحيحة يتطلب منك أكثر من مجرد code. غالبًا ما تكون هذه ال tasks غير متوقعة، لكنها مهمة جدًا لنمو المشروع، تمامًا مثل الكود.
 
-لقد جمعنا لك هنا بعض الأمور التي تساعدك على تسهيل حياتك، بدءًا من توثيق العمليات <span dir='ltr'  markdown="1">documenting processes</span> وصولًا إلى كيفية الاستفادة بشكل صحيح من <span dir='ltr'  markdown="1">community</span>  المحيط بمشروعك.
+لقد جمعنا لك هنا بعض الأمور التي تساعدك على تسهيل حياتك، بدءًا من توثيق العمليات documenting processes وصولًا إلى كيفية الاستفادة بشكل صحيح من community  المحيط بمشروعك.
 
 ## دوّن (وثّق) الإجراءات الخاصة بك
 إن تدوين الأمور يعد واحدًا من أهم الأشياء التي يمكنك القيام بها كـ 
-<span dir='ltr'  markdown="1">maintainer</span>.
+maintainer.
 
-الـ <span dir='ltr'  markdown="1">Documentation</span> ليس فقط لتوضيح أفكارك لنفسك، بل يساعد أيضًا الآخرين على فهم ما تحتاجه أو تتوقعه منهم، حتى قبل أن يسألوا.
+الـ Documentation ليس فقط لتوضيح أفكارك لنفسك، بل يساعد أيضًا الآخرين على فهم ما تحتاجه أو تتوقعه منهم، حتى قبل أن يسألوا.
 
-عندما تكون الأمور مكتوبة، يصبح من الأسهل عليك قول "لا" عندما لا تناسب مسألة معينة الـ <span dir='ltr'  markdown="1">scope</span> الخاص بك. وفي الوقت نفسه، يصبح من الأسهل على الآخرين الدخول والمساعدة. فأنت لا تعرف من قد يقرأ أو يستخدم مشروعك.
+عندما تكون الأمور مكتوبة، يصبح من الأسهل عليك قول "لا" عندما لا تناسب مسألة معينة الـ scope الخاص بك. وفي الوقت نفسه، يصبح من الأسهل على الآخرين الدخول والمساعدة. فأنت لا تعرف من قد يقرأ أو يستخدم مشروعك.
 
-حتى لو لم تكتب فقرات كاملة، فإن تدوينها كنقاط سريعة <span dir='ltr'  markdown="1">bullet points</span> أفضل من عدم كتابة أي شيء على الإطلاق.
+حتى لو لم تكتب فقرات كاملة، فإن تدوينها كنقاط سريعة bullet points أفضل من عدم كتابة أي شيء على الإطلاق.
 
-وتذكّر دائمًا أن تحافظ على الـ <span dir='ltr'  markdown="1">documentation</span> محدثًا <span dir='ltr'  markdown="1">up-to-date</span>. وإذا لم تتمكن من القيام بذلك دائمًا، فاحذف التوثيق القديم أو وضح أنه قديم <span dir='ltr'  markdown="1">outdated</span>، حتى يعرف الـ <span dir='ltr'  markdown="1">contributors</span> أن التحديثات مرحّب بها.
+وتذكّر دائمًا أن تحافظ على الـ documentation محدثًا up-to-date. وإذا لم تتمكن من القيام بذلك دائمًا، فاحذف التوثيق القديم أو وضح أنه قديم outdated، حتى يعرف الـ contributors أن التحديثات مرحّب بها.
 
 ### اكتب رؤية (Vision) مشروعك
-ابدأ بكتابة أهداف مشروعك. أضفها في ملف الـ <span dir='ltr'  markdown="1">README</span>، أو أنشئ ملفًا منفصلًا وسمّه <span dir='ltr'  markdown="1">VISION</span>. إذا كانت هناك أي عناصر أخرى قد تساعد، مثل "خارطة طريق" للمشروع <span dir='ltr'  markdown="1">project roadmap</span>، اجعلها <span dir='ltr'  markdown="1">public</span> أيضًا.
+ابدأ بكتابة أهداف مشروعك. أضفها في ملف الـ README، أو أنشئ ملفًا منفصلًا وسمّه VISION. إذا كانت هناك أي عناصر أخرى قد تساعد، مثل "خارطة طريق" للمشروع project roadmap، اجعلها public أيضًا.
 
 
 عندما تمتلك رؤية واضحة ومكتوبة، فإن ذلك يجعلك مركّزًا ويساعدك على تجنّب ما يُعرف بـ
-<span dir='ltr'  markdown="1">"scope creep"</span> الزحف بالنطاق الذي يحدث نتيجة مساهمات الآخرين.
+"scope creep" الزحف بالنطاق الذي يحدث نتيجة مساهمات الآخرين.
 
 
-كمثال، اكتشف <span dir='ltr'  markdown="1">@lord</span> أن وجود رؤية للمشروع ساعده على تحديد أي الطلبات تستحق أن يقضي وقتَه عليها. وكـ <span dir='ltr'  markdown="1">maintainer</span> جديد، ندم على عدم التزامه بـ <span dir='ltr'  markdown="1">scope</span> مشروعه عندما تعامل مع أول <span dir='ltr'  markdown="1">feature request</span> لمشروع  <span dir='ltr'  markdown="1">[Slate](https://github.com/lord/slate)</span>.
+كمثال، اكتشف @lord أن وجود رؤية للمشروع ساعده على تحديد أي الطلبات تستحق أن يقضي وقتَه عليها. وكـ maintainer جديد، ندم على عدم التزامه بـ scope مشروعه عندما تعامل مع أول feature request لمشروع  [Slate](https://github.com/lord/slate).
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/lord?s=180" class="pquote-avatar" alt="avatar">
-لقد أخطأت في الأمر. لم أبذل الجهد الكافي لإنتاج حل كامل. بدل هذا الحل ال <span dir='ltr'  markdown="1">half-assed solution</span>، كنت أتمنى لو قلت: " ليس لدي وقت لهذا الأمر حاليًا، لكن سأضيفه إلى قائمة الأشياء الـ <span dir='ltr'  markdown="1">nice-to-have</span> للمدى البعيد ".
+لقد أخطأت في الأمر. لم أبذل الجهد الكافي لإنتاج حل كامل. بدل هذا الحل ال half-assed solution، كنت أتمنى لو قلت: " ليس لدي وقت لهذا الأمر حاليًا، لكن سأضيفه إلى قائمة الأشياء الـ nice-to-have للمدى البعيد ".
   <p markdown="1" class="pquote-credit">
 — @lord, ["نصائح للمحافظين الجدد في المصادر المفتوحة"](https://lord.io/blog/2014/oss-tips/)
   </p>
 </aside>
 </div>
 
+
 <div dir="rtl" markdown="1">
 
 ### وضّح توقعاتك Expectations
 
-كتابة القوانين <span dir='ltr'  markdown="1">Rules</span> أمر مرهق أحيانًا. قد تشعر أحيانًا وكأنك "شرطي" يراقب تصرفات الآخرين أو أنك تفسد الجو المرح.
-لكن الحقيقة أن القوانين الجيدة، عندما تُكتب وتُطبق بعدل، تمنح الـ <span dir='ltr'  markdown="1">maintainers</span> القوة. فهي تمنعك من الانجرار للقيام بأمور لا ترغب فيها.
+كتابة القوانين Rules أمر مرهق أحيانًا. قد تشعر أحيانًا وكأنك "شرطي" يراقب تصرفات الآخرين أو أنك تفسد الجو المرح.
+لكن الحقيقة أن القوانين الجيدة، عندما تُكتب وتُطبق بعدل، تمنح الـ maintainers القوة. فهي تمنعك من الانجرار للقيام بأمور لا ترغب فيها.
 
 أغلب الأشخاص الذين يشاهدون مشروعك لا يعرفون عنك شيئًا أو عن ظروفك. قد يفترضون أنك تتقاضى أجرًا للعمل عليه، خصوصًا إذا كانوا يستخدمونه بشكل دائم ويعتمدون عليه. ربما كنت في السابق تخصص وقتًا كبيرًا لمشروعك، لكن الآن قد تكون مشغولًا بعمل آخر أو لديك التزامات عائلية.
 كل هذا طبيعي وعادي جدًا، لكن المهم أن تتأكد أن الآخرين على علم بهذه الظروف.
 
-إذا كانت إدارتك للمشروع <span dir='ltr'  markdown="1">part-time</span> أو مجرد تطوع كامل <span dir='ltr'  markdown="1">volunteered</span>، كن صريحًا بشأن مقدار الوقت المتاح لديك. هذا لا يعني الوقت الذي تعتقد أن المشروع يحتاجه، ولا الوقت الذي يريدك الآخرون أن تقضيه فيه.
+إذا كانت إدارتك للمشروع part-time أو مجرد تطوع كامل volunteered، كن صريحًا بشأن مقدار الوقت المتاح لديك. هذا لا يعني الوقت الذي تعتقد أن المشروع يحتاجه، ولا الوقت الذي يريدك الآخرون أن تقضيه فيه.
 
 إليك بعض القوانين التي يستحق كتابتها:
 
-* كيفية مراجعة المساهمات <span dir='ltr'  markdown="1">contribution</span> وقبولها:( هل تحتاج إلى <span dir='ltr'  markdown="1">tests</span> ؟ هل يجب تعبئة <span dir='ltr'  markdown="1">issue template</span> نموذج بلاغ ؟ )
+* كيفية مراجعة المساهمات contribution وقبولها:( هل تحتاج إلى tests ؟ هل يجب تعبئة issue template نموذج بلاغ ؟ )
 * أنواع المساهمات التي تقبلها:( هل تريد المساعدة في جزء معين من كود المشروع فقط؟ )
 * متى يكون من المقبول متابعتك أو تذكيرك:( مثلًا، "يمكن توقع رد من مسؤول المشروع خلال 7 أيام. إذا لم تسمع شيئًا بعد هذا الوقت، من المقبول تمامًا إرسال ping في النقاش." )
 * مقدار الوقت الذي تخصصه للمشروع:( مثلًا، "نخصص حوالي 5 ساعات في الأسبوع لهذا المشروع." )
 
-ومن الأمثلة للمشاريع التي لها قواعد أساسية للمحافظين والمساهمين :<span dir='ltr'  markdown="1">[Jekyll](https://github.com/jekyll/jekyll/tree/master/docs)</span>, <span dir='ltr'  markdown="1">[CocoaPods](https://github.com/CocoaPods/CocoaPods/wiki/Communication-&-Design-Rules)</span> ,<span dir='ltr'  markdown="1">[Homebrew](https://github.com/Homebrew/brew/blob/bbed7246bc5c5b7acb8c1d427d10b43e090dfd39/docs/Maintainers-Avoiding-Burnout.md)</span>
+ومن الأمثلة للمشاريع التي لها قواعد أساسية للمحافظين والمساهمين :[Jekyll](https://github.com/jekyll/jekyll/tree/master/docs), [CocoaPods](https://github.com/CocoaPods/CocoaPods/wiki/Communication-&-Design-Rules) ,[Homebrew](https://github.com/Homebrew/brew/blob/bbed7246bc5c5b7acb8c1d427d10b43e090dfd39/docs/Maintainers-Avoiding-Burnout.md)
 
 ### اجعل التواصل public
 
-لا تنسَ أن تعمل <span dir='ltr'  markdown="1">document</span> لتفاعلاتك أيضًا. قدر ما تستطيع، اجعل التواصل الذي يخص مشروعك public. إذا حاول أحدهم التواصل معك على الخاص لمناقشة <span dir='ltr'  markdown="1">feature request</span> أو احتاج <span dir='ltr'  markdown="1">support</span>، فبكل أدب وجّهه إلى قناة تواصل علنية، مثل <span dir='ltr'  markdown="1">mailing list</span> (قائمة بريدية) أو <span dir='ltr'  markdown="1">issue tracker</span> (متتبّع البلاغات).
+لا تنسَ أن تعمل document لتفاعلاتك أيضًا. قدر ما تستطيع، اجعل التواصل الذي يخص مشروعك public. إذا حاول أحدهم التواصل معك على الخاص لمناقشة feature request أو احتاج support، فبكل أدب وجّهه إلى قناة تواصل علنية، مثل mailing list (قائمة بريدية) أو issue tracker (متتبّع البلاغات).
 
-إذا جلست مع <span dir='ltr'  markdown="1">maintainers</span> آخرين، أو اتخذتم قرارًا كبيرًا على الخاص، فقُم بتوثيق هذه النقاشات بشكل public، حتى ولو فقط بنشر <span dir='ltr'  markdown="1">notes</span> الخاصة بك.
+إذا جلست مع maintainers آخرين، أو اتخذتم قرارًا كبيرًا على الخاص، فقُم بتوثيق هذه النقاشات بشكل public، حتى ولو فقط بنشر notes الخاصة بك.
 
-بهذه الطريقة، أي شخص جديد ينضم إلى الـ <span dir='ltr'  markdown="1">community</span> الخاص بك سيحصل على نفس المعلومات التي يمتلكها الشخص الموجود منذ سنوات.
+بهذه الطريقة، أي شخص جديد ينضم إلى الـ community الخاص بك سيحصل على نفس المعلومات التي يمتلكها الشخص الموجود منذ سنوات.
 
 ## تعلم قول لا
 
@@ -94,7 +95,7 @@ related:
 
 ### حافظ على ودية النقاش
 
-أحد أهم الأماكن التي ستتدرب فيها على قول لا هو قائمة القضايا <span dir='ltr' markdown="1">issue</span> وطلبات السحب <span dir='ltr' markdown="1">pull request</span>. كمحافظ على المشروع، ستتلقى حتماً اقتراحات قد لا ترغب في قبولها.
+أحد أهم الأماكن التي ستتدرب فيها على قول لا هو قائمة القضايا issue وطلبات السحب pull request. كمحافظ على المشروع، ستتلقى حتماً اقتراحات قد لا ترغب في قبولها.
 
 ربما تغير المساهمة نطاق مشروعك أو لا تتوافق مع رؤيتك. ربما الفكرة جيدة، لكن التنفيذ ضعيف.
 
@@ -104,60 +105,58 @@ related:
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/krausefx?s=180" class="pquote-avatar" alt="avatar">
-  المفتاح للتعامل مع الدعم الفني لمشاريع <span dir='ltr'  markdown="1">open source</span> الضخمة هو أن تحافظ على <span dir='ltr'  markdown="1">issues</span> في حالة حركة مستمرة، وألا تسمح لها بأن تتوقف أو <span dir='ltr'  markdown="1">stall</span>.
-إذا كنت مطور <span dir='ltr'  markdown="1">iOS developer</span> فأنت بالتأكيد تعرف مدى الإحباط عند إرسال <span dir='ltr'  markdown="1">radars</span>، حيث قد تنتظر لسنتين قبل أن يصلك رد يخبرك ببساطة: جرّب مرة أخرى باستخدام آخر <span dir='ltr'  markdown="1">version</span> من <span dir='ltr'  markdown="1">iOS</span>!
+  المفتاح للتعامل مع الدعم الفني لمشاريع open source الضخمة هو أن تحافظ على issues في حالة حركة مستمرة، وألا تسمح لها بأن تتوقف أو stall.
+إذا كنت مطور iOS developer فأنت بالتأكيد تعرف مدى الإحباط عند إرسال radars، حيث قد تنتظر لسنتين قبل أن يصلك رد يخبرك ببساطة: جرّب مرة أخرى باستخدام آخر version من iOS!
   <p markdown="1" class="pquote-credit">
-— @KrauseFx, ["توسيع مجتمع الـ <span dir='ltr'  markdown="1">open source</span>"](https://krausefx.com/blog/scaling-open-source-communities)
+— @KrauseFx, ["توسيع مجتمع الـ open source"](https://krausefx.com/blog/scaling-open-source-communities)
   </p>
 </aside>
+لا تترك مساهمة لا ترغب بها مفتوحة فقط لأنك تشعر بالذنب أو بدافع اللطف. مع مرور الوقت، تراكم issues و PRs غير المردود عليها سيجعل العمل على مشروعك أكثر توترًا ويخلق شعورًا بالرهبة.
 
-لا تترك مساهمة لا ترغب بها مفتوحة فقط لأنك تشعر بالذنب أو بدافع اللطف. مع مرور الوقت، تراكم <span dir='ltr'  markdown="1">issues</span> و <span dir='ltr'  markdown="1">PRs</span> غير المردود عليها سيجعل العمل على مشروعك أكثر توترًا ويخلق شعورًا بالرهبة.
+من الأفضل أن تقوم بإغلاق المساهمات التي تعلم مسبقًا أنك لن تقبلها، وبشكل فوري. وإذا كان مشروعك يعاني بالفعل من backlog كبير، فإن @steveklabnik يقدّم نصائح ممتازة حول [كيفية إجراء triage للـ issues بطريقة فعّالة](https://words.steveklabnik.com/how-to-be-an-open-source-gardener).
 
-من الأفضل أن تقوم بإغلاق المساهمات التي تعلم مسبقًا أنك لن تقبلها، وبشكل فوري. وإذا كان مشروعك يعاني بالفعل من <span dir='ltr'  markdown="1">backlog</span> كبير، فإن <span dir='ltr'  markdown="1">@steveklabnik</span> يقدّم نصائح ممتازة حول [كيفية إجراء <span dir='ltr'  markdown="1">triage</span> للـ <span dir='ltr'  markdown="1">issues</span> بطريقة فعّالة](https://words.steveklabnik.com/how-to-be-an-open-source-gardener).
-
-أيضًا، تجاهل المساهمات يرسل إشارة سلبية إلى الـ <span dir='ltr'  markdown="1">community</span>. المشاركة في مشروع مفتوح المصدر قد تكون خطوة مخيفة، خصوصًا إذا كانت هذه أول تجربة للشخص. حتى إن لم تقبل المساهمة، فمن المهم الاعتراف بجهد صاحبها وشكره على اهتمامه، فمجرد مشاركته هو بمثابة مجاملة كبيرة للمشروع!
+أيضًا، تجاهل المساهمات يرسل إشارة سلبية إلى الـ community. المشاركة في مشروع مفتوح المصدر قد تكون خطوة مخيفة، خصوصًا إذا كانت هذه أول تجربة للشخص. حتى إن لم تقبل المساهمة، فمن المهم الاعتراف بجهد صاحبها وشكره على اهتمامه، فمجرد مشاركته هو بمثابة مجاملة كبيرة للمشروع!
 
 ### إذا لم تكن ترغب في قبول مساهمة معينة:
 
 * **اشكرهم** على مساهمتهم.
-* **اشرح لهم سبب عدم توافقها** مع نطاق المشروع **<span dir='ltr'  markdown="1">scope</span>**، وقدّم اقتراحات واضحة للتحسين إن أمكن. كن لطيفًا، لكن حازمًا.
-* **ضع رابطًا إلى التوثيق** المناسب **<span dir='ltr'  markdown="1">documentation</span>** إن كان متوفرًا. إذا لاحظت وصول طلبات متكررة لأمور لا ترغب في قبولها، أضفها إلى التوثيق لتجنّب تكرار الشرح.
+* **اشرح لهم سبب عدم توافقها** مع نطاق المشروع **scope**، وقدّم اقتراحات واضحة للتحسين إن أمكن. كن لطيفًا، لكن حازمًا.
+* **ضع رابطًا إلى التوثيق** المناسب **documentation** إن كان متوفرًا. إذا لاحظت وصول طلبات متكررة لأمور لا ترغب في قبولها، أضفها إلى التوثيق لتجنّب تكرار الشرح.
 * **قم بإغلاق الطلب**.
 
-لا تحتاج إلى أكثر من جملة أو جملتين للرد. على سبيل المثال، عندما أبلغ أحد مستخدمي [<span dir='ltr'  markdown="1">celery</span>](https://github.com/celery/celery/) عن خطأ متعلق بـ <span dir='ltr'  markdown="1">Windows</span>، قام **<span dir='ltr'  markdown="1">@berkerpeksag</span>** بالرد بطريقة واضحة:  
+لا تحتاج إلى أكثر من جملة أو جملتين للرد. على سبيل المثال، عندما أبلغ أحد مستخدمي [celery](https://github.com/celery/celery/) عن خطأ متعلق بـ Windows، قام **@berkerpeksag** بالرد بطريقة واضحة:  
 
-![<span dir='ltr'  markdown="1">Celery screenshot</span>](/assets/images/best-practices/celery.png)
+![Celery screenshot](/assets/images/best-practices/celery.png)
 
-إذا شعرت بأن فكرة قول "**لا**" **<span dir='ltr'  markdown="1">terrifies</span>**، فأنت لست وحدك. كما قالت **<span dir='ltr'  markdown="1">@jessfraz</span>**:  
+إذا شعرت بأن فكرة قول "**لا**" **terrifies**، فأنت لست وحدك. كما قالت **@jessfraz**:  
 
-> "لقد تحدثت مع **<span dir='ltr'  markdown="1">maintainers</span>** من عدة مشاريع **<span dir='ltr'  markdown="1">open source</span>** مثل <span dir='ltr'  markdown="1">Mesos</span>, <span dir='ltr'  markdown="1">Kubernetes</span>, <span dir='ltr'  markdown="1">Chromium</span>، واتفقوا جميعًا على أن من أصعب المهام كونك **<span dir='ltr'  markdown="1">maintainer</span>** هو قول ’لا‘ على **<span dir='ltr'  markdown="1">patches</span>** لا ترغب بها."
+> "لقد تحدثت مع **maintainers** من عدة مشاريع **open source** مثل Mesos, Kubernetes, Chromium، واتفقوا جميعًا على أن من أصعب المهام كونك **maintainer** هو قول ’لا‘ على **patches** لا ترغب بها."
 
-لا تشعر بالذنب إن لم ترغب في قبول مساهمة شخص ما. أول قاعدة في الـ **<span dir='ltr'  markdown="1">open source</span>**، وفقًا لما ذكره **<span dir='ltr'  markdown="1">@shykes</span>**:  
-_"الـ '<span dir='ltr'  markdown="1">No</span>' مؤقتة، أما الـ '<span dir='ltr'  markdown="1">Yes</span>' فهي للأبد."_  من الطبيعي أن تتعاطف مع حماس الآخرين، لكن رفض المساهمة **<span dir='ltr'  markdown="1">contribution</span>** لا يعني رفض الشخص الذي قدمها.
+لا تشعر بالذنب إن لم ترغب في قبول مساهمة شخص ما. أول قاعدة في الـ **open source**، وفقًا لما ذكره **@shykes**:  
+_"الـ 'No' مؤقتة، أما الـ 'Yes' فهي للأبد."_  من الطبيعي أن تتعاطف مع حماس الآخرين، لكن رفض المساهمة **contribution** لا يعني رفض الشخص الذي قدمها.
 
-في النهاية إذا لم تكن المساهمة بالجودة المطلوبة، فأنت **غير ملزم <span dir='ltr'  markdown="1">under no obligation</span>** بقبولها. كن لطيفًا و **<span dir='ltr'  markdown="1">responsive</span>** مع كل من يساهم في مشروعك، لكن لا تقبل إلا ال**<span dir='ltr'  markdown="1">changes</span>** التي تؤمن حقًا بأنها ستجعل مشروعك أفضل. كلما مارست قول "**لا**" أكثر، أصبح الأمر أسهل. **<span dir='ltr'  markdown="1">Promise</span>.**
+في النهاية إذا لم تكن المساهمة بالجودة المطلوبة، فأنت **غير ملزم under no obligation** بقبولها. كن لطيفًا و **responsive** مع كل من يساهم في مشروعك، لكن لا تقبل إلا ال**changes** التي تؤمن حقًا بأنها ستجعل مشروعك أفضل. كلما مارست قول "**لا**" أكثر، أصبح الأمر أسهل. **Promise.**
 
 ### كن Proactive (استباقيًا / مبادرًا)
 
-لتقليل كمية المساهمات غير المرغوب فيها من البداية، قم بشرح <span dir='ltr'  markdown="1">process</span>  مشروعك لتقديم وقبول المساهمات في ملف <span dir='ltr'  markdown="1">contributing guide</span> دليل المساهمة.
+لتقليل كمية المساهمات غير المرغوب فيها من البداية، قم بشرح process  مشروعك لتقديم وقبول المساهمات في ملف contributing guide دليل المساهمة.
 
-إذا لاحظت وصول مساهمات <span dir='ltr'  markdown="1">low-quality</span> بشكل متكرر، اجعل من الضروري أن يقوم <span dir='ltr'  markdown="1">contributors</span> ببعض الخطوات المسبقة، مثل:
+إذا لاحظت وصول مساهمات low-quality بشكل متكرر، اجعل من الضروري أن يقوم contributors ببعض الخطوات المسبقة، مثل:
 
-* تعبئة <span dir='ltr'  markdown="1">template</span> للـ <span dir='ltr'  markdown="1">issue</span> أو الـ <span dir='ltr'  markdown="1">PR</span>، أو استخدام قائمة تدقيق.  
-* فتح <span dir='ltr'  markdown="1">issue</span> (بلاغ) قبل تقديم <span dir='ltr'  markdown="1">PR</span> (طلب دمج).
+* تعبئة template للـ issue أو الـ PR، أو استخدام قائمة تدقيق.  
+* فتح issue (بلاغ) قبل تقديم PR (طلب دمج).
 
-إذا لم يلتزموا بالقواعد، قم بإغلاق الـ <span dir='ltr'  markdown="1">issue</span> فورًا ووجّههم إلى الـ <span dir='ltr'  markdown="1">documentation</span> الخاص بك.
+إذا لم يلتزموا بالقواعد، قم بإغلاق الـ issue فورًا ووجّههم إلى الـ documentation الخاص بك.
 
-رغم أن هذه الطريقة قد تبدو unkind في البداية، إلا أن كونك <span dir='ltr'  markdown="1">proactive</span> مفيد للطرفين. فهو يقلل من احتمال أن يضع شخص ما ساعات طويلة من العمل الضائع على <span dir='ltr'  markdown="1">pull request</span> لن يتم قبوله، ويسهّل إدارة ضغط العمل الخاص بك.
+رغم أن هذه الطريقة قد تبدو unkind في البداية، إلا أن كونك proactive مفيد للطرفين. فهو يقلل من احتمال أن يضع شخص ما ساعات طويلة من العمل الضائع على pull request لن يتم قبوله، ويسهّل إدارة ضغط العمل الخاص بك.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/mikemcquaid?s=180" class="pquote-avatar" alt="avatar">
-  من الأفضل أن تشرح لهم، وفي ملف <span dir='ltr'  markdown="1">CONTRIBUTING.md</span>، كيف يمكنهم الحصول على فكرة أوضح في المستقبل حول ما سيتم قبوله وما لن يتم قبوله قبل أن يبدأوا بالعمل.
+  من الأفضل أن تشرح لهم، وفي ملف CONTRIBUTING.md، كيف يمكنهم الحصول على فكرة أوضح في المستقبل حول ما سيتم قبوله وما لن يتم قبوله قبل أن يبدأوا بالعمل.
   <p markdown="1" class="pquote-credit">
-— <span dir='ltr'  markdown="1">@MikeMcQuaid</span>، <a href="https://github.com/blog/2124-kindly-closing-pull-requests">"إغلاق <span dir='ltr'  markdown="1">Pull Requests</span> بلطف"</a>
+— @MikeMcQuaid، <a href="https://github.com/blog/2124-kindly-closing-pull-requests">"إغلاق Pull Requests بلطف"</a>
   </p>
 </aside>
-
 أحيانًا، عندما تقول "لا"، قد يغضب المساهم المحتمل أو ينتقد قرارك. إذا أصبح سلوكه عدائيًا <span dir='ltr'  markdown="1">hostile</span>، [اتخذ خطوات لتهدئة الوضع](https://github.com/jonschlinkert/maintainers-guide-to-staying-positive#action-items) أو حتى قم بإزالته من الـ <span dir='ltr'  markdown="1">community</span> الخاص بك، إذا لم يكن راغبًا في التعاون بشكل بنّاء <span dir='ltr'  markdown="1">constructively</span>.
 
 ### تبنَّ نهج الـ <span dir='ltr' markdown="1">Mentorship</span> (الإشراف والتوجيه)
@@ -188,7 +187,6 @@ _"الـ '<span dir='ltr'  markdown="1">No</span>' مؤقتة، أما الـ '<
   </p>
 </aside>
 
-
 إذا احتجت إلى الابتعاد عن مشروعك أو اضطررت إلى <span dir='ltr' markdown="1">step away</span> عن مشروعك، سواء لفترة <span dir='ltr' markdown="1">hiatus</span>  مؤقتة أو بشكل <span dir='ltr' markdown="1">permanently</span> دائم، فلا يوجد أي شعور بالـ <span dir='ltr' markdown="1">shame</span> في أن تطلب من شخص آخر أن <span dir='ltr' markdown="1">take over</span> تولّي المسؤولية بدلاً منك.
 
 إذا كان هناك من هو متحمّس لـ <span dir='ltr' markdown="1">direction</span> المشروع، يمكنك منحه <span dir='ltr' markdown="1">commit access</span> أو تسليم الـ <span dir='ltr' markdown="1">control</span> الإداري رسميًا لشخص آخر. وإذا قام أحدهم بعمل <span dir='ltr' markdown="1">fork</span> للمشروع ويقوم بـ <span dir='ltr' markdown="1">maintaining</span> نشط له في مكان آخر، فمن الجيد أن تضع <span dir='ltr' markdown="1">link</span> لهذا الـ <span dir='ltr' markdown="1">fork</span> من مشروعك الأصلي. من الرائع أن هناك أشخاصًا يريدون لمشروعك أن يبقى <span dir='ltr' markdown="1">live on</span>!
@@ -209,8 +207,7 @@ _"الـ '<span dir='ltr'  markdown="1">No</span>' مؤقتة، أما الـ '<
   <p markdown="1" class="pquote-credit">
 — @geerlingguy, [لماذا أغلق المساهمات <span dir='ltr' markdown="1">PRs</span>](https://www.jeffgeerling.com/blog/2016/why-i-close-prs-oss-project-maintainer-notes)
   </p>
-</aside>
-نفس الأمر ينطبق على المستخدم الذي يحتاج حلًا لا تتوفر لديك الموارد الكافية لبنائه. تقديم <span dir='ltr' markdown="1">APIs</span> و<span dir='ltr' markdown="1">customization hooks</span> يمكن أن يساعد الآخرين على تلبية احتياجاتهم بأنفسهم دون تعديل المصدر مباشرة. @orta وجد أن تشجيع <span dir='ltr' markdown="1">plugins</span> لـ <span dir='ltr' markdown="1">CocoaPods</span> أدى إلى بعض من أكثر الأفكار إثارة:
+</aside>نفس الأمر ينطبق على المستخدم الذي يحتاج حلًا لا تتوفر لديك الموارد الكافية لبنائه. تقديم <span dir='ltr' markdown="1">APIs</span> و<span dir='ltr' markdown="1">customization hooks</span> يمكن أن يساعد الآخرين على تلبية احتياجاتهم بأنفسهم دون تعديل المصدر مباشرة. @orta وجد أن تشجيع <span dir='ltr' markdown="1">plugins</span> لـ <span dir='ltr' markdown="1">CocoaPods</span> أدى إلى بعض من أكثر الأفكار إثارة:
 
 > من الطبيعي تقريبًا أنه عندما يكبر المشروع، يجب على المسؤولين أن يكونوا أكثر حذرًا عند إضافة كود جديد. تصبح ماهرًا في قول "لا"، لكن الكثير من الناس لديهم احتياجات مشروعة. لذلك، ينتهي بك الأمر بتحويل أداتك إلى منصة.
 
@@ -271,7 +268,6 @@ _"الـ '<span dir='ltr'  markdown="1">No</span>' مؤقتة، أما الـ '<
 وبالرغم من أن هذا بديهي، خذ استراحة! لا تنتظر حتى تشعر بالإرهاق لتأخذ عطلة. @brettcannon، مطور أساسي في Python، قرر أخذ [<span dir='ltr' markdown="1">month-long vacation</span>](https://snarky.ca/why-i-took-october-off-from-oss-volunteering/) بعد 14 سنة من العمل التطوعي في <span dir='ltr' markdown="1">OSS</span>.
 
 مثل أي عمل آخر، ستبقيك الاستراحات المنتظمة متجدد النشاط، سعيدًا، ومتحمسًا لمواصلة عملك.
-
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/danielbachhuber?s=180" class="pquote-avatar" alt="avatar">
   أثناء إدارة <span dir='ltr' markdown="1">WP-CLI</span> اكتشفت أن عليّ أن أضع سعادتي أولًا، وأن أرسم حدودًا واضحة لمستوى مشاركتي. أفضل توازن وجدته هو من ساعتين إلى خمس ساعات في الأسبوع، كجزء من جدول عملي العادي. هذا يحافظ على أن تظل مشاركتي شغفًا، وليس عبئًا أو عملًا ثقيلًا. ولأنني أُعطي الأولوية للقضايا التي أعمل عليها، أتمكن من إحراز تقدم منتظم في الأمور التي أراها الأكثر أهمية.
