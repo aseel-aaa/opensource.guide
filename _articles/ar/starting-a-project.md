@@ -1,7 +1,7 @@
 ---
 lang: ar
-title: Starting an Open Source Project
-description: Learn more about the world of open source and get ready to launch your own project.
+title: البدء بمشروع مفتوح المصدر
+description: تعلّم المزيد عن عالم المصادر المفتوحة واستعد لإطلاق مشروعك الخاص.
 class: beginners
 order: 2
 image: /assets/images/cards/beginner.png
@@ -10,347 +10,351 @@ related:
   - building
 ---
 
-## The "what" and "why" of open source
+<div dir="rtl" markdown="1">
 
-So you're thinking about getting started with open source? Congratulations! The world appreciates your contribution. Let's talk about what open source is and why people do it.
+## "ماذا" و"لماذا" المصادر المفتوحة
 
-### What does "open source" mean?
+إذًا، أنت تفكر في البدء بالمصادر المفتوحة؟ تهانينا! العالم يقدّر مساهمتك. دعنا نتحدث عن ماهية المصادر المفتوحة ولماذا يفعل الناس ذلك.
 
-When a project is open source, that means **anybody is free to use, study, modify, and distribute your project for any purpose.** These permissions are enforced through [an open source license](https://opensource.org/licenses).
+### ماذا يعني "المصدر المفتوح"؟
 
-Open source is powerful because it lowers the barriers to adoption and collaboration, allowing people to spread and improve projects quickly. Also because it gives users a potential to control their own computing, relative to closed source. For example, a business using open source software has the option to hire someone to make custom improvements to the software, rather than relying exclusively on a closed source vendor's product decisions.
+عندما يكون المشروع مفتوح المصدر، فهذا يعني **أن أي شخص حر في استخدام مشروعك ودراسته وتعديله وتوزيعه لأي غرض.** يتم فرض هذه الأذونات من خلال [ترخيص مفتوح المصدر](https://opensource.org/licenses).
 
-_Free software_ refers to the same set of projects as _open source_. Sometimes you'll also see [these terms](https://en.wikipedia.org/wiki/Free_and_open-source_software) combined as "free and open source software" (FOSS) or "free, libre, and open source software" (FLOSS). _Free_ and _libre_ refer to freedom, [not price](#does-open-source-mean-free-of-charge).
+المصدر المفتوح قوي لأنه يخفض حواجز التبني والتعاون، مما يسمح للناس بنشر المشاريع وتحسينها بسرعة. كما أنه يمنح المستخدمين إمكانية التحكم في حوسبتهم الخاصة، مقارنةً بالمصادر المغلقة. على سبيل المثال، الشركة التي تستخدم برامج مفتوحة المصدر لديها خيار توظيف شخص ما لإجراء تحسينات مخصصة على البرنامج، بدلاً من الاعتماد حصريًا على قرارات منتج بائع <span dir='ltr' markdown="1">vendor</span> المصادر المغلقة.
 
-### Why do people open source their work?
+_البرمجيات الحرة_ <span dir='ltr' markdown="1">Free software</span> تشير إلى نفس مجموعة المشاريع كـ _المصدر المفتوح_. أحيانًا سترى أيضًا [هذه المصطلحات](https://en.wikipedia.org/wiki/Free_and_open-source_software) مدمجة كـ "البرمجيات الحرة والمفتوحة المصدر" <span dir='ltr' markdown="1">(FOSS)</span> أو "البرمجيات الحرة والحُرّة والمفتوحة المصدر" <span dir='ltr' markdown="1">(FLOSS)</span>. _الحر_ <span dir='ltr' markdown="1">Free</span> و _الحُرّ_ <span dir='ltr' markdown="1">libre</span> يشيران إلى الحرية، [وليس السعر](#does-open-source-mean-free-of-charge).
+
+### لماذا يفتح الناس مصدر أعمالهم؟
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/kentcdodds?s=180" class="pquote-avatar" alt="avatar">
-  One of the most rewarding experiences I get out of using and collaborating on open source comes from the relationships that I build with other developers facing many of the same problems I am.
+  واحدة من أكثر التجارب المجزية التي أحصل عليها من استخدام والتعاون في المصادر المفتوحة تأتي من العلاقات التي أبنيها مع مطورين آخرين يواجهون العديد من نفس المشاكل التي أواجهها.
   <p markdown="1" class="pquote-credit">
-— @kentcdodds, ["How getting into Open Source has been awesome for me"](https://kentcdodds.com/blog/how-getting-into-open-source-has-been-awesome-for-me)
+— @kentcdodds, ["كيف كان الدخول إلى المصادر المفتوحة رائعًا بالنسبة لي"](https://kentcdodds.com/blog/how-getting-into-open-source-has-been-awesome-for-me)
   </p>
 </aside>
 
-[There are many reasons](https://ben.balter.com/2015/11/23/why-open-source/) why a person or organization would want to open source a project. Some examples include:
+[هناك العديد من الأسباب](https://ben.balter.com/2015/11/23/why-open-source/) التي قد تجعل شخصًا أو منظمة يرغب في فتح مصدر مشروع. بعض الأمثلة تشمل:
 
-* **Collaboration:** Open source projects can accept changes from anybody in the world. [Exercism](https://github.com/exercism/), for example, is a programming exercise platform with over 350 contributors.
+* **التعاون:** يمكن لمشاريع المصادر المفتوحة قبول التغييرات من أي شخص في العالم. [<span dir='ltr' markdown="1">Exercism</span>](https://github.com/exercism/)، على سبيل المثال، هي منصة تمارين برمجية تضم أكثر من 350 مساهمًا.
 
-* **Adoption and remixing:** Open source projects can be used by anyone for nearly any purpose. People can even use it to build other things. [WordPress](https://github.com/WordPress), for example, started as a fork of an existing project called [b2](https://github.com/WordPress/book/blob/HEAD/Content/Part%201/2-b2-cafelog.md).
+* **التبني والاقتباس:** يمكن لأي شخص استخدام مشاريع المصادر المفتوحة لأي غرض تقريبًا. يمكن للناس حتى استخدامها لبناء أشياء أخرى. [<span dir='ltr' markdown="1">WordPress</span>](https://github.com/WordPress)، على سبيل المثال، بدأ كـ <span dir='ltr' markdown="1">fork</span> لمشروع موجود يسمى [<span dir='ltr' markdown="1">b2</span>](https://github.com/WordPress/book/blob/HEAD/Content/Part%201/2-b2-cafelog.md).
 
-* **Transparency:** Anyone can inspect an open source project for errors or inconsistencies. Transparency matters to governments like [Bulgaria](https://medium.com/@bozhobg/bulgaria-got-a-law-requiring-open-source-98bf626cf70a) or the [United States](https://www.cio.gov/2016/08/11/peoples-code.html), regulated industries like banking or healthcare, and security software like [Let's Encrypt](https://github.com/letsencrypt).
+* **الشفافية:** يمكن لأي شخص فحص مشروع مفتوح المصدر بحثًا عن أخطاء أو تناقضات. الشفافية مهمة للحكومات مثل [بلغاريا](https://medium.com/@bozhobg/bulgaria-got-a-law-requiring-open-source-98bf626cf70a) أو [الولايات المتحدة](https://www.cio.gov/2016/08/11/peoples-code.html)، والصناعات المنظمة مثل البنوك أو الرعاية الصحية، وبرامج الأمان مثل [<span dir='ltr' markdown="1">Let's Encrypt</span>](https://github.com/letsencrypt).
 
-Open source isn't just for software, either. You can open source everything from data sets to books. Check out [GitHub Explore](https://github.com/explore) for ideas on what else you can open source.
+المصادر المفتوحة ليست للبرمجيات فقط. يمكنك فتح مصدر كل شيء من مجموعات البيانات إلى الكتب. راجع [<span dir='ltr' markdown="1">GitHub Explore</span>](https://github.com/explore) للأفكار حول ما يمكنك فتح مصدره.
 
-### Does open source mean "free of charge"?
+### هل المصدر المفتوح يعني "مجاني"؟
 
-One of open source's biggest draws is that it does not cost money. "Free of charge", however, is a byproduct of open source's overall value.
+أحد أكبر عوامل الجذب للمصادر المفتوحة هو أنها لا تكلف مالاً. ومع ذلك، فإن "المجانية" هي مجرد نتيجة ثانوية للقيمة الإجمالية للمصادر المفتوحة.
 
-Because [an open source license requires](https://opensource.org/definition-annotated/) that anyone can use, modify, and share your project for nearly any purpose, projects themselves tend to be free of charge. If the project cost money to use, anyone could legally make a copy and use the free version instead.
+نظرًا لأن [ترخيص المصدر المفتوح يتطلب](https://opensource.org/definition-annotated/) أن يتمكن أي شخص من استخدام مشروعك وتعديله ومشاركته لأي غرض تقريبًا، فإن المشاريع نفسها تميل إلى أن تكون مجانية. إذا كان المشروع يكلف مالاً لاستخدامه، يمكن لأي شخص قانونيًا عمل نسخة واستخدام النسخة المجانية بدلاً من ذلك.
 
-As a result, most open source projects are free, but "free of charge" is not part of the open source definition. There are ways to charge for open source projects indirectly through dual licensing or limited features, while still complying with the official definition of open source.
+ونتيجة لذلك، فإن معظم مشاريع المصادر المفتوحة مجانية، لكن "المجانية" ليست جزءًا من تعريف المصدر المفتوح. هناك طرق لفرض رسوم على مشاريع المصادر المفتوحة بشكل غير مباشر من خلال الترخيص المزدوج <span dir='ltr' markdown="1">dual licensing</span> أو الميزات المحدودة <span dir='ltr' markdown="1">limited features</span>، مع الالتزام بالتعريف الرسمي للمصادر المفتوحة.
 
-## Should I launch my own open source project?
+## هل يجب أن أطلق مشروعي المفتوح المصدر الخاص؟
 
-The short answer is yes, because no matter the outcome, launching your own project is a great way to learn how open source works.
+الإجابة القصيرة هي نعم، لأنه بغض النظر عن النتيجة، فإن إطلاق مشروعك الخاص هو طريقة رائعة لتعلم كيفية عمل المصادر المفتوحة.
 
-If you've never open sourced a project before, you might be nervous about what people will say, or whether anyone will notice at all. If this sounds like you, you're not alone!
+إذا لم تفتح مصدر مشروع من قبل، فقد تكون متوترًا بشأن ما سيقوله الناس، أو ما إذا كان أي شخص سيلاحظ على الإطلاق. إذا كان هذا يبدو مثلك، فأنت لست وحدك!
 
-Open source work is like any other creative activity, whether it's writing or painting. It can feel scary to share your work with the world, but the only way to get better is to practice - even if you don't have an audience.
+عمل المصادر المفتوحة يشبه أي نشاط إبداعي آخر، سواء كان الكتابة أو الرسم. قد يبدو من المخيف مشاركة عملك مع العالم، لكن الطريقة الوحيدة لتحسين مهاراتك هي الممارسة - حتى لو لم يكن لديك جمهور.
 
-If you're not yet convinced, take a moment to think about what your goals might be.
+إذا لم تكن مقتنعًا بعد، خذ لحظة للتفكير في ما قد تكون أهدافك.
 
-### Setting your goals
+### تحديد أهدافك
 
-Goals can help you figure out what to work on, what to say no to, and where you need help from others. Start by asking yourself, _why am I open sourcing this project?_
+يمكن أن تساعدك الأهداف في معرفة ما يجب العمل عليه، وما يجب قول "لا" له، وأين تحتاج إلى مساعدة من الآخرين. ابدأ بسؤال نفسك، _لماذا أفتح مصدر هذا المشروع؟_
 
-There is no one right answer to this question. You may have multiple goals for a single project, or different projects with different goals.
+لا توجد إجابة صحيحة واحدة على هذا السؤال. قد يكون لديك أهداف متعددة لمشروع واحد، أو مشاريع مختلفة بأهداف مختلفة.
 
-If your only goal is to show off your work, you may not even want contributions, and even say so in your README. On the other hand, if you do want contributors, you'll invest time into clear documentation and making newcomers feel welcome.
+إذا كان هدفك الوحيد هو إظهار عملك، فقد لا تريد حتى مساهمات، بل وحتى تقول ذلك في ملف <span dir='ltr' markdown="1">README</span> الخاص بك. من ناحية أخرى، إذا كنت تريد مساهمين، فستستثمر الوقت في توثيق واضح وجعل الوافدين الجدد يشعرون بالترحيب.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/mavris?s=180" class="pquote-avatar" alt="avatar">
-  At some point I created a custom UIAlertView that I was using...and I decided to make it open source. So I modified it to be more dynamic and uploaded it to GitHub. I also wrote my first documentation explaining to other developers how to use it on their projects. Probably nobody ever used it because it was a simple project but I was feeling good about my contribution.
+  في مرحلة ما أنشأت <span dir='ltr' markdown="1">UIAlertView</span> مخصصًا كنت أستخدمه... وقررت جعله مفتوح المصدر. لذلك قمت بتعديله ليكون أكثر ديناميكية ورفعته إلى <span dir='ltr' markdown="1">GitHub</span>. كتبت أيضًا توثيقي الأول لأشرح للمطورين الآخرين كيفية استخدامه في مشاريعهم. من المحتمل أن لا أحد استخدمه لأنه كان مشروعًا بسيطًا لكنني كنت أشعر بالرضا عن مساهمتي.
   <p markdown="1" class="pquote-credit">
-— @mavris, ["Self-taught Software Developers: Why Open Source is important to us"](https://medium.com/rocknnull/self-taught-software-engineers-why-open-source-is-important-to-us-fe2a3473a576)
+— @mavris, ["مطورو البرمجيات ذاتيو التعلم: لماذا المصادر المفتوحة مهمة لنا"](https://medium.com/rocknnull/self-taught-software-engineers-why-open-source-is-important-to-us-fe2a3473a576)
   </p>
 </aside>
 
-As your project grows, your community may need more than just code from you. Responding to issues, reviewing code, and evangelizing your project are all important tasks in an open source project.
+مع نمو مشروعك، قد يحتاج مجتمعك إلى أكثر من مجرد كود منك. الرد على <span dir='ltr' markdown="1">issues</span>، ومراجعة الكود، والترويج لمشروعك كلها مهام مهمة في مشروع مفتوح المصدر.
 
-While the amount of time you spend on non-coding tasks will depend on the size and scope of your project, you should be prepared as a maintainer to address them yourself or find someone to help you.
+بينما تعتمد كمية الوقت الذي تقضيه في المهام غير البرمجية على حجم مشروعك ونطاقه، يجب أن تكون مستعدًا كمسؤول للتعامل معها بنفسك أو العثور على شخص لمساعدتك.
 
-**If you're part of a company open sourcing a project,** make sure your project has the internal resources it needs to thrive. You'll want to identify who's responsible for maintaining the project after launch, and how you'll share those tasks with your community.
+**إذا كنت جزءًا من شركة تفتح مصدر مشروع،** تأكد من أن مشروعك لديه الموارد الداخلية التي يحتاجها للازدهار. ستحتاج إلى تحديد من المسؤول عن صيانة المشروع بعد الإطلاق، وكيف ستشارك هذه المهام مع مجتمعك.
 
-If you need a dedicated budget or staffing for promotion, operations and maintaining the project, start those conversations early.
+إذا كنت بحاجة إلى ميزانية مخصصة أو موظفين للترويج والعمليات وصيانة المشروع، ابدأ تلك المحادثات مبكرًا.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/captainsafia?s=180" class="pquote-avatar" alt="avatar">
-  As you begin to open source the project, it's important to make sure that your management processes take into consideration the contributions and abilities of the community around your project. Don't be afraid to involve contributors who are not employed in your business in key aspects of the project — especially if they are frequent contributors.
+  عندما تبدأ في فتح مصدر المشروع، من المهم التأكد من أن عمليات إدارتك تأخذ في الاعتبار المساهمات والقدرات للمجتمع المحيط بمشروعك. لا تخف من إشراك المساهمين غير الموظفين في نشاطك التجاري في الجوانب الرئيسية للمشروع - خاصة إذا كانوا مساهمين متكررين.
   <p markdown="1" class="pquote-credit">
-— @captainsafia, ["So you wanna open source a project, eh?"](https://dev.to/captainsafia/so-you-wanna-open-source-a-project-eh-5779)
+— @captainsafia, ["إذن تريد فتح مصدر مشروع، صحيح؟"](https://dev.to/captainsafia/so-you-wanna-open-source-a-project-eh-5779)
   </p>
 </aside>
 
-### Contributing to other projects
+### المساهمة في مشاريع أخرى
 
-If your goal is to learn how to collaborate with others or understand how open source works, consider contributing to an existing project. Start with a project that you already use and love. Contributing to a project can be as simple as fixing typos or updating documentation.
+إذا كان هدفك هو تعلم كيفية التعاون مع الآخرين أو فهم كيفية عمل المصادر المفتوحة، ففكر في المساهمة في مشروع موجود. ابدأ بمشروع تستخدمه وتحبه بالفعل. يمكن أن تكون المساهمة في مشروع بسيطة مثل إصلاح الأخطاء الإملائية أو تحديث التوثيق.
 
-If you're not sure how to get started as a contributor, check out our [How to Contribute to Open Source guide](../how-to-contribute/).
+إذا لم تكن متأكدًا من كيفية البدء كمساهم، تحقق من [دليل كيفية المساهمة في المصادر المفتوحة](../how-to-contribute/).
 
-## Launching your own open source project
+## إطلاق مشروعك المفتوح المصدر الخاص
 
-There is no perfect time to open source your work. You can open source an idea, a work in progress, or after years of being closed source.
+لا يوجد وقت مثالي لفتح مصدر عملك. يمكنك فتح مصدر فكرة، أو عمل قيد التقدم، أو بعد سنوات من كونه مصدرًا مغلقًا.
 
-Generally speaking, you should open source your project when you feel comfortable having others view, and give feedback on, your work.
+بشكل عام، يجب عليك فتح مصدر مشروعك عندما تشعر بالراحة في أن يشاهد الآخرون عملك ويقدمون ملاحظات عليه.
 
-No matter which stage you decide to open source your project, every project should include the following documentation:
+بغض النظر عن المرحلة التي تقرر فيها فتح مصدر مشروعك، يجب أن يتضمن كل مشروع التوثيق التالي:
 
-* [Open source license](https://help.github.com/articles/open-source-licensing/#where-does-the-license-live-on-my-repository)
-* [README](https://help.github.com/articles/create-a-repo/#commit-your-first-change)
-* [Contributing guidelines](https://help.github.com/articles/setting-guidelines-for-repository-contributors/)
-* [Code of conduct](../code-of-conduct/)
+* [ترخيص المصدر المفتوح](https://help.github.com/articles/open-source-licensing/#where-does-the-license-live-on-my-repository)
+* [<span dir='ltr' markdown="1">README</span>](https://help.github.com/articles/create-a-repo/#commit-your-first-change)
+* [إرشادات المساهمة](https://help.github.com/articles/setting-guidelines-for-repository-contributors/)
+* [قواعد السلوك](../code-of-conduct/)
 
-As a maintainer, these components will help you communicate expectations, manage contributions, and protect everyone's legal rights (including your own). They significantly increase your chances of having a positive experience.
+كمسؤول، ستساعدك هذه المكونات في توصيل التوقعات، وإدارة المساهمات، وحماية الحقوق القانونية للجميع (بما في ذلك حقوقك). تزيد بشكل كبير من فرص حصولك على تجربة إيجابية.
 
-If your project is on GitHub, putting these files in your root directory with the recommended filenames will help GitHub recognize and automatically surface them to your readers.
+إذا كان مشروعك على <span dir='ltr' markdown="1">GitHub</span>، فإن وضع هذه الملفات في دليلك الجذري بأسماء الملفات الموصى بها سيساعد <span dir='ltr' markdown="1">GitHub</span> على التعرف عليها وإظهارها تلقائيًا لقرائك.
 
-### Choosing a license
+### اختيار ترخيص
 
-An open source license guarantees that others can use, copy, modify, and contribute back to your project without repercussions. It also protects you from sticky legal situations. **You must include a license when you launch an open source project.**
+يضمن ترخيص المصدر المفتوح أن يتمكن الآخرون من استخدام مشروعك ونسخه وتعديله والمساهمة فيه دون عواقب. كما يحميك من المواقف القانونية اللزجة. **يجب عليك تضمين ترخيص عند إطلاق مشروع مفتوح المصدر.**
 
-Legal work is no fun. The good news is that you can copy and paste an existing license into your repository. It will only take a minute to protect your hard work.
+العمل القانوني ليس ممتعًا. الخبر السار هو أنه يمكنك نسخ ولصق ترخيص موجود في مستودعك. سيستغرق الأمر دقيقة واحدة فقط لحماية عملك الشاق.
 
-[MIT](https://choosealicense.com/licenses/mit/), [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/), and [GPLv3](https://choosealicense.com/licenses/gpl-3.0/) are the most popular open source licenses, but [there are other options](https://choosealicense.com) to choose from.
+[<span dir='ltr' markdown="1">MIT</span>](https://choosealicense.com/licenses/mit/)، [<span dir='ltr' markdown="1">Apache 2.0</span>](https://choosealicense.com/licenses/apache-2.0/)، و[<span dir='ltr' markdown="1">GPLv3</span>](https://choosealicense.com/licenses/gpl-3.0/) هي تراخيص المصادر المفتوحة الأكثر شعبية، لكن [هناك خيارات أخرى](https://choosealicense.com) للاختيار من بينها.
 
-When you create a new project on GitHub, you are given the option to select a license. Including an open source license will make your GitHub project open source.
+عند إنشاء مشروع جديد على <span dir='ltr' markdown="1">GitHub</span>، يتم منحك خيار تحديد ترخيص. سيجعل تضمين ترخيص مفتوح المصدر مشروعك على <span dir='ltr' markdown="1">GitHub</span> مفتوح المصدر.
 
-![Pick a license](/assets/images/starting-a-project/repository-license-picker.png)
+![اختر ترخيصًا](/assets/images/starting-a-project/repository-license-picker.png)
 
-If you have other questions or concerns around the legal aspects of managing an open source project, [we've got you covered](../legal/).
+إذا كانت لديك أسئلة أو مخاوف أخرى حول الجوانب القانونية لإدارة مشروع مفتوح المصدر، [فنحن نغطيك](../legal/).
 
-### Writing a README
+### كتابة ملف <span dir='ltr' markdown="1">README</span>
 
-READMEs do more than explain how to use your project. They also explain why your project matters, and what your users can do with it.
+تفعل ملفات <span dir='ltr' markdown="1">README</span> أكثر من مجرد شرح كيفية استخدام مشروعك. كما أنها تشرح لماذا مشروعك مهم، وماذا يمكن لمستخدميك فعله به.
 
-In your README, try to answer the following questions:
+في <span dir='ltr' markdown="1">README</span> الخاص بك، حاول الإجابة على الأسئلة التالية:
 
-* What does this project do?
-* Why is this project useful?
-* How do I get started?
-* Where can I get more help, if I need it?
+* ماذا يفعل هذا المشروع؟
+* لماذا هذا المشروع مفيد؟
+* كيف أبدأ؟
+* أين يمكنني الحصول على مزيد من المساعدة، إذا كنت بحاجة إليها؟
 
-You can use your README to answer other questions, like how you handle contributions, what the goals of the project are, and information about licenses and attribution. If you don't want to accept contributions, or your project is not yet ready for production, write this information down.
+يمكنك استخدام <span dir='ltr' markdown="1">README</span> الخاص بك للإجابة على أسئلة أخرى، مثل كيفية التعامل مع المساهمات، وما هي أهداف المشروع، ومعلومات حول التراخيص والإسناد. إذا كنت لا تريد قبول المساهمات، أو أن مشروعك ليس جاهزًا بعد للإنتاج، اكتب هذه المعلومات.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/tracymakes?s=180" class="pquote-avatar" alt="avatar">
-  Better documentation means more users, less support requests, and more contributors. (...) Remember that your readers aren't you. There are people who might come to a project who have completely different experiences.
+  توثيق أفضل يعني المزيد من المستخدمين، وطلبات دعم أقل، والمزيد من المساهمين. (...) تذكر أن قراءك ليسوا أنت. هناك أشخاص قد يأتون إلى مشروع لديهم تجارب مختلفة تمامًا.
   <p markdown="1" class="pquote-credit">
-— @tracymakes, ["Writing So Your Words Are Read (video)"](https://www.youtube.com/watch?v=8LiV759Bje0&list=PLmV2D6sIiX3U03qc-FPXgLFGFkccCEtfv&index=10)
+— @tracymakes, ["الكتابة بحيث تُقرأ كلماتك (فيديو)"](https://www.youtube.com/watch?v=8LiV759Bje0&list=PLmV2D6sIiX3U03qc-FPXgLFGFkccCEtfv&index=10)
   </p>
 </aside>
 
-Sometimes, people avoid writing a README because they feel like the project is unfinished, or they don't want contributions. These are all very good reasons to write one.
+في بعض الأحيان، يتجنب الناس كتابة <span dir='ltr' markdown="1">README</span> لأنهم يشعرون أن المشروع غير مكتمل، أو أنهم لا يريدون مساهمات. هذه كلها أسباب وجيهة جدًا لكتابة واحد.
 
-For more inspiration, try using @dguo's ["Make a README" guide](https://www.makeareadme.com/) or @PurpleBooth's [README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) to write a complete README.
+للمزيد من الإلهام، جرب استخدام دليل <span dir='ltr' markdown="1">@dguo</span> ["اصنع <span dir='ltr' markdown="1">README</span>"](https://www.makeareadme.com/) أو قالب <span dir='ltr' markdown="1">@PurpleBooth</span> [لملف <span dir='ltr' markdown="1">README</span>](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) لكتابة <span dir='ltr' markdown="1">README</span> كامل.
 
-When you include a README file in the root directory, GitHub will automatically display it on the repository homepage.
+عند تضمين ملف <span dir='ltr' markdown="1">README</span> في الدليل الجذري، سيعرضه <span dir='ltr' markdown="1">GitHub</span> تلقائيًا على الصفحة الرئيسية للمستودع.
 
-### Writing your contributing guidelines
+### كتابة إرشادات المساهمة الخاصة بك
 
-A CONTRIBUTING file tells your audience how to participate in your project. For example, you might include information on:
+يخبر ملف <span dir='ltr' markdown="1">CONTRIBUTING</span> جمهورك بكيفية المشاركة في مشروعك. على سبيل المثال، قد تتضمن معلومات حول:
 
-* How to file a bug report (try using [issue and pull request templates](https://github.com/blog/2111-issue-and-pull-request-templates))
-* How to suggest a new feature
-* How to set up your environment and run tests
+* كيفية تقديم تقرير عن خطأ (حاول استخدام [قوالب <span dir='ltr' markdown="1">issue</span> و<span dir='ltr' markdown="1">pull request</span>](https://github.com/blog/2111-issue-and-pull-request-templates))
+* كيفية اقتراح ميزة جديدة
+* كيفية إعداد بيئتك وتشغيل الاختبارات
 
-In addition to technical details, a CONTRIBUTING file is an opportunity to communicate your expectations for contributions, such as:
+بالإضافة إلى التفاصيل التقنية، يُعد ملف <span dir='ltr' markdown="1">CONTRIBUTING</span> فرصة لتوصيل توقعاتك للمساهمات، مثل:
 
-* The types of contributions you're looking for
-* Your roadmap or vision for the project
-* How contributors should (or should not) get in touch with you
+* أنواع المساهمات التي تبحث عنها
+* خارطة طريقك أو رؤيتك للمشروع
+* كيف يجب (أو لا يجب) على المساهمين التواصل معك
 
-Using a warm, friendly tone and offering specific suggestions for contributions (such as writing documentation, or making a website) can go a long way in making newcomers feel welcomed and excited to participate.
+استخدام نبرة دافئة وودية وتقديم اقتراحات محددة للمساهمات (مثل كتابة التوثيق، أو إنشاء موقع ويب) يمكن أن يقطع شوطًا طويلاً في جعل الوافدين الجدد يشعرون بالترحيب والحماس للمشاركة.
 
-For example, [Active Admin](https://github.com/activeadmin/activeadmin/) starts [its contributing guide](https://github.com/activeadmin/activeadmin/blob/HEAD/CONTRIBUTING.md) with:
+على سبيل المثال، يبدأ [<span dir='ltr' markdown="1">Active Admin</span>](https://github.com/activeadmin/activeadmin/) [دليل المساهمة الخاص به](https://github.com/activeadmin/activeadmin/blob/HEAD/CONTRIBUTING.md) بـ:
 
-> First off, thank you for considering contributing to Active Admin. It's people like you that make Active Admin such a great tool.
+> أولاً، شكرًا لك على التفكير في المساهمة في <span dir='ltr' markdown="1">Active Admin</span>. إنه أشخاص مثلك الذين يجعلون <span dir='ltr' markdown="1">Active Admin</span> أداة رائعة.
 
-In the earliest stages of your project, your CONTRIBUTING file can be simple. You should always explain how to report bugs or file issues, and any technical requirements (like tests) to make a contribution.
+في المراحل الأولى من مشروعك، يمكن أن يكون ملف <span dir='ltr' markdown="1">CONTRIBUTING</span> بسيطًا. يجب عليك دائمًا شرح كيفية الإبلاغ عن الأخطاء أو تقديم <span dir='ltr' markdown="1">issues</span>، وأي متطلبات تقنية (مثل الاختبارات) لتقديم مساهمة.
 
-Over time, you might add other frequently asked questions to your CONTRIBUTING file. Writing down this information means fewer people will ask you the same questions over and over again.
+مع مرور الوقت، قد تضيف أسئلة أخرى يتم طرحها بشكل متكرر إلى ملف <span dir='ltr' markdown="1">CONTRIBUTING</span> الخاص بك. كتابة هذه المعلومات يعني أن عددًا أقل من الناس سيسألك نفس الأسئلة مرارًا وتكرارًا.
 
-For more help with writing your CONTRIBUTING file, check out @nayafia's [contributing guide template](https://github.com/nayafia/contributing-template/blob/HEAD/CONTRIBUTING-template.md) or @mozilla's ["How to Build a CONTRIBUTING.md"](https://mozillascience.github.io/working-open-workshop/contributing/).
+للمزيد من المساعدة في كتابة ملف <span dir='ltr' markdown="1">CONTRIBUTING</span> الخاص بك، راجع قالب دليل المساهمة لـ <span dir='ltr' markdown="1">@nayafia</span> [<span dir='ltr' markdown="1">contributing guide template</span>](https://github.com/nayafia/contributing-template/blob/HEAD/CONTRIBUTING-template.md) أو ["كيفية بناء <span dir='ltr' markdown="1">CONTRIBUTING.md</span>"](https://mozillascience.github.io/working-open-workshop/contributing/) لـ <span dir='ltr' markdown="1">@mozilla</span>.
 
-Link to your CONTRIBUTING file from your README, so more people see it. If you [place the CONTRIBUTING file in your project's repository](https://help.github.com/articles/setting-guidelines-for-repository-contributors/), GitHub will automatically link to your file when a contributor creates an issue or opens a pull request.
+اربط ملف <span dir='ltr' markdown="1">CONTRIBUTING</span> الخاص بك من <span dir='ltr' markdown="1">README</span>، حتى يراه المزيد من الناس. إذا [وضعت ملف <span dir='ltr' markdown="1">CONTRIBUTING</span> في مستودع مشروعك](https://help.github.com/articles/setting-guidelines-for-repository-contributors/)، فسيربط <span dir='ltr' markdown="1">GitHub</span> تلقائيًا إلى ملفك عندما ينشئ مساهم <span dir='ltr' markdown="1">issue</span> أو يفتح <span dir='ltr' markdown="1">pull request</span>.
 
-![Contributing guidelines](/assets/images/starting-a-project/Contributing-guidelines.jpg)
+![إرشادات المساهمة](/assets/images/starting-a-project/Contributing-guidelines.jpg)
 
-### Establishing a code of conduct
+### إنشاء قواعد السلوك
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/mlynch?s=180" class="pquote-avatar" alt="avatar">
-  We’ve all had experiences where we faced what was probably abuse either as a maintainer trying to explain why something had to be a certain way, or as a user...asking a simple question. (...) A code of conduct becomes an easily referenced and linkable document that indicates that your team takes constructive discourse very seriously.
+  لقد مررنا جميعًا بتجارب واجهنا فيها ما كان على الأرجح سوء معاملة إما كمسؤول يحاول شرح لماذا يجب أن يكون شيء ما بطريقة معينة، أو كمستخدم... يطرح سؤالاً بسيطًا. (...) قواعد السلوك تصبح وثيقة يسهل الرجوع إليها وربطها والتي تشير إلى أن فريقك يأخذ الخطاب البناء على محمل الجد.
   <p markdown="1" class="pquote-credit">
-— @mlynch, ["Making Open Source a Happier Place"](https://medium.com/ionic-and-the-mobile-web/making-open-source-a-happier-place-3b90d254f5f)
+— @mlynch, ["جعل المصادر المفتوحة مكانًا أكثر سعادة"](https://medium.com/ionic-and-the-mobile-web/making-open-source-a-happier-place-3b90d254f5f)
   </p>
 </aside>
 
-Finally, a code of conduct helps set ground rules for behavior for your project's participants. This is especially valuable if you're launching an open source project for a community or company. A code of conduct empowers you to facilitate healthy, constructive community behavior, which will reduce your stress as a maintainer.
+أخيرًا، تساعد قواعد السلوك في وضع قواعد أساسية للسلوك لمشاركي مشروعك. هذا ذو قيمة خاصة إذا كنت تطلق مشروع مفتوح المصدر لمجتمع أو شركة. تمكّنك قواعد السلوك من تسهيل سلوك المجتمع الصحي والبنّاء، مما سيقلل من توترك كمسؤول.
 
-For more information, check out our [Code of Conduct guide](../code-of-conduct/).
+لمزيد من المعلومات، راجع [دليل قواعد السلوك](../code-of-conduct/).
 
-In addition to communicating _how_ you expect participants to behave, a code of conduct also tends to describe who these expectations apply to, when they apply, and what to do if a violation occurs.
+بالإضافة إلى توصيل _كيف_ تتوقع من المشاركين أن يتصرفوا، تميل قواعد السلوك أيضًا إلى وصف من تنطبق عليه هذه التوقعات، ومتى تنطبق، وماذا تفعل إذا حدث انتهاك.
 
-Much like open source licenses, there are also emerging standards for codes of conduct, so you don't have to write your own. The [Contributor Covenant](https://contributor-covenant.org/) is a drop-in code of conduct that is used by [over 40,000 open source projects](https://www.contributor-covenant.org/adopters), including Kubernetes, Rails, and Swift. No matter which text you use, you should be prepared to enforce your code of conduct when necessary.
+مثل تراخيص المصادر المفتوحة، هناك أيضًا معايير ناشئة لقواعد السلوك، لذلك لا داعي لكتابة قواعدك الخاصة. [<span dir='ltr' markdown="1">Contributor Covenant</span>](https://contributor-covenant.org/) هي قواعد سلوك جاهزة للاستخدام يستخدمها [أكثر من 40,000 مشروع مفتوح المصدر](https://www.contributor-covenant.org/adopters)، بما في ذلك <span dir='ltr' markdown="1">Kubernetes</span> و<span dir='ltr' markdown="1">Rails</span> و<span dir='ltr' markdown="1">Swift</span>. بغض النظر عن النص الذي تستخدمه، يجب أن تكون مستعدًا لفرض قواعد السلوك الخاصة بك عند الضرورة.
 
-Paste the text directly into a CODE_OF_CONDUCT file in your repository. Keep the file in your project's root directory so it's easy to find, and link to it from your README.
+الصق النص مباشرة في ملف <span dir='ltr' markdown="1">CODE_OF_CONDUCT</span> في مستودعك. احتفظ بالملف في الدليل الجذري لمشروعك حتى يسهل العثور عليه، واربطه من <span dir='ltr' markdown="1">README</span> الخاص بك.
 
-## Naming and branding your project
+## تسمية مشروعك ووضع علامة تجارية عليه
 
-Branding is more than a flashy logo or catchy project name. It's about how you talk about your project, and who you reach with your message.
+العلامة التجارية هي أكثر من مجرد شعار لامع أو اسم مشروع جذاب. إنها تتعلق بكيفية حديثك عن مشروعك، ومن تصل إليه برسالتك.
 
-### Choosing the right name
+### اختيار الاسم الصحيح
 
-Pick a name that is easy to remember and, ideally, gives some idea of what the project does. For example:
+اختر اسمًا يسهل تذكره، ومن الناحية المثالية، يعطي فكرة عما يفعله المشروع. على سبيل المثال:
 
-* [Sentry](https://github.com/getsentry/sentry) monitors apps for crash reporting
-* [Thin](https://github.com/macournoyer/thin) is a fast and simple Ruby web server
+* [<span dir='ltr' markdown="1">Sentry</span>](https://github.com/getsentry/sentry) يراقب التطبيقات للإبلاغ عن الأعطال
+* [<span dir='ltr' markdown="1">Thin</span>](https://github.com/macournoyer/thin) هو خادم ويب <span dir='ltr' markdown="1">Ruby</span> سريع وبسيط
 
-If you're building upon an existing project, using their name as a prefix can help clarify what your project does (for example, [node-fetch](https://github.com/bitinn/node-fetch) brings `window.fetch` to Node.js).
+إذا كنت تبني على مشروع موجود، فإن استخدام اسمهم كبادئة يمكن أن يساعد في توضيح ما يفعله مشروعك (على سبيل المثال، [<span dir='ltr' markdown="1">node-fetch</span>](https://github.com/bitinn/node-fetch) يجلب <span dir='ltr' markdown="1">`window.fetch`</span> إلى <span dir='ltr' markdown="1">Node.js</span>).
 
-Consider clarity above all. Puns are fun, but remember that some jokes might not translate to other cultures or people with different experiences from you. Some of your potential users might be company employees: you don't want to make them uncomfortable when they have to explain your project at work!
+ضع الوضوح قبل كل شيء. التورية ممتعة، لكن تذكر أن بعض النكات قد لا تُترجم إلى ثقافات أخرى أو أشخاص ذوي تجارب مختلفة عنك. قد يكون بعض مستخدميك المحتملين موظفين في الشركة: لا تريد أن تجعلهم غير مرتاحين عندما يضطرون إلى شرح مشروعك في العمل!
 
-### Avoiding name conflicts
+### تجنب تعارضات الأسماء
 
-[Check for open source projects with a similar name](https://namechecker.vercel.app/), especially if you share the same language or ecosystem. If your name overlaps with a popular existing project, you might confuse your audience.
+[تحقق من مشاريع المصادر المفتوحة ذات الأسماء المشابهة](https://namechecker.vercel.app/)، خاصة إذا كنت تشارك نفس اللغة أو النظام البيئي. إذا كان اسمك يتداخل مع مشروع شائع موجود، فقد تربك جمهورك.
 
-If you want a website, Twitter handle, or other properties to represent your project, make sure you can get the names you want. Ideally, [reserve those names now](https://instantdomainsearch.com/) for peace of mind, even if you don't intend to use them just yet.
+إذا كنت تريد موقع ويب، أو مقبض <span dir='ltr' markdown="1">Twitter</span>، أو خصائص أخرى لتمثيل مشروعك، فتأكد من أنه يمكنك الحصول على الأسماء التي تريدها. من الناحية المثالية، [احجز هذه الأسماء الآن](https://instantdomainsearch.com/) لراحة البال، حتى لو لم تكن تنوي استخدامها بعد.
 
-Make sure that your project's name doesn't infringe upon any trademarks. A company might ask you to take down your project later on, or even take legal action against you. It's just not worth the risk.
+تأكد من أن اسم مشروعك لا ينتهك أي علامات تجارية. قد تطلب منك شركة ما إزالة مشروعك لاحقًا، أو حتى اتخاذ إجراء قانوني ضدك. الأمر لا يستحق المخاطرة.
 
-You can check the [WIPO Global Brand Database](http://www.wipo.int/branddb/en/) for trademark conflicts. If you're at a company, this is one of the things your [legal team can help you with](../legal/).
+يمكنك التحقق من [قاعدة بيانات العلامات التجارية العالمية لـ <span dir='ltr' markdown="1">WIPO</span>](http://www.wipo.int/branddb/en/) لتعارضات العلامات التجارية. إذا كنت في شركة، فهذا أحد الأشياء التي يمكن لـ [فريقك القانوني مساعدتك فيها](../legal/).
 
-Finally, do a quick Google search for your project name. Will people be able to easily find your project? Does something else appear in the search results that you wouldn't want them to see?
+أخيرًا، قم بإجراء بحث سريع على <span dir='ltr' markdown="1">Google</span> عن اسم مشروعك. هل سيتمكن الناس من العثور على مشروعك بسهولة؟ هل يظهر شيء آخر في نتائج البحث لا تريد منهم رؤيته?
 
-### How you write (and code) affects your brand, too!
+### كيفية كتابتك (وكتابة الكود) تؤثر على علامتك التجارية أيضًا!
 
-Throughout the life of your project, you'll do a lot of writing: READMEs, tutorials, community documents, responding to issues, maybe even newsletters and mailing lists.
+طوال حياة مشروعك، ستقوم بالكثير من الكتابة: ملفات <span dir='ltr' markdown="1">README</span>، والبرامج التعليمية، ووثائق المجتمع، والرد على <span dir='ltr' markdown="1">issues</span>، وربما حتى النشرات الإخبارية وقوائم البريد.
 
-Whether it's official documentation or a casual email, your writing style is part of your project's brand. Consider how you might come across to your audience and whether that is the tone you wish to convey.
+سواء كانت وثائق رسمية أو بريدًا إلكترونيًا عاديًا، فإن أسلوب كتابتك هو جزء من علامة مشروعك التجارية. ضع في اعتبارك كيف قد تبدو لجمهورك وما إذا كانت هذه هي النبرة التي ترغب في نقلها.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/janl?s=180" class="pquote-avatar" alt="avatar">
-  I tried to be involved with every thread on the mailing list, and showing exemplary behaviour, being nice to people, taking their issues seriously and trying to be helpful overall. After a while, people stuck around not to only ask questions, but to help with the answering as well, and to my complete delight, they mimicked my style.
+  حاولت أن أشارك في كل موضوع في القائمة البريدية، وأظهر سلوكًا نموذجيًا، وأكون لطيفًا مع الناس، وأخذ مشاكلهم على محمل الجد وأحاول أن أكون مفيدًا بشكل عام. بعد فترة، التزم الناس ليس فقط لطرح الأسئلة، ولكن للمساعدة في الإجابة أيضًا، وكانت سعادتي كاملة، فقد قلدوا أسلوبي.
   <p markdown="1" class="pquote-credit">
-— @janl on [CouchDB](https://github.com/apache/couchdb), ["Sustainable Open Source"](https://web.archive.org/web/20200723213552/https://writing.jan.io/2015/11/20/sustainable-open-source.html)
+— @janl على [<span dir='ltr' markdown="1">CouchDB</span>](https://github.com/apache/couchdb), ["المصادر المفتوحة المستدامة"](https://web.archive.org/web/20200723213552/https://writing.jan.io/2015/11/20/sustainable-open-source.html)
   </p>
 </aside>
 
-Using warm, inclusive language (such as "them", even when referring to the single person) can go a long way in making your project feel welcoming to new contributors. Stick to simple language, as many of your readers may not be native English speakers.
+استخدام لغة دافئة وشاملة (مثل "هم"، حتى عند الإشارة إلى شخص واحد) يمكن أن يقطع شوطًا طويلاً في جعل مشروعك يبدو ترحيبيًا للمساهمين الجدد. التزم باللغة البسيطة، حيث قد لا يكون العديد من قرائك متحدثين أصليين للغة الإنجليزية.
 
-Beyond how you write words, your coding style may also become part of your project's brand. [Angular](https://angular.io/guide/styleguide) and [jQuery](https://contribute.jquery.org/style-guide/js/) are two examples of projects with rigorous coding styles and guidelines.
+بالإضافة إلى كيفية كتابة الكلمات، قد يصبح أسلوب البرمجة الخاص بك أيضًا جزءًا من علامة مشروعك التجارية. [<span dir='ltr' markdown="1">Angular</span>](https://angular.io/guide/styleguide) و[<span dir='ltr' markdown="1">jQuery</span>](https://contribute.jquery.org/style-guide/js/) مثالان من المشاريع ذات أساليب البرمجة والإرشادات الصارمة.
 
-It isn't necessary to write a style guide for your project when you're just starting out, and you may find that you enjoy incorporating different coding styles into your project anyway. But you should anticipate how your writing and coding style might attract or discourage different types of people. The earliest stages of your project are your opportunity to set the precedent you wish to see.
+ليس من الضروري كتابة دليل أسلوب لمشروعك عندما تبدأ للتو، وقد تجد أنك تستمتع بدمج أساليب برمجة مختلفة في مشروعك على أي حال. لكن يجب أن تتوقع كيف يمكن لأسلوب كتابتك وبرمجتك أن يجذب أو يثني أنواعًا مختلفة من الناس. المراحل الأولى من مشروعك هي فرصتك لتحديد السابقة التي ترغب في رؤيتها.
 
-## Your pre-launch checklist
+## قائمة التحقق قبل الإطلاق
 
-Ready to open source your project? Here's a checklist to help. Check all the boxes? You're ready to go! [Click "publish"](https://help.github.com/articles/making-a-private-repository-public/) and pat yourself on the back.
+هل أنت مستعد لفتح مصدر مشروعك؟ إليك قائمة تحقق للمساعدة. ضع علامة على جميع المربعات؟ أنت مستعد للانطلاق! [انقر على "نشر"](https://help.github.com/articles/making-a-private-repository-public/) وربت على ظهرك.
 
-**Documentation**
+**<span dir='ltr' markdown="1">Documentation</span> (التوثيق)**
 
 <div class="clearfix mb-2">
   <input type="checkbox" id="cbox1" class="d-block float-left mt-1 mr-2" value="checkbox">
   <label for="cbox1" class="overflow-hidden d-block text-normal">
-    Project has a LICENSE file with an open source license
+    يحتوي المشروع على ملف <span dir='ltr' markdown="1">LICENSE</span> مع ترخيص مفتوح المصدر
   </label>
 </div>
 
 <div class="clearfix mb-2">
   <input type="checkbox" id="cbox2" class="d-block float-left mt-1 mr-2" value="checkbox">
   <label for="cbox2" class="overflow-hidden d-block text-normal">
-    Project has basic documentation (README, CONTRIBUTING, CODE_OF_CONDUCT)
+    يحتوي المشروع على توثيق أساسي (<span dir='ltr' markdown="1">README, CONTRIBUTING, CODE_OF_CONDUCT</span>)
   </label>
 </div>
 
 <div class="clearfix mb-2">
   <input type="checkbox" id="cbox3" class="d-block float-left mt-1 mr-2" value="checkbox">
   <label for="cbox3" class="overflow-hidden d-block text-normal">
-    The name is easy to remember, gives some idea of what the project does, and does not conflict with an existing project or infringe on trademarks
+    الاسم سهل التذكر، يعطي فكرة عما يفعله المشروع، ولا يتعارض مع مشروع موجود أو ينتهك العلامات التجارية
   </label>
 </div>
 
 <div class="clearfix mb-4">
   <input type="checkbox" id="cbox4" class="d-block float-left mt-1 mr-2" value="checkbox">
   <label for="cbox4" class="overflow-hidden d-block text-normal">
-    The issue queue is up-to-date, with issues clearly organized and labeled
+    قائمة <span dir='ltr' markdown="1">issues</span> محدثة، مع <span dir='ltr' markdown="1">issues</span> منظمة ومصنفة بوضوح
   </label>
 </div>
 
-**Code**
+**<span dir='ltr' markdown="1">Code</span> (الكود)**
 
 <div class="clearfix mb-2">
   <input type="checkbox" id="cbox5" class="d-block float-left mt-1 mr-2" value="checkbox">
   <label for="cbox5" class="overflow-hidden d-block text-normal">
-    Project uses consistent code conventions and clear function/method/variable names
+    يستخدم المشروع اتفاقيات كود متسقة وأسماء واضحة للدوال/الأساليب/المتغيرات
   </label>
 </div>
 
 <div class="clearfix mb-2">
   <input type="checkbox" id="cbox6" class="d-block float-left mt-1 mr-2" value="checkbox">
   <label for="cbox6" class="overflow-hidden d-block text-normal">
-    The code is clearly commented, documenting intentions and edge cases
+    الكود مُعلّق بوضوح، يوثق النوايا والحالات الحدية
   </label>
 </div>
 
 <div class="clearfix mb-4">
   <input type="checkbox" id="cbox7" class="d-block float-left mt-1 mr-2" value="checkbox">
   <label for="cbox7" class="overflow-hidden d-block text-normal">
-    There are no sensitive materials in the revision history, issues, or pull requests (for example, passwords or other non-public information)
+    لا توجد مواد حساسة في سجل المراجعات أو <span dir='ltr' markdown="1">issues</span> أو <span dir='ltr' markdown="1">pull requests</span> (على سبيل المثال، كلمات المرور أو معلومات أخرى غير عامة)
   </label>
 </div>
 
-**People**
+**<span dir='ltr' markdown="1">People</span> (الأشخاص)**
 
-If you're an individual:
+إذا كنت فردًا:
 
 <div class="clearfix mb-4">
   <input type="checkbox" id="cbox8" class="d-block float-left mt-1 mr-2" value="checkbox">
   <label for="cbox8" class="overflow-hidden d-block text-normal">
-  You've talked to the legal department and/or understand the IP and open source policies of your company (if you're an employee somewhere)
+  لقد تحدثت إلى القسم القانوني و/أو تفهم الملكية الفكرية وسياسات المصادر المفتوحة لشركتك (إذا كنت موظفًا في مكان ما)
   </label>
 </div>
 
-If you're a company or organization:
+إذا كنت شركة أو منظمة:
 
 <div class="clearfix mb-2">
   <input type="checkbox" id="cbox9" class="d-block float-left mt-1 mr-2" value="checkbox">
   <label for="cbox9" class="overflow-hidden d-block text-normal">
-    You've talked to your legal department
+    لقد تحدثت إلى قسمك القانوني
   </label>
 </div>
 
 <div class="clearfix mb-2">
   <input type="checkbox" id="cbox10" class="d-block float-left mt-1 mr-2" value="checkbox">
   <label for="cbox10" class="overflow-hidden d-block text-normal">
-    You have a marketing plan for announcing and promoting the project
+    لديك خطة تسويقية للإعلان والترويج للمشروع
   </label>
 </div>
 
 <div class="clearfix mb-2">
   <input type="checkbox" id="cbox11" class="d-block float-left mt-1 mr-2" value="checkbox">
   <label for="cbox11" class="overflow-hidden d-block text-normal">
-    Someone is committed to managing community interactions (responding to issues, reviewing and merging pull requests)
+    هناك شخص ملتزم بإدارة تفاعلات المجتمع (الرد على <span dir='ltr' markdown="1">issues</span>، مراجعة ودمج <span dir='ltr' markdown="1">pull requests</span>)
   </label>
 </div>
 
 <div class="clearfix mb-4">
   <input type="checkbox" id="cbox12" class="d-block float-left mt-1 mr-2" value="checkbox">
   <label for="cbox12" class="overflow-hidden d-block text-normal">
-    At least two people have administrative access to the project
+    لدى شخصين على الأقل صلاحيات إدارية للمشروع
   </label>
 </div>
 
-## You did it!
+## لقد فعلتها!
 
-Congratulations on open sourcing your first project. No matter the outcome, working in public is a gift to the community. With every commit, comment, and pull request, you're creating opportunities for yourself and for others to learn and grow.
+تهانينا على فتح مصدر مشروعك الأول. بغض النظر عن النتيجة، فإن العمل بشكل علني هو هدية للمجتمع. مع كل <span dir='ltr' markdown="1">commit</span> وتعليق و<span dir='ltr' markdown="1">pull request</span>، أنت تخلق فرصًا لنفسك وللآخرين للتعلم والنمو.
+
+</div>
